@@ -1,0 +1,68 @@
+.jumbotron{
+
+    background-color: black;
+}
+
+.jumbotron p {
+
+    text-align: center;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+#alquiler p {
+
+    
+}
+
+
+footer {
+
+	padding: 25px 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+footer span .copyright {
+
+	line-height: 40px;
+}
+
+footer ul.quicklinks {
+    
+    margin-bottom: 0;
+    line-height: none;
+    text-decoration: none;
+
+}
+
+ul.social-buttons {
+
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+
+    background-color: #40E0D0;
+    color: black;
+}

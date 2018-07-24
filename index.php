@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang = "es-VE">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="shortcut icon" type="image/png" href="img/masterizacion.png">
+		<link rel="stylesheet" type="text/css" href="css/navbar.css"> 
+		<link rel="stylesheet" type="text/css" href="css/modal.css">
+		<title>Estudio Audiophone</title>
+	</head>
+	<body>
+			
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container-fluid">
+					
+			<!-- Creacion del menú de código -->
+
+			<div class="navbar-header page-scroll">
+
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+						data-target="#collapse1">
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+				</button>
+
+					<a href="#inicio" class="navbar-brand page-scroll">Audiophone</a>
+
+				</div> <!-- Fin del Navbar header -->
+					
+				<div class="collapse navbar-collapse" id="collapse1">
+						
+					<ul class="nav navbar-nav">
+							
+						<li><a href="#inicio" id="elemento">
+							<i class="fa fa-home"></i> inicio</a></li>
+							
+						<li class="dropdown" role="menu"> 
+								
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								<i class="fa fa-star-o"> </i>servicios
+								<span class="caret"></span>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="vistas/estudio.php"><i class="fa fa-microphone"></i>
+										estudio de grabación</a></li>
+									<li><a href="vistas/alquiler.php"><i class="fa fa-truck"></i>alquiler de equipos</a></li>
+									<li class="divider"></li>
+									<li><a href="vistas/tarifas.php"><i class="fa fa-money"></i>tarifas</a></li>
+								</ul>
+							</a>
+
+						</li>
+
+						<li><a id="elemento" href="vistas/clientes.php"><i class="fa fa-users"></i>clientes</a></li>
+						<li><a  id="elemento" href="#contactanos"><i class="fa fa-phone-square"></i> contactanos</a></li>
+					</ul>
+
+					<ul class="nav navbar-nav navbar-right">
+							
+							<li><a id="elemento2" href="https://www.facebook.com/estudio.audiophone?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+							
+							<li>
+								<a id="elemento2" title="Whatsapp" data-toggle="popover" data-container="body" 
+								data-placement="bottom" data-content="+58 0416-905-57-06">
+								<i class="fa fa-whatsapp fa-2x"></i></a>
+							</li>
+							<li><a id="elemento2" href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+							<li><a id="elemento2" href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+					</ul>
+
+				</div>
+			</div>
+		</nav> <!-- Fin del navbar -->	
+
+		<!-- ================================================================================== -->
+		
+		<!-- Carrusel de imagenes -->
+
+		<div class="carousel slide" id="carousel1" data-ride="carousel">
+
+		<!-- Indicadores -->
+
+			<ol class="carousel-indicators">
+				
+				<li data-target="#carousel1" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel1" data-slide-to="1" class="active"></li>
+				<li data-target="#carousel1" data-slide-to="2" class="active"></li>
+				<li data-target="#carousel1" data-slide-to="3" class="active"></li>
+				<li data-target="#carousel1" data-slide-to="4" class="active"></li>
+
+			</ol>
+
+			<div class="carousel-inner" role="listbox">
+
+				<div class="item active"> <!-- Elemento 1 -->
+					<img src="img/consola2.jpg" height="2848" width="4288" class="img-responsive" alt="first slide">
+						<div class="carousel-caption">
+							<h1>ESTUDIO AUDIOPHONE</h1>
+							<h4 class="nav-text">¡Estudios Audiophone el que Plasma tu Talento en una Grabación!</h4><br>
+						</div>
+					</div>
+
+				<div class="item"> <!-- Elemento 2 -->
+					<img src="img/bajo.jpg"  height="2848" width="4288" class="img-responsive" alt="second slide">
+					<div class="carousel-caption">
+						<h1>ESTUDIO AUDIOPHONE</h1>
+						<h4 class="nav-text">Amplia variedad de instrumentos músicales para sus grabaciones</h4>
+						<p><a href="vistas/estudio.php" class="btn btn-lg btn-info" id="boton2">Ver más</a></p>
+					</div>
+				</div>
+
+
+				<div class="item"> <!-- Elemento 3 -->
+					<img src="img/lp.jpg" height="2848" width="4288" class="img-responsive" alt="third slide">
+						<div class="carousel-caption">
+							<h1>ESTUDIO AUDIOPHONE</h1>
+							<h4 class="nav-text">Respetamos la música antigua y moderna de todas la generaciones</h4>
+							<p><a href="vistas/clientes.php" id="boton2" class="btn btn-lg btn-info">Ver más</a></p>
+						</div>
+				</div>
+
+
+				<div class="item"> <!-- Elemento 4 -->
+					<img src="img/timbales.jpg" height="2848" width="4288" class="img-responsive" alt="fourth slide">
+						<div class="carousel-caption">
+							<h1>ESTUDIO AUDIOPHONE</h1>
+							<h4 class="nav-text">Ofrecemos servicio de alquiler de equipos para fiestas y eventos</h4>
+							<p><a href="vistas/alquiler.php" class="btn btn-lg btn-info" id="boton2">Ver más</a></p>
+						</div>
+				</div>
+
+				<div class="item"> <!-- Elemento 5 -->
+					<img src="img/consola1.jpg" height="2848" width="4288" class="img-responsive" alt="fifth slide">
+						<div class="carousel-caption">
+							<h1>ESTUDIO AUDIOPHONE</h1>
+							<h4 class="nav-text">Tecnología analogica y Digital</h4><br>
+						</div>
+				</div>
+
+			</div>
+
+			<!-- Controles -->
+
+			<a href="#carousel1" class="left carousel-control" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previo</span>
+			</a>
+
+			<a href="#carousel1" class="right carousel-control" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+
+		</div>
+
+		<section id="intro">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+
+						<img src="img/disco.png" height="112" width="112" alt="vista1" class="img-responsive img-centered"><br>
+						<h4>Grabaciones</h4><br>
+						<p class="inferior">
+							Dentro de nuestras instalaciones realizamos todo tipo de grabaciones con 
+							alta calidad profesional e impecable con las reproduciones de audio.
+						</p>
+					
+					</div>
+
+					<div class="col-sm-4">
+						<img src="img/mezcla.png" height="112" width="112" alt="vista2" class="img-responsive img-centered"><br>
+						<h4>Mezclas</h4><br>
+						<p class="inferior">
+							En el mismo estudio realizamos mezclas de todo tipo de música, con su respectiva calidad
+							de audio. 
+						</p>
+					</div>
+
+					<div class="col-sm-4">
+						<img src="img/masterizacion.png" height="112" width="112" class="img-responsive img-centered"><br>
+						<h4>Masterizaciones</h4><br>
+						<p>
+							Además se realizan materizaciones de audio con calidad profesional correspondiente a la peticion
+							del cliente.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+
+		<section id="estudio">
+
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+						<h1>EL ESTUDIO</h1>
+						<p>
+							El Estudio Audiophone es una sala de grabación con equipos profesionales y personal 
+							calificado para dar una calidad impecable en sus grabaciones de audio. 
+						</p>
+					</div>
+				</div>
+					<div class="row">
+			
+							<div class="col-sm-4 col-sm-push-2">
+								<div class="thumbnail">
+									<img src="img/estudio6.jpg" height="3216" width="4288" class="img-responsive" id="imagen">
+								
+									<div class="caption">
+										<a href="#galeria1" class="btn btn-default portfolio-link" type="button" data-toggle="modal">
+										<i class="fa fa-eye"></i> Ver detalles
+									</a>
+									</div>
+								
+								</div>
+							</div>
+
+						<div class="col-sm-4 col-sm-push-2">
+							<div class="thumbnail">
+								<img src="img/estudio3.jpg" height="3216" width="4288" class="img-responsive" id="imagen">
+								<div class="caption">
+									<a href="#galeria2" type="button" class="btn btn-default portfolio-link" data-toggle="modal">
+										<i class="fa fa-eye"></i> Ver detalles
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row" id="bajar">
+ 						<div class="col-sm-4 col-sm-push-2">
+ 							<div class="thumbnail">
+ 								<img src="img/estudio7.jpg" class="img-responsive" id="reducir">
+ 								<div class="caption">
+									<a href="#galeria3" data-toggle="modal" type="button" class="btn btn-default portfolio-link">
+										<i class="fa fa-eye"></i> Ver detalles
+									</a>
+								</div>
+ 							</div>
+ 						</div>
+
+ 						<div class="col-sm-4 col-sm-push-2">
+							<div class="thumbnail">
+								<img src="img/estudio8.jpg" class="img-responsive" id="reducir">
+								<div class="caption">
+									<a href="#galeria4" data-toggle="modal" type="button" class="portfolio-link btn btn-default">
+										<i class="fa fa-eye"></i> Ver detalles
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<section id="equipamento">
+			<div class="container-fluid text-center">
+				
+				<div class="row">
+					
+					<h1>NUESTRO EQUIPAMENTO</h1>
+
+					<div class="col-sm-4 col-xs-12">
+						<img src="img/caset.png" class="img-responsive img-centered2">
+						<a href="vistas/estudio.php" type="button" class="btn btn-default" data-toggle="tooltip"
+						data-placement="bottom" title="Más información">Grabaciones</a>
+					</div>
+
+					<div class="col-sm-4 col-xs-12">
+						<img src="img/mezcla2.png" class="img-responsive img-centered2">
+						<a href="vistas/estudio.php" type="button" class="btn btn-default" data-toggle="tooltip"
+						data-placement="bottom" title="Más información">Mezclas</a>
+					</div>
+
+					<div class="col-sm-4 col-xs-12">
+						<img src="img/microfonos.png" class="img-responsive img-centered2">
+						<a href="vistas/estudio.php" type="button" class="btn btn-default" data-toggle="tooltip"
+						data-placement="bottom" title="Más información">Micrófonos</a>
+					</div>
+				</div>
+
+				<div class="row" id="inferior">
+					<div class="col-sm-4 col-xs-12">
+						<img src="img/equipo.png" class="img-responsive img-centered2">
+						<a href="vistas/estudio.php" type="button" class="btn btn-default" data-toggle="tooltip"
+						data-placement="bottom" title="Más información">Equipos externos</a>
+					</div>
+
+					<div class="col-sm-4 col-xs-12">
+						<img src="img/monitoreo.png" class="img-responsive img-centered2">
+						<a href="vistas/estudio.php" type="button" class="btn btn-default" data-toggle="tooltip"
+						data-placement="bottom" title="Más información">Monitoreo</a>	
+					</div>
+
+					<div class="col-sm-4 col-xs-12">
+						<img src="img/instrumentos.png" class="img-responsive img-centered2">
+						<a href="vistas/estudio.php" type="button" class="btn btn-default" data-toggle="tooltip"
+						data-placement="bottom" title="Más información">Instrumentos</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="clientes">
+			<div class="container-fluid">
+				<div class="row">
+					<h1>CLIENTES</h1>
+					<div class="col-sm-4 col-sm-offset-2">
+						<img src="img/artista.jpg" class="img-responsive img-circle">
+					</div>
+
+					<div class="col-sm-4 col-xs-12">
+						<h3>Jesús Moreno (Menudo)</h3>
+						<p>Arreglista y musico</p>
+							<a href="vistas/clientes.php" type="button" class="btn btn-info">Ver más artistas</a>
+					</div>
+
+				</div>	
+			</div>
+		</section>
+		
+		<section id="tarifas">
+			<div class="container responsive">
+				<div class="row">
+					<h1>PRECIOS Y TARIFAS</h1>
+					
+					<div class="col-sm-3">
+						<a href="vistas/tarifas.php" type="button" class="btn btn-default"><p>tiempo de estudio</p></a>
+					</div>
+
+					<div class="col-sm-3">
+						<a href="vistas/tarifas.php" type="button" class="btn btn-default"><p>mezclas</p></a>
+					</div>
+
+					<div class="col-sm-3">
+						<a href="vistas/tarifas.php" type="button" class="btn btn-default"><p>masterizaciones</p></a>
+					</div>
+
+					<div class="col-sm-3">
+						<a href="vistas/tarifas.php" type="button" class="btn btn-default"><p>producciones <br> musicales</p></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contactanos">
+			
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-offset-4 col-sm-8">
+						<h1 class="section-heading">Contáctanos</h1>
+						<h3 class="section-subheading">¿Preparado para una sesión músical?</h3>
+						<p>
+							Llámenos al número gratuito 0212-861-61-01 o al 0416-905-57-06
+						o puedes llenar el formulario de contactos.
+						<p>	
+					</div>
+						
+				</div>
+
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-5">
+						<form>
+							<div class="form-group">
+								<input type="text" id="nombre" name="nombre" placeholder="tu nombre..."
+								class="form-control" required>
+								<p class="help-block text-danger"></p>
+							</div>
+								
+							<div class="form-group">
+								<input type="email" class="form-control" placeholder="tu correo..." id="correo"
+								name="correo" required>
+								<p class="help-block text-danger"></p>
+							</div>
+
+							<div class="form-group">
+								<textarea class="form-control" placeholder="tu mensaje..." id="mensaje"
+								required></textarea>
+								<p class="help-block text-danger"></p>				
+							</div>
+
+							<div class="clearfix">
+								<div class="col-sm-12 text-primary">
+								<div class="success"></div>
+									<button type="submit" class="btn btn-primary">
+										<span class="glyphicon glyphicon-send"></span>
+										Enviar
+									</button>
+									<button type="reset" class="btn btn-danger" >
+										<i class="fa fa-times"></i>
+										Cancelar
+									</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+				
+		</section>
+
+		<section id="direccion">
+			<div class="container-fluid">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<h4>Dirección</h4>
+								<p>Av. Principal de Manicomio Esq. Trinchera, <br> vaya despues de la bomba
+								de gasolina y en la tercera parada del<br> metrobus de agua salud. 
+								Casa N° 152 La Pastora,<br> Caracas, Venezuela</p>
+						</div>
+
+						<div class="col-sm-6">
+							<h4>Horario de trabajo:</h4>
+							<p>Lunes a Sabado<br>Desde las 10AM a 3PM<br>Y en la noche despues de las
+								12PM (opcional)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<?php 
+
+			include('vistas/modal.php');
+		?>	
+
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+		<script type="text/javascript">
+			
+			$(function() {
+
+				$('[data-toggle="tooltip"]').tooltip()
+
+		})
+
+			$(function () {
+  		
+  			$('[data-toggle="popover"]').popover()
+
+		})
+
+		</script>
+	</body>
+	<footer>
+
+		<div class="container-fluid">
+			<div class="row text-center">
+				<div class="col-sm-4">
+					<span class="copyright">
+						Copyright &copy;2016 Audiophone 
+					</span><br>
+					<h6>Diseñado por la empresa: ©Gabmart Web 2016</h6>
+				</div>
+
+				<div class="col-sm-4">
+					<ul class="list-inline social-buttons">
+						<li><a href="https://www.facebook.com/estudio.audiophone?fref=ts"><i class="fa fa-facebook-square"></i></a></li>
+							<li><a title="Whatsapp" data-toggle="popover" data-container="body" 
+								data-placement="top" data-content="+58 0416-905-57-06">
+								<i class="fa fa-whatsapp"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+				</div>
+
+				<div class="col-md-4">
+				<ul class="list-inline quicklinks">
+					<li><a href="#">Politicas de privacidad</a></li>
+					<li><a href="#">Términos de uso</a></li>
+				</ul>
+			</div>
+			</div>
+		</div>	
+	</footer>
+	</html>
+
+

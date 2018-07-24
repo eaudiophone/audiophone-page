@@ -1,0 +1,51 @@
+.navbar-inverse {
+	
+	border-color: black;
+	background-color:  #25272F;
+	
+}
+
+.navbar-inverse .navbar-brand {
+
+    font-style: italic;
+
+}
+
+
+
+.navbar-inverse li a {
+
+	text-transform: none;
+	font-style: italic;
+	-webkit-transition: all .0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+
+.navbar-inverse .nav > .dropdown a:hover {
+
+	background-color:  #40E0D0;
+
+}
+
+#elemento:hover {
+
+	background-color:  #40E0D0;
+}
+
+
+.navbar-inverse li {
+
+	margin-left: 20px;
+}
+
+#elemento2:hover {
+	
+	color: #40E0D0;
+
+}
+
+
+
