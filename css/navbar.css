@@ -24,15 +24,10 @@
 	transition:all 0.5s ease;
 }
 
-.navbar-inverse .nav > .dropdown a:hover {
-
-	background-color:  #40E0D0;
-
-}
 
 #elemento:hover {
 
-	background-color:  #40E0D0;
+	color: white;
 }
 
 
@@ -43,7 +38,7 @@
 
 #elemento2:hover {
 	
-	color: #40E0D0;
+	color: white;
 
 }
 

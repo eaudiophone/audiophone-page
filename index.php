@@ -3,12 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="css/index.css">
-		<link rel="shortcut icon" type="image/png" href="img/masterizacion.png">
-		<link rel="stylesheet" type="text/css" href="css/navbar.css"> 
-		<link rel="stylesheet" type="text/css" href="css/modal.css">
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/index.css">
+		<link rel="shortcut icon" type="image/png" href="./img/masterizacion.png">
+		<link rel="stylesheet" type="text/css" href="./css/navbar.css"> 
+		<link rel="stylesheet" type="text/css" href="./css/modal.css">
 		<title>Estudio Audiophone</title>
 	</head>
 	<body>
@@ -37,7 +37,7 @@
 					<ul class="nav navbar-nav">
 							
 						<li><a href="#inicio" id="elemento">
-							<i class="fa fa-home"></i> inicio</a></li>
+							<i class="fa fa-home"></i>inicio</a></li>
 							
 						<li class="dropdown" role="menu"> 
 								
@@ -55,7 +55,7 @@
 
 						</li>
 
-						<li><a id="elemento" href="vistas/clientes.php"><i class="fa fa-users"></i>clientes</a></li>
+						<!--<li><a id="elemento" href="vistas/clientes.php"><i class="fa fa-users"></i>clientes</a></li> -->
 						<li><a  id="elemento" href="#contactanos"><i class="fa fa-phone-square"></i> contactanos</a></li>
 					</ul>
 
@@ -63,11 +63,11 @@
 							
 							<li><a id="elemento2" href="https://www.facebook.com/estudio.audiophone?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
 							
-							<li>
+							<!--<li>
 								<a id="elemento2" title="Whatsapp" data-toggle="popover" data-container="body" 
 								data-placement="bottom" data-content="+58 0416-905-57-06">
 								<i class="fa fa-whatsapp fa-2x"></i></a>
-							</li>
+							</li>-->
 							<li><a id="elemento2" href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
 							<li><a id="elemento2" href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
 					</ul>
@@ -75,10 +75,10 @@
 				</div>
 			</div>
 		</nav> <!-- Fin del navbar -->	
-
-		<!-- ================================================================================== -->
 		
 		<!-- Carrusel de imagenes -->
+
+	<section id="inicio">
 
 		<div class="carousel slide" id="carousel1" data-ride="carousel">
 
@@ -157,6 +157,11 @@
 
 		</div>
 
+		<!-- Fin del carrusel -->
+	</section>
+
+		
+
 		<section id="intro">
 
 			<div class="container">
@@ -208,7 +213,9 @@
 				</div>
 					<div class="row">
 			
-							<div class="col-sm-4 col-sm-push-2">
+						<!-- col-sm-push-1: desplaza el objeto un lado hacia la derecha  -->	
+
+							<div class="col-sm-10 col-sm-push-1">
 								<div class="thumbnail">
 									<img src="img/estudio6.jpg" height="3216" width="4288" class="img-responsive" id="imagen">
 								
@@ -220,42 +227,6 @@
 								
 								</div>
 							</div>
-
-						<div class="col-sm-4 col-sm-push-2">
-							<div class="thumbnail">
-								<img src="img/estudio3.jpg" height="3216" width="4288" class="img-responsive" id="imagen">
-								<div class="caption">
-									<a href="#galeria2" type="button" class="btn btn-default portfolio-link" data-toggle="modal">
-										<i class="fa fa-eye"></i> Ver detalles
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="row" id="bajar">
- 						<div class="col-sm-4 col-sm-push-2">
- 							<div class="thumbnail">
- 								<img src="img/estudio7.jpg" class="img-responsive" id="reducir">
- 								<div class="caption">
-									<a href="#galeria3" data-toggle="modal" type="button" class="btn btn-default portfolio-link">
-										<i class="fa fa-eye"></i> Ver detalles
-									</a>
-								</div>
- 							</div>
- 						</div>
-
- 						<div class="col-sm-4 col-sm-push-2">
-							<div class="thumbnail">
-								<img src="img/estudio8.jpg" class="img-responsive" id="reducir">
-								<div class="caption">
-									<a href="#galeria4" data-toggle="modal" type="button" class="portfolio-link btn btn-default">
-										<i class="fa fa-eye"></i> Ver detalles
-									</a>
-								</div>
-							</div>
-						</div>
-
 					</div>
 				</div>
 			</div>
@@ -309,6 +280,8 @@
 			</div>
 		</section>
 
+		<!-- La seccion de clientes es opcional 
+
 		<section id="clientes">
 			<div class="container-fluid">
 				<div class="row">
@@ -326,6 +299,8 @@
 				</div>	
 			</div>
 		</section>
+
+		-->
 		
 		<section id="tarifas">
 			<div class="container responsive">
@@ -359,8 +334,8 @@
 						<h1 class="section-heading">Contáctanos</h1>
 						<h3 class="section-subheading">¿Preparado para una sesión músical?</h3>
 						<p>
-							Llámenos al número gratuito 0212-861-61-01 o al 0416-905-57-06
-						o puedes llenar el formulario de contactos.
+							Llámenos al número local (0212) 8616101 o al (0416) 9055706<br>
+							o llenando el formulario de contactos.
 						<p>	
 					</div>
 						
@@ -428,13 +403,16 @@
 			</div>
 		</section>
 
+		<!-- Inclusión de las ventanas modales -->
 		<?php 
 
-			include('vistas/modal.php');
+			include('./vistas/modal.php');
 		?>	
 
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+		<!-- Fin ventana modal -->
+
+		<script src="./js/jquery.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
 
 		<script type="text/javascript">
 			
@@ -459,16 +437,15 @@
 				<div class="col-sm-4">
 					<span class="copyright">
 						Copyright &copy;2016 Audiophone 
-					</span><br>
-					<h6>Diseñado por la empresa: ©Gabmart Web 2016</h6>
+					</span>
 				</div>
 
 				<div class="col-sm-4">
 					<ul class="list-inline social-buttons">
 						<li><a href="https://www.facebook.com/estudio.audiophone?fref=ts"><i class="fa fa-facebook-square"></i></a></li>
-							<li><a title="Whatsapp" data-toggle="popover" data-container="body" 
+							<!--<li><a title="Whatsapp" data-toggle="popover" data-container="body" 
 								data-placement="top" data-content="+58 0416-905-57-06">
-								<i class="fa fa-whatsapp"></i></a></li>
+								<i class="fa fa-whatsapp"></i></a></li> -->
 							<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 				</div>

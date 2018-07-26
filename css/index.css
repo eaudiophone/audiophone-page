@@ -2,6 +2,7 @@ body {
 
 	font-family: Helvetica;
 	overflow-x:hidden;  
+
 }
 
 #boton2 {
@@ -42,6 +43,8 @@ h1 {
 	margin-top: 100px;
 }
 
+/* Seccion de intro */
+
 #intro {
 
 	background-color: black;
@@ -60,6 +63,8 @@ h1 {
 	font-style: italic;
 }
 
+/* Seccion del estudio */
+
 #estudio {
 
 	text-align: center;
@@ -67,11 +72,8 @@ h1 {
 
 }
 
-
-
 #estudio h1 {
 
-	
 	margin-top: 100px;
 	margin-bottom: 50px;
 	color: white;
@@ -90,7 +92,8 @@ h1 {
 #estudio .thumbnail {
 
 	background-color: black;
-	border-color: white; 
+	border-color: white;
+	margin-bottom: 150px; 
  
 }
 
@@ -101,6 +104,9 @@ h1 {
 	color: white;
 	font-weight: 700;
 }
+
+/* Efecto boton galeria */
+
 
 #estudio .btn-default:hover, .btn-default:active, .btn-default:focus {
 
@@ -120,7 +126,7 @@ h1 {
 
 #bajar {
 
-	margin-bottom: 100px;
+	
 }
 
 #reducir {
@@ -130,6 +136,9 @@ h1 {
 	border-radius: 10px;
 	padding-bottom: 10px;
 }
+
+
+/* Seccion de equipamento */
 
 
 #equipamento {
@@ -162,6 +171,8 @@ h1 {
 	margin-bottom: 50px;
 }
 
+/* Botones de equipamento */
+
 #equipamento > .container-fluid > .row .btn-default {
 
 	background-color: #40E0D0;
@@ -171,11 +182,12 @@ h1 {
 	font-weight: 700;
 }
 
+/* Efecto de botones equipamento */
+
 #equipamento > .container-fluid > .row .btn-default:hover, .btn-default:active {
 
 	background-color: black;
 	border-color: white;
-	text-transform: uppercase;
 	color: white;
 }
 
@@ -270,9 +282,18 @@ h1 {
 
 #tarifas .btn-default:hover, .btn-default:active {
 
-	background-color: #40E0D0;
+	background-color: black;
 	color: white;
 	border-color: white; 
+
+	text-transform: none;
+	-webkit-transition: all 0.8s ease;
+	-moz-transition:all 0.8s ease;
+	-ms-transition:all 0.8s ease;
+	-o-transition:all 0.8s ease;
+	transition:all 0.8s ease;
+
+
 }
 
 
