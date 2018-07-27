@@ -17,11 +17,13 @@ header {
 	background-repeat: none;
 	color: #fff;
 	background-position: center;
+
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-     padding-top: 100px;
+     
+    padding-top: 100px;
     padding-bottom: 50px;
     text-align: center;
      
@@ -93,7 +95,7 @@ header > .container {
 
 #boton1:hover, #boton1:active, boton1:focus {
 
-	background-color:  #40E0D0;
+	background-color:  #28667B;
 	color: white;
 	border-color: white;
 } 
@@ -159,8 +161,8 @@ a:active {
 
 #reducir {
 
-	height: 310px;
-	width: 500px;
+	height: 350px;
+	width: 530px;
 }
 
 
@@ -215,7 +217,11 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
 
-    background-color: #40E0D0;
-    color: black;
+    background-color: #28667B;
+    color: white;
 }
 
+.label-info {
+
+	background-color: #28667B;
+}

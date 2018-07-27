@@ -53,15 +53,15 @@
 
 						</li>
 
-						<li><a id="elemento" href="clientes.php"><i class="fa fa-users"></i>clientes</a></li>
+						<!-- <li><a id="elemento" href="clientes.php"><i class="fa fa-users"></i>clientes</a></li> -->
 						<li><a  id="elemento" href="../#contactanos"><i class="fa fa-phone-square"></i> contactanos</a></li>
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right">
 							
 							<li><a id="elemento2" href="https://www.facebook.com/estudio.audiophone?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-							<li><a id="elemento2" title="Whatsapp" data-toggle="popover" data-container="body" 
-								data-placement="bottom" data-content="+58 0416-905-57-06"><i class="fa fa-whatsapp fa-2x"></i></a></li>
+							<!-- <li><a id="elemento2" title="Whatsapp" data-toggle="popover" data-container="body" 
+								data-placement="bottom" data-content="+58 0416-905-57-06"><i class="fa fa-whatsapp fa-2x"></i></a></li> -->
 							<li><a id="elemento2" href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
 							<li><a id="elemento2" href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
 					</ul>
@@ -73,35 +73,81 @@
 	<!-- ======================================================================================= -->
 
 	<header>
-		<div class="container">
-			<h1>Alquiler de equipos</h1>
+
+		<!-- Colocar imagen aqui -->
+
+		<div class="jumbotron">
+			<h1>alquiler de equipos</h1>
+			<p>
+				Tambien ofrecemos servicio de alquier de equipos desde sonidos de grupos musicales
+				hasta minitecas para sus fiestas y eventos en la ciudad de Caracas.  
+			</p>
 		</div>
 	</header>
 
-	<div class="jumbotron">
-		<p>
-			Tambien ofrecemos servicio de alquier de equipos desde sonidos de grupos musicales
-			hasta minitecas para sus fiestas y eventos.  
-		</p>
-	</div>
-
 	<section id="alquiler">
-		<div class="container-fluid well">
+		<div class="container">
 			<div class="row">
-				<div class="col-sm-4">
-					<p>Ingrese texto</p>
+				<div class="col-sm-3 text-center">
+					<h4>Sonidos</h4>
+					<p>Incluye todo tipo de salida de audio desde sub-bajo, monitores, satelites
+						y cornetas de alta gamma para ambientar sus fiestas y eventos</p>
 				</div>
-				<div class="col-sm-4">
-					<p>Ingrese texto</p>
-				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-3 text-center">
+					<h4>Display</h4>
 					<p>
-						Ingrese texto
+						Tenemos dispositivos de salidas de audio como mezcladores y consolas para
+						minitecas
+					</p>
+				</div>
+				<div class="col-sm-3 text-center">
+					<h4>Luces</h4>
+					<p>
+						Incluye todo tipo de luces de miniteca para dar vida a sus eventos
+					</p>	
+				</div>
+				<div class="col-sm-3 text-center">
+					<h4>Transporte</h4>
+					<p>
+						Incluye transporte de los equipos.
 					</p>	
 				</div>
 			</div>
 		</div>
 
+	</section>
+
+	<!-- ============================================================================= -->
+
+	<section id="condiciones">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>Condiciones del servicio</h2>
+				</div>
+				<div class="row">
+					<div class="col-sm-offset-1 col-sm-12">
+						<ul>
+							<li>
+								Ofrecemos el paquete completo.
+							</li>
+							<li>
+								Para los servicios de alquiler de equipos se cobra por noche.
+							</li>
+							<li>
+								Se le pasa un presupuesto de servicios al cliente solicitando el 50% y el 
+								otro 50% al final.
+							</li>
+							<li>
+								Solo se realiza este servicio dentro de la ciudad de Caracas. 
+								no se realiza servicios al interior. 
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<script src="../js/jquery.js"></script>
@@ -117,6 +163,9 @@
 
 	</script>
 </body>
+
+<!-- ================================================================ -->
+
 <footer>
 
 		<div class="container-fluid">
@@ -125,7 +174,6 @@
 					<span class="copyright">
 						Copyright &copy;2016 Audiophone 
 					</span><br>
-					<h6>Diseñado por la empresa: ©Gabmart Web 2016</h6>
 				</div>
 
 				<div class="col-sm-4">

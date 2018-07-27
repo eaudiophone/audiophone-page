@@ -75,7 +75,7 @@
 						</div>
 
 						
-						<p>Fecha: Diciembre 2016<br>Fotos hechas por el fotografo profesional:</p>	
+						<p>Fecha: Julio 2018</p>	
 						<center><a href="#" type="button" class="btn btn-primary" data-dismiss="modal" id="boton1">
 							<i class="fa fa-times"></i> Cerrar galeria 
 						</a></center>

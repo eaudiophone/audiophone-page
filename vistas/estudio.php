@@ -56,15 +56,15 @@
 
 						</li>
 
-						<li><a id="elemento" href="clientes.php"><i class="fa fa-users"></i>clientes</a></li>
+						<!--<li><a id="elemento" href="clientes.php"><i class="fa fa-users"></i>clientes</a></li>-->
 						<li><a  id="elemento" href="../#contactanos"><i class="fa fa-phone-square"></i> contactanos</a></li>
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right">
 							
 							<li><a id="elemento2" href="https://www.facebook.com/estudio.audiophone?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-							<li><a id="elemento2" title="Whatsapp" data-toggle="popover" data-container="body" 
-								data-placement="bottom" data-content="+58 0416-905-57-06"><i class="fa fa-whatsapp fa-2x"></i></a></li>
+							<!--<li><a id="elemento2" title="Whatsapp" data-toggle="popover" data-container="body" 
+								data-placement="bottom" data-content="+58 0416-905-57-06"><i class="fa fa-whatsapp fa-2x"></i></a></li> -->
 							<li><a id="elemento2" href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
 							<li><a id="elemento2" href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
 					</ul>
@@ -74,11 +74,11 @@
 		</nav> <!-- Fin del navbar -->	
 		<!-- ==================================================================================== -->
 
-		<header>
+		<header id="inicio">
 			
 			<div class="jumbotron">
 				<img src="../img/estudio1.jpg" class="img-responsive">
-				<h1>EL ESTUDIO</h1>
+				<h2>el estudio</h2>
 				<p>
 					Audiophone es un estudio de grabación ubicado al oeste de Caracas. 
 					Con lo mejor de ambas herramientas digitales  modernas y analógico clásico. 
@@ -211,8 +211,7 @@
 				<div class="col-sm-4">
 					<span class="copyright">
 						Copyright &copy;2016 Audiophone 
-					</span><br>
-					<h6>Diseñado por la empresa: ©Gabmart Web 2016</h6>
+					</span>
 				</div>
 
 				<div class="col-sm-4">

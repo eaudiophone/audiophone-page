@@ -119,7 +119,7 @@
 						<div class="carousel-caption">
 							<h1>ESTUDIO AUDIOPHONE</h1>
 							<h4 class="nav-text">Respetamos la música antigua y moderna de todas la generaciones</h4>
-							<p><a href="vistas/clientes.php" id="boton2" class="btn btn-lg btn-info">Ver más</a></p>
+							<!--<p><a href="vistas/clientes.php" id="boton2" class="btn btn-lg btn-info">Ver más</a></p>-->
 						</div>
 				</div>
 
@@ -334,8 +334,12 @@
 						<h1 class="section-heading">Contáctanos</h1>
 						<h3 class="section-subheading">¿Preparado para una sesión músical?</h3>
 						<p>
+							
 							Llámenos al número local (0212) 8616101 o al (0416) 9055706<br>
-							o llenando el formulario de contactos.
+							o llena el formulario de contactos. <br> <br>
+
+							Puede ubicarnos en las Redes Sociales: Facebook, Twitter, <br> 
+							Whatsapp e Instagram.
 						<p>	
 					</div>
 						
@@ -389,14 +393,13 @@
 						<div class="col-sm-6">
 							<h4>Dirección</h4>
 								<p>Av. Principal de Manicomio Esq. Trinchera, <br> vaya despues de la bomba
-								de gasolina y en la tercera parada del<br> metrobus de agua salud. 
+								de gasolina y en la tercera parada del<br> metrobus de Agua Salud. 
 								Casa N° 152 La Pastora,<br> Caracas, Venezuela</p>
 						</div>
 
 						<div class="col-sm-6">
 							<h4>Horario de trabajo:</h4>
-							<p>Lunes a Sabado<br>Desde las 10AM a 3PM<br>Y en la noche despues de las
-								12PM (opcional)</p>
+							<p>Lunes a Viernes<br>Desde las 10AM a 5PM</p>
 						</div>
 					</div>
 				</div>
@@ -422,6 +425,8 @@
 
 		})
 
+			/* Funcion de Javascript de Whatapp */
+
 			$(function () {
   		
   			$('[data-toggle="popover"]').popover()
@@ -436,16 +441,16 @@
 			<div class="row text-center">
 				<div class="col-sm-4">
 					<span class="copyright">
-						Copyright &copy;2016 Audiophone 
+						Copyright &copy;2018 Audiophone 
 					</span>
 				</div>
 
 				<div class="col-sm-4">
 					<ul class="list-inline social-buttons">
 						<li><a href="https://www.facebook.com/estudio.audiophone?fref=ts"><i class="fa fa-facebook-square"></i></a></li>
-							<!--<li><a title="Whatsapp" data-toggle="popover" data-container="body" 
+							<li><a title="Whatsapp" data-toggle="popover" data-container="body" 
 								data-placement="top" data-content="+58 0416-905-57-06">
-								<i class="fa fa-whatsapp"></i></a></li> -->
+								<i class="fa fa-whatsapp"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 				</div>

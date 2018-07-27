@@ -27,7 +27,7 @@
 						<span class="icon-bar"></span>
 				</button>
 
-					<a href="#inicio" class="navbar-brand page-scroll">Audiophone</a>
+					<a href="#audiophone" class="navbar-brand page-scroll">Audiophone</a>
 
 				</div> <!-- Fin del Navbar header -->
 					
@@ -54,15 +54,15 @@
 
 						</li>
 
-						<li><a id="elemento" href="clientes.php"><i class="fa fa-users"></i>clientes</a></li>
+						<!-- <li><a id="elemento" href="clientes.php"><i class="fa fa-users"></i>clientes</a></li> -->
 						<li><a  id="elemento" href="../#contactanos"><i class="fa fa-phone-square"></i> contactanos</a></li>
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right">
 							
 							<li><a id="elemento2" href="https://www.facebook.com/estudio.audiophone?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-							<li><a id="elemento2" title="Whatsapp" data-toggle="popover" data-container="body" 
-								data-placement="bottom" data-content="+58 0416-905-57-06"><i class="fa fa-whatsapp fa-2x"></i></a></li>
+							<!-- <li><a id="elemento2" title="Whatsapp" data-toggle="popover" data-container="body" 
+								data-placement="bottom" data-content="+58 0416-905-57-06"><i class="fa fa-whatsapp fa-2x"></i></a></li> -->
 							<li><a id="elemento2" href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
 							<li><a id="elemento2" href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
 					</ul>
@@ -73,7 +73,7 @@
 
 		<!-- ================================================================================= -->
 
-			<header>
+			<header id="audiophone">
 				<div class="container">
 					<h1>tarifas</h1>
 				</div>
@@ -112,7 +112,7 @@
 						<img src="../img/consola1.jpg" height="2848" width="4288" class="img-responsive" alt="...">
 						<div class="caption">
 							<h3>Mezclas músicales</h3>
-							<h4>Precio: <span class="label label-success">Negociable</span></h4>
+							<h4>Precio: <span class="label label-info">Negociable</span></h4>
 							<p>Según la disponbilidad del cliente se llegará de acuerdo por ambas partes podría ser
 							por horas o precio paquete.</p>
 						</div>
@@ -127,7 +127,7 @@
 						<img src="../img/consola2.jpg" class="img-responsive">
 						<div class="caption">
 							<h3>Masterización</h3>
-							<h4>Precio: <span class="label label-success">Negociable</span></h4>
+							<h4>Precio: <span class="label label-info">Negociable</span></h4>
 							<p>Las masterizaciones se cobrá de la misma manera que las mezclas músicales</p>
 						</div>	
 					</div>
@@ -136,10 +136,10 @@
 
 				<div class="col-sm-6" id="final">
 					<div class="thumbnail">
-						<img src="../img/estudio4.jpg" height="4288" width="3216" class="img-responsive" id="reducir">
+						<img src="../img/DSCF9455.jpg" height="4288" width="2500" class="img-responsive" id="reducir">
 						<div class="caption">
 							<h3>Producciones Músicales</h3>
-							<h4>Precio: <span class="label label-success">Negociable</span></h4>
+							<h4>Precio: <span class="label label-info">Negociable</span></h4>
 							<p>El paquete de producción musical varía según el estimado de piezas y el volumen de 
 							instrumentos es recomendable llamar y preguntar.</p>
 						</div>
@@ -169,7 +169,6 @@
 					<span class="copyright">
 						Copyright &copy;2016 Audiophone 
 					</span><br>
-					<h6>Diseñado por la empresa: ©Gabmart Web 2016</h6>
 				</div>
 
 				<div class="col-sm-4">

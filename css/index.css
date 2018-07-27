@@ -18,7 +18,7 @@ body {
 
 #boton2:hover, #boton2:active, #boton2:focus {
 
-	background-color: #40E0D0;
+	background-color: #28667B;
 	color: white;
 	border-color: white;
 } 
@@ -68,7 +68,7 @@ h1 {
 #estudio {
 
 	text-align: center;
-	background-color:  #25272F;
+	background-color:  #262626;	
 
 }
 
@@ -110,7 +110,7 @@ h1 {
 
 #estudio .btn-default:hover, .btn-default:active, .btn-default:focus {
 
-	background-color: #40E0D0;
+	background-color: #28667B;
 	color: white;
 	border-color: white;
 	
@@ -124,26 +124,12 @@ h1 {
 }
 
 
-#bajar {
-
-	
-}
-
-#reducir {
-
-	width: 290px;
-	height: 250px;
-	border-radius: 10px;
-	padding-bottom: 10px;
-}
-
-
 /* Seccion de equipamento */
 
 
 #equipamento {
 
-	background-color: #40E0D0;
+	background-color: #28667B;
 	color: black;
 }
 
@@ -151,6 +137,7 @@ h1 {
 
 	margin-top: 100px;
 	margin-bottom: 100px;
+	color: white;
 	
 
 }
@@ -175,7 +162,7 @@ h1 {
 
 #equipamento > .container-fluid > .row .btn-default {
 
-	background-color: #40E0D0;
+	background-color: #28667B;
 	border-color: white;
 	text-transform: uppercase;
 	color: white;
@@ -250,6 +237,9 @@ h1 {
 	background-repeat: none;
 	color: white;
 	text-align: center;
+
+	/*Distribuye la imagen en toda la seccion*/
+
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -285,6 +275,8 @@ h1 {
 	background-color: black;
 	color: white;
 	border-color: white; 
+
+	/*Efectos de botones CSS3*/
 
 	text-transform: none;
 	-webkit-transition: all 0.8s ease;
@@ -352,6 +344,8 @@ h1 {
 	color: white;
 }
 
+/*Boton enviar*/
+
 #contactanos .btn-primary {
 
 	background-color: black;
@@ -367,7 +361,7 @@ h1 {
 
 #contactanos .btn-primary:hover, .btn-primary:active {
 
-	background-color: #15730F;
+	background-color: #28667B;
 	color: white;
 	border-color: white; 
 }
@@ -379,8 +373,8 @@ h1 {
 
 #contactanos .form-control:focus {
 
-	border-color: #40E0D0;
-	box-shadow:none; 
+	border-color: #28667B;
+	box-shadow: 100; 
 }
 
 
@@ -405,6 +399,12 @@ h1 {
 
 }
 
+#direccion {
+
+	background-color: #262626;
+	margin-top: -30px; 
+}
+
 #direccion .container {
 
 	background-color: black;
@@ -422,6 +422,7 @@ h1 {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	text-align: center;
+
 
 }
 
@@ -458,7 +459,7 @@ footer ul.quicklinks {
 }
 
 a:hover {
-	color:  #40E0D0;
+	color:  #28667B;
 }
 
 ul.social-buttons {
@@ -486,8 +487,8 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
 
-    background-color: #40E0D0;
-    color: black;
+    background-color: #28667B;
+    color: white;
 }
 
 footer a {
