@@ -10,6 +10,9 @@
 		<link rel="stylesheet" type="text/css" href="../css/clientes.css">
 		<title>Nuestros Clientes</title>
 		<link rel="shortcut icon" type="image/png" href="../img/masterizacion.png">
+		<!-- Scroll -->
+		<script type="text/javascript" src="./../js/smooth-scroll.polyfills.min.js"></script>
+		<script type="text/javascript" src="./../js/scroll.js"></script>
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -27,7 +30,7 @@
 						<span class="icon-bar"></span>
 				</button>
 
-					<a href="#inicio" class="navbar-brand page-scroll">Audiophone</a>
+					<a data-scroll href="#audiophone" class="navbar-brand page-scroll">Audiophone</a>
 
 				</div> <!-- Fin del Navbar header -->
 					
@@ -40,7 +43,7 @@
 							
 						<li class="dropdown" role="menu"> 
 								
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown">
 								<i class="fa fa-star-o"> </i>servicios
 								<span class="caret"></span>
 								<ul class="dropdown-menu" role="menu">
@@ -53,16 +56,16 @@
 							</a>
 
 						</li>
-
-						<li><a id="elemento" href="clientes.php"><i class="fa fa-users"></i>clientes</a></li>
+						<!-- 
+						<li><a id="elemento" href="clientes.php"><i class="fa fa-users"></i>clientes</a></li> -->
 						<li><a  id="elemento" href="../#contactanos"><i class="fa fa-phone-square"></i> contactanos</a></li>
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right">
 							
 							<li><a id="elemento2" href="https://www.facebook.com/estudio.audiophone?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-							<li><a id="elemento2" title="Whatsapp" data-toggle="popover" data-container="body" 
-								data-placement="bottom" data-content="+58 0416-905-57-06"><i class="fa fa-whatsapp fa-2x"></i></a></li>
+							<!--<li><a id="elemento2" title="Whatsapp" data-toggle="popover" data-container="body" 
+								data-placement="bottom" data-content="+58 0416-905-57-06"><i class="fa fa-whatsapp fa-2x"></i></a></li> -->
 							<li><a id="elemento2" href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
 							<li><a id="elemento2" href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
 					</ul>
@@ -72,7 +75,7 @@
 		</nav> <!-- Fin del navbar -->	
 		<!-- ================================================================================= -->
 
-		<header>
+		<header id="audiophone">
 			<div class="container">
 				<h1>Nuestros clientes</h1>
 			</div>		
@@ -82,16 +85,24 @@
 	
 		
 		<div class="jumbotron">
-			<p>
-				Nos encanta guardar las historias de nuestros servicios 
-				a los clientes más destacados que lograron su éxito gracias a Audiophone.  
-			</p>
+			<div class="container">
+				<div class"row">
+					<div class="col-xs-12">
+						<p class="text-center">
+							Nos encanta guardar las historias de nuestros servicios 
+							a los clientes más destacados que lograron su éxito gracias a Audiophone.  
+					</p>
+					</div>
+					
+				</div>
+			</div>
+			
 		</div>
 
 		<!-- ====================================================================================== -->
 
 
-		
+		<section id ="clientes">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-6">
@@ -134,6 +145,8 @@
 				</div>
 			</div>
 		</div>
+		</section>
+		
 
 		<script src="../js/jquery.js"></script>
 		<script src="../js/bootstrap.min.js"></script>
@@ -152,16 +165,15 @@
 		<div class="row">
 
 			<div class="col-md-4">
-				<span class="copyright">Copyright &copy; 2016 Audiophone </span><br>
-				<h6>Diseñado por la empresa: ©Gabmart Web 2016</h6>
+				<span class="copyright">Copyright &copy; 2018 Audiophone </span><br>
 			</div>
 
 			<div class="col-sm-4">
 					<ul class="list-inline social-buttons">
 						<li><a href="https://www.facebook.com/estudio.audiophone?fref=ts"><i class="fa fa-facebook-square"></i></a></li>
-							<li><a title="Whatsapp" data-toggle="popover" data-container="body" 
+							<!--<li><a title="Whatsapp" data-toggle="popover" data-container="body" 
 								data-placement="top" data-content="+58 0416-905-57-06">
-								<i class="fa fa-whatsapp"></i></a></li>
+								<i class="fa fa-whatsapp"></i></a></li> -->
 							<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 					</ul>
@@ -169,8 +181,8 @@
 
 			<div class="col-md-4">
 				<ul class="list-inline quicklinks">
-					<li><a href="#">Politicas de privacidad</a></li>
-					<li><a href="#">Terminos de uso</a></li>
+					<li><a href="#">Políticas de privacidad</a></li>
+					<li><a href="#">Términos de uso</a></li>
 				</ul>
 			</div>
 

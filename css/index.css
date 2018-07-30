@@ -296,6 +296,8 @@ h1 {
 	color: white;
 	background-position: center;
 	background-repeat: none;
+
+
 	background-image: url(../img/fondo3.png);
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -321,9 +323,10 @@ h1 {
 #contactanos p {
 
 	font-size: 20px;
-
+	margin-bottom: 100px;
 
 }
+
 
 #contactanos form {
 
@@ -431,6 +434,8 @@ h1 {
 
 	margin-top: 50px;
 	margin-bottom: 20px;
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 #direccion p {

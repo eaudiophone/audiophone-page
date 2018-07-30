@@ -1,15 +1,24 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html lang = "es-VE">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+		<!-- Font Awesome -->
 		<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+		<!-- CSS  personalizado -->
 		<link rel="stylesheet" type="text/css" href="./css/index.css">
-		<link rel="shortcut icon" type="image/png" href="./img/masterizacion.png">
 		<link rel="stylesheet" type="text/css" href="./css/navbar.css"> 
 		<link rel="stylesheet" type="text/css" href="./css/modal.css">
+		<!-- Favicon-->
+		<link rel="shortcut icon" type="image/png" href="./img/masterizacion.png">
 		<title>Estudio Audiophone</title>
+
+		<!-- Scroll -->
+		<script type="text/javascript" src="./js/smooth-scroll.polyfills.min.js"></script>
+		<script type="text/javascript" src="./js/scroll.js"></script>
+
 	</head>
 	<body>
 			
@@ -28,7 +37,7 @@
 						<span class="icon-bar"></span>
 				</button>
 
-					<a href="#inicio" class="navbar-brand page-scroll">Audiophone</a>
+					<a data-scroll href="#inicio" class="navbar-brand page-scroll">Audiophone</a>
 
 				</div> <!-- Fin del Navbar header -->
 					
@@ -41,22 +50,22 @@
 							
 						<li class="dropdown" role="menu"> 
 								
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown">
 								<i class="fa fa-star-o"> </i>servicios
 								<span class="caret"></span>
 								<ul class="dropdown-menu" role="menu">
 									<li><a href="vistas/estudio.php"><i class="fa fa-microphone"></i>
 										estudio de grabación</a></li>
-									<li><a href="vistas/alquiler.php"><i class="fa fa-truck"></i>alquiler de equipos</a></li>
+									<li><a href="vistas/alquiler.php"><i class="fa fa-truck"></i>alquiler de equipos</a></li> 
 									<li class="divider"></li>
-									<li><a href="vistas/tarifas.php"><i class="fa fa-money"></i>tarifas</a></li>
+									<li><a data-scroll href="#tarifas"><i class="fa fa-money"></i>tarifas</a></li>
 								</ul>
 							</a>
 
 						</li>
 
 						<!--<li><a id="elemento" href="vistas/clientes.php"><i class="fa fa-users"></i>clientes</a></li> -->
-						<li><a  id="elemento" href="#contactanos"><i class="fa fa-phone-square"></i> contactanos</a></li>
+						<li><a data-scroll href="#contactanos" id="elemento"><i class="fa fa-phone-square"></i> contactanos</a></li>
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right">
@@ -232,6 +241,7 @@
 			</div>
 
 		</section>
+
 		<section id="equipamento">
 			<div class="container-fluid text-center">
 				
@@ -345,6 +355,7 @@
 						
 				</div>
 
+				<!-- Formulario de mensaje para el cliente
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-5">
 						<form>
@@ -381,7 +392,7 @@
 							</div>
 						</form>
 					</div>
-				</div>
+				</div>  -->
 			</div>
 				
 		</section>
@@ -448,16 +459,16 @@
 				<div class="col-sm-4">
 					<ul class="list-inline social-buttons">
 						<li><a href="https://www.facebook.com/estudio.audiophone?fref=ts"><i class="fa fa-facebook-square"></i></a></li>
-							<li><a title="Whatsapp" data-toggle="popover" data-container="body" 
+							<!--<li><a title="Whatsapp" data-toggle="popover" data-container="body" 
 								data-placement="top" data-content="+58 0416-905-57-06">
-								<i class="fa fa-whatsapp"></i></a></li>
+								<i class="fa fa-whatsapp"></i></a></li> -->
 							<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 				</div>
 
 				<div class="col-md-4">
 				<ul class="list-inline quicklinks">
-					<li><a href="#">Politicas de privacidad</a></li>
+					<li><a href="#">Políticas de privacidad</a></li>
 					<li><a href="#">Términos de uso</a></li>
 				</ul>
 			</div>

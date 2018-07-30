@@ -9,6 +9,11 @@
 		<link rel="stylesheet" type="text/css" href="../css/navbar.css">
 		<link rel="shorcut icon" type="image/png" href="../img/masterizacion.png">
 		<link rel="stylesheet" type="text/css" href="../css/tarifas.css">
+
+		<!-- Scroll -->
+		<script type="text/javascript" src="./../js/smooth-scroll.polyfills.min.js"></script>
+		<script type="text/javascript" src="./../js/scroll.js"></script>
+
 	</head>
 	<body>
 		
@@ -27,7 +32,7 @@
 						<span class="icon-bar"></span>
 				</button>
 
-					<a href="#audiophone" class="navbar-brand page-scroll">Audiophone</a>
+					<a data-scroll href="#audiophone" class="navbar-brand page-scroll">Audiophone</a>
 
 				</div> <!-- Fin del Navbar header -->
 					
@@ -174,9 +179,9 @@
 				<div class="col-sm-4">
 					<ul class="list-inline social-buttons">
 						<li><a href="https://www.facebook.com/estudio.audiophone?fref=ts"><i class="fa fa-facebook-square"></i></a></li>
-							<li><a title="Whatsapp" data-toggle="popover" data-container="body" 
+							<!--<li><a title="Whatsapp" data-toggle="popover" data-container="body" 
 								data-placement="top" data-content="+58 0416-905-57-06">
-								<i class="fa fa-whatsapp"></i></a></li>
+								<i class="fa fa-whatsapp"></i></a></li> -->
 							<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 				</div>

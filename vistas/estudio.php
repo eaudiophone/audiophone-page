@@ -9,6 +9,10 @@
 		<link rel="shorcut icon" type="image/png" href="../img/masterizacion.png">
 		<link rel="stylesheet" type="text/css" href="../css/estudio.css">
 		<link rel="stylesheet" type="text/css" href="../css/navbar.css">
+
+		<!-- Scroll -->
+		<script type="text/javascript" src="./../js/smooth-scroll.polyfills.min.js"></script>
+		<script type="text/javascript" src="./../js/scroll.js"></script>
 	</head>
 	<body>
 
@@ -29,7 +33,7 @@
 						<span class="icon-bar"></span>
 				</button>
 
-					<a href="#inicio" class="navbar-brand page-scroll">Audiophone</a>
+					<a data-scroll href="#audiophone" class="navbar-brand page-scroll">Audiophone</a>
 
 				</div> <!-- Fin del Navbar header -->
 					
@@ -42,7 +46,7 @@
 							
 						<li class="dropdown" role="menu"> 
 								
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown">
 								<i class="fa fa-star-o"> </i>servicios
 								<span class="caret"></span>
 								<ul class="dropdown-menu" role="menu">
@@ -74,11 +78,11 @@
 		</nav> <!-- Fin del navbar -->	
 		<!-- ==================================================================================== -->
 
-		<header id="inicio">
+		<header id="audiophone">
 			
 			<div class="jumbotron">
 				<img src="../img/estudio1.jpg" class="img-responsive">
-				<h2>el estudio</h2>
+				<h1>el estudio</h1>
 				<p>
 					Audiophone es un estudio de grabación ubicado al oeste de Caracas. 
 					Con lo mejor de ambas herramientas digitales  modernas y analógico clásico. 
@@ -217,17 +221,17 @@
 				<div class="col-sm-4">
 					<ul class="list-inline social-buttons">
 						<li><a href="https://www.facebook.com/estudio.audiophone?fref=ts"><i class="fa fa-facebook-square"></i></a></li>
-							<li><a title="Whatsapp" data-toggle="popover" data-container="body" 
+							<!-- <li><a title="Whatsapp" data-toggle="popover" data-container="body" 
 								data-placement="top" data-content="+58 0416-905-57-06">
-								<i class="fa fa-whatsapp"></i></a></li>
+								<i class="fa fa-whatsapp"></i></a></li> -->
 							<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 				</div>
 
 				<div class="col-md-4">
 				<ul class="list-inline quicklinks">
-					<li><a href="">Politicas de privacidad</a></li>
-					<li><a href="">Terminos de uso</a></li>
+					<li><a href="">Políticas de privacidad</a></li>
+					<li><a href="">Términos de uso</a></li>
 				</ul>
 			</div>
 			</div>
