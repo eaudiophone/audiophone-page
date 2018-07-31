@@ -346,7 +346,7 @@
 						<p>
 							
 							Llámenos al número local (0212) 8616101 o al (0416) 9055706<br>
-							o llena el formulario de contactos. <br> <br>
+							<br>
 
 							Puede ubicarnos en las Redes Sociales: Facebook, Twitter, <br> 
 							Whatsapp e Instagram.

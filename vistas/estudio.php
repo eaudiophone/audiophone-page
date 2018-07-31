@@ -214,7 +214,7 @@
 			<div class="row text-center">
 				<div class="col-sm-4">
 					<span class="copyright">
-						Copyright &copy;2016 Audiophone 
+						Copyright &copy;2018 Audiophone 
 					</span>
 				</div>
 
