@@ -172,7 +172,7 @@
 			<div class="row text-center">
 				<div class="col-sm-4">
 					<span class="copyright">
-						Copyright &copy;2016 Audiophone 
+						Copyright &copy;2018 Audiophone 
 					</span><br>
 				</div>
 
@@ -188,8 +188,8 @@
 
 				<div class="col-md-4">
 				<ul class="list-inline quicklinks">
-					<li><a href="#">Politicas de privacidad</a></li>
-					<li><a href="#">Terminos de uso</a></li>
+					<li><a href="">Politicas de privacidad</a></li>
+					<li><a href="">Términos de uso</a></li>
 				</ul>
 			</div>
 			</div>
