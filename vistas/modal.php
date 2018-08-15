@@ -39,7 +39,7 @@
 										<img src="img/estudio9.jpg" class="img-responsive" alt="estudio4" id="imagen1">
 									</div>
 									<div class="col-sm-6">
-										<img src="img/antiguo1.jpg" class="img-responsive" alt="estudio5" id="imagen1">
+										<img src="img/01.png" class="img-responsive" alt="estudio5" id="imagen1">
 									</div>
 									<div class ="col-sm-6">
 										<img src="img/audifonos.jpg" class="img-responsive" alt="estudio6" id="imagen1">	

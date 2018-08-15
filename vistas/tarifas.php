@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="../css/navbar.css">
-		<link rel="shorcut icon" type="image/png" href="../img/masterizacion.png">
+		<link rel="shorcut icon" type="image/png" href="../img/Logo 01.png">
 		<link rel="stylesheet" type="text/css" href="../css/tarifas.css">
 
 		<!-- Scroll -->
@@ -41,26 +41,27 @@
 					<ul class="nav navbar-nav">
 							
 						<li><a href="../index.php" id="elemento">
-							<i class="fa fa-home"></i> inicio</a></li>
+							<i class="fa fa-home"></i> Inicio</a></li>
 							
 						<li class="dropdown" role="menu"> 
 								
 							<a href="" class="dropdown-toggle" data-toggle="dropdown">
-								<i class="fa fa-star-o"> </i>servicios
+								<i class="fa fa-star-o"> </i>Servicios
 								<span class="caret"></span>
 								<ul class="dropdown-menu" role="menu">
 									<li><a href="estudio.php"><i class="fa fa-microphone"></i>
-										estudio de grabación</a></li>
-									<li><a href="alquiler.php"><i class="fa fa-truck"></i>alquiler de equipos</a></li>
+										Estudio de grabación</a></li>
+									<li><a href="estudio.php"><i class="fa fa-microphone"></i>Nuestro equipamento</a></li>
+									<li><a href="alquiler.php"><i class="fa fa-truck"></i>Alquiler de equipos</a></li>
 									<li class="divider"></li>
-									<li><a href="tarifas.php"><i class="fa fa-money"></i>tarifas</a></li>
+									<li><a href="tarifas.php"><i class="fa fa-money"></i>Tarifas</a></li>
 								</ul>
 							</a>
 
 						</li>
 
-						<!-- <li><a id="elemento" href="clientes.php"><i class="fa fa-users"></i>clientes</a></li> -->
-						<li><a  id="elemento" href="../#contactanos"><i class="fa fa-phone-square"></i> contactanos</a></li>
+						<li><a id="elemento" href="clientes.php"><i class="fa fa-users"></i>Clientes</a></li>
+						<li><a  id="elemento" href="../#contactanos"><i class="fa fa-phone-square"></i>Contactanos</a></li>
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right">

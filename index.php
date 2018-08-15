@@ -12,7 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="./css/navbar.css"> 
 		<link rel="stylesheet" type="text/css" href="./css/modal.css">
 		<!-- Favicon-->
-		<link rel="shortcut icon" type="image/png" href="./img/masterizacion.png">
+		<link rel="shortcut icon" type="image/png" href="./img/Logo 01.png">
 		<title>Estudio Audiophone</title>
 
 		<!-- Scroll -->
@@ -46,26 +46,27 @@
 					<ul class="nav navbar-nav">
 							
 						<li><a href="#inicio" id="elemento">
-							<i class="fa fa-home"></i>inicio</a></li>
+							<i class="fa fa-home"></i>Inicio</a></li>
 							
 						<li class="dropdown" role="menu"> 
 								
 							<a href="" class="dropdown-toggle" data-toggle="dropdown">
-								<i class="fa fa-star-o"> </i>servicios
+								<i class="fa fa-star-o"> </i>Servicios
 								<span class="caret"></span>
 								<ul class="dropdown-menu" role="menu">
-									<li><a href="vistas/estudio.php"><i class="fa fa-microphone"></i>
-										estudio de grabación</a></li>
-									<li><a href="vistas/alquiler.php"><i class="fa fa-truck"></i>alquiler de equipos</a></li> 
+									<li><a href="#estudio"><i class="fa fa-microphone"></i>
+										Estudio de grabación</a></li>
+									<li><a href="#equipamento"><i class="fa fa-microphone"></i>Nuestro equipamento</a></li>
+									<!--<li><a href="#alquiler"><i class="fa fa-truck"></i>Alquiler de equipos</a></li> --> 
 									<li class="divider"></li>
-									<li><a data-scroll href="#tarifas"><i class="fa fa-money"></i>tarifas</a></li>
+									<li><a data-scroll href="#tarifas"><i class="fa fa-money"></i>Tarifas</a></li>
 								</ul>
 							</a>
 
 						</li>
 
-						<!--<li><a id="elemento" href="vistas/clientes.php"><i class="fa fa-users"></i>clientes</a></li> -->
-						<li><a data-scroll href="#contactanos" id="elemento"><i class="fa fa-phone-square"></i> contactanos</a></li>
+						<li><a id="elemento"  data-scroll href="#clientes"><i class="fa fa-users"></i>Clientes</a></li>
+						<li><a data-scroll href="#contactanos" id="elemento"><i class="fa fa-phone-square"></i> Contactanos</a></li>
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right">
@@ -247,7 +248,7 @@
 				
 				<div class="row">
 					
-					<h1>NUESTRO EQUIPAMENTO</h1>
+					<h1>nuestro equipamento</h1>
 
 					<div class="col-sm-4 col-xs-12">
 						<img src="img/caset.png" class="img-responsive img-centered2">
@@ -290,32 +291,46 @@
 			</div>
 		</section>
 
-		<!-- La seccion de clientes es opcional 
+		<!-- Seccion de alquiler de equipos
+		<section id="alquiler">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12">
+						<h1>alquiler de equipos</h1>
+						<h3>
+							Tambien ofrecemos servicio de alquier de equipos desde sonidos de grupos musicales
+							hasta minitecas para sus fiestas y eventos en la ciudad de Caracas.  
+						</h3>
+						<center><a href="./vistas/alquiler.php" class="btn btn-default btn-lg" type="button">Más información</a></center>
+					</div>
+				</div>
+			</div>
+		</section>  -->
+
+		<!-- Seccion de los clientes -->
 
 		<section id="clientes">
 			<div class="container-fluid">
 				<div class="row">
-					<h1>CLIENTES</h1>
+					<h1>clientes del estudio</h1>
 					<div class="col-sm-4 col-sm-offset-2">
-						<img src="img/artista.jpg" class="img-responsive img-circle">
+						<img src="img/02.JPG" id="climg" class="img-responsive img-circle">
 					</div>
 
 					<div class="col-sm-4 col-xs-12">
-						<h3>Jesús Moreno (Menudo)</h3>
-						<p>Arreglista y musico</p>
+						<h3>Alejandro Lez.</h3>
+						<p>Cantante profesional</p>
 							<a href="vistas/clientes.php" type="button" class="btn btn-info">Ver más artistas</a>
 					</div>
 
 				</div>	
 			</div>
 		</section>
-
-		-->
 		
 		<section id="tarifas">
 			<div class="container responsive">
 				<div class="row">
-					<h1>PRECIOS Y TARIFAS</h1>
+					<h1>precios y tarfifas</h1>
 					
 					<div class="col-sm-3">
 						<a href="vistas/tarifas.php" type="button" class="btn btn-default"><p>tiempo de estudio</p></a>
@@ -393,7 +408,7 @@
 						</form>
 					</div>
 				</div>  -->
-			</div>
+			
 				
 		</section>
 
@@ -445,6 +460,14 @@
 		})
 
 		</script>
+
+	<!-- Seccion de Collage2 -->
+		<section id="collage2">
+			<div class="container"></div>
+		</section>
+
+	<!-- Fin del body -->
+
 	</body>
 	<footer>
 
@@ -468,8 +491,8 @@
 
 				<div class="col-md-4">
 				<ul class="list-inline quicklinks">
-					<li><a href="#">Políticas de privacidad</a></li>
-					<li><a href="#">Términos de uso</a></li>
+					<li><a href="">Políticas de privacidad</a></li>
+					<li><a href="">Condiciones de servicio</a></li>
 				</ul>
 			</div>
 			</div>

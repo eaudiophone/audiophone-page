@@ -26,6 +26,11 @@ header {
 
 }
 
+h3 {
+
+    line-height: 1.50;
+}
+
 header > .container {
 
 	margin-top: 10px;
@@ -79,6 +84,7 @@ header > .container {
 .col-sm-6 > p {
 
 	color: white;
+    font-size: 16px;
 }
 
 footer {
@@ -145,6 +151,19 @@ a:active {
 #final {
 
 	margin-bottom: 100px;
+}
+
+#collage1 {
+
+    background-image: url(./../img/Collage01.png);
+    background-position: center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-top: 700px;
+    padding-bottom: 600px;  
 }
 
 

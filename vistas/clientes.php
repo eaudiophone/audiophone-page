@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/navbar.css">
 		<link rel="stylesheet" type="text/css" href="../css/clientes.css">
 		<title>Nuestros Clientes</title>
-		<link rel="shortcut icon" type="image/png" href="../img/masterizacion.png">
+		<link rel="shortcut icon" type="image/png" href="../img/Logo 01.png">
 		<!-- Scroll -->
 		<script type="text/javascript" src="./../js/smooth-scroll.polyfills.min.js"></script>
 		<script type="text/javascript" src="./../js/scroll.js"></script>
@@ -39,26 +39,26 @@
 					<ul class="nav navbar-nav">
 							
 						<li><a href="../index.php" id="elemento">
-							<i class="fa fa-home"></i> inicio</a></li>
+							<i class="fa fa-home"></i>Inicio</a></li>
 							
 						<li class="dropdown" role="menu"> 
 								
 							<a href="" class="dropdown-toggle" data-toggle="dropdown">
-								<i class="fa fa-star-o"> </i>servicios
+								<i class="fa fa-star-o"> </i>Servicios
 								<span class="caret"></span>
 								<ul class="dropdown-menu" role="menu">
 									<li><a href="estudio.php"><i class="fa fa-microphone"></i>
-										estudio de grabación</a></li>
-									<li><a href="alquiler.php"><i class="fa fa-truck"></i>alquiler de equipos</a></li>
+										Estudio de grabación</a></li>
+									<li><a href="estudio.php"><i class="fa fa-microphone"></i>Nuestro equipamento</a></li>
+									<li><a href="alquiler.php"><i class="fa fa-truck"></i>Alquiler de equipos</a></li>
 									<li class="divider"></li>
-									<li><a href="tarifas.php"><i class="fa fa-money"></i>tarifas</a></li>
+									<li><a href="tarifas.php"><i class="fa fa-money"></i>Tarifas</a></li>
 								</ul>
 							</a>
 
-						</li>
-						<!-- 
-						<li><a id="elemento" href="clientes.php"><i class="fa fa-users"></i>clientes</a></li> -->
-						<li><a  id="elemento" href="../#contactanos"><i class="fa fa-phone-square"></i> contactanos</a></li>
+						</li> 
+						<li><a id="elemento" href="#audiophone"><i class="fa fa-users"></i>Clientes</a></li>
+						<li><a  id="elemento" href="../#contactanos"><i class="fa fa-phone-square"></i>Contactanos</a></li>
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right">
@@ -106,45 +106,51 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-6">
-					<img src="../img/artista.jpg" height="252" width="256" class="img-responsive img-circle img-centered">
-					<h3>Jesús Moreno (Menudo)</h3>
-					<p>Arreglista y musico</p>
+					<img src="../img/24.JPG" height="252" width="256" class="img-responsive img-circle img-centered">
+					<h3>Jesús Moreno &<br>Alfonso Martínez</h3>
+					<p>Arreglistas y Músicos <br> Socio y Dueño del Estudio</p>
 				</div>
 				<div class="col-sm-6">
-					<img src="../img/artista.jpg" height="252" width="256" class="img-responsive img-circle img-centered">
-					<h3>Roxanna la Salsera</h3>
-					<p>Cantante salsera.</p>
+					<img src="../img/25.JPG" height="252" width="256" class="img-responsive img-circle img-centered">
+					<h3>Kent, Alex, Ángel & Omar<br>Remy Band</h3>
+					<p>Cantantes profesionales.</p>
 				</div>	
 			</div>
 
 			<div class="row">
 				<div class="col-sm-6">
-					<img src="../img/artista.jpg" height="252" width="256" class="img-responsive img-circle img-centered">
-					<h3>Wilmer Cobos</h3>
-					<p>Cantante salsero</p>
+					<img src="../img/26.JPG" height="252" width="256" class="img-responsive img-circle img-centered">
+					<h3>Indira</h3>
+					<p>Músicos Profesionales</p>
 				</div>
 
 				<div class="col-sm-6">
-					<img src="../img/artista.jpg" height="252" width="256" class="img-responsive img-circle img-centered">
-					<h3>Sanova</h3>
-					<p>Cantante salsera</p>
+					<img src="../img/13.JPG" height="252" width="256" class="img-responsive img-circle img-centered">
+					<h3>Diveana</h3>
+					<p>Cantante profesional</p>
 				</div>
 
 				<div class="row">
 					<div class="col-sm-6" id="final">
-						<img src="../img/artista.jpg" height="252" width="256" class="img-responsive img-circle img-centered">
-						<h3>Joseph Amado</h3>
-						<p>Cantante la voz</p>
+						<img src="../img/22.JPG" height="252" width="256" class="img-responsive img-circle img-centered">
+						<h3>Aracelis Fiallo</h3>
+						<p>Violinista Profesional</p>
 					</div>
 
 					<div class="col-sm-6" id="final">
-						<img src="../img/artista.jpg" height="252" width="256" class="img-responsive img-circle img-centered">
-						<h3>Remy Band</h3>
-						<p>Orquesta de salsa</p>
+						<img src="../img/21.JPG" height="252" width="256" class="img-responsive img-circle img-centered">
+						<h3>Veronica Fiallo</h3>
+						<p>Músico Profesional</p>
 					</div>
 				</div>
 			</div>
 		</div>
+		</section>
+
+		<!-- Collage de Imagenes -->
+
+		<section id="collage1">
+			<!-- Aqui se coloca un collage -->
 		</section>
 		
 
