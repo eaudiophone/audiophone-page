@@ -3,11 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="../css/estilos.css">
-		<link rel="stylesheet" type="text/css" href="../css/navbar.css">
-		<link rel="stylesheet" type="text/css" href="../css/clientes.css">
+		<link rel="stylesheet" type="text/css" href="./../css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./../css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="./../css/estilos.css">
+		<link rel="stylesheet" type="text/css" href="./../css/navbar.css">
+		<link rel="stylesheet" type="text/css" href="./../css/clientes.css">
+		<link rel="stylesheet" type="text/css" href="./../css/modal.css">
 		<title>Nuestros Clientes</title>
 		<link rel="shortcut icon" type="image/png" href="../img/Logo 01.png">
 		<!-- Scroll -->
@@ -50,7 +51,7 @@
 									<li><a href="estudio.php"><i class="fa fa-microphone"></i>
 										Estudio de grabación</a></li>
 									<li><a href="estudio.php"><i class="fa fa-microphone"></i>Nuestro equipamento</a></li>
-									<li><a href="alquiler.php"><i class="fa fa-truck"></i>Alquiler de equipos</a></li>
+									<!-- <li><a href="alquiler.php"><i class="fa fa-truck"></i>Alquiler de equipos</a></li> -->
 									<li class="divider"></li>
 									<li><a href="tarifas.php"><i class="fa fa-money"></i>Tarifas</a></li>
 								</ul>
@@ -77,7 +78,7 @@
 
 		<header id="audiophone">
 			<div class="container">
-				<h1>Nuestros clientes</h1>
+				<h1>nuestros clientes</h1>
 			</div>		
 		</header> <!-- fin del header -->
 
@@ -125,14 +126,14 @@
 				</div>
 
 				<div class="col-sm-6">
-					<img src="../img/13.JPG" height="252" width="256" class="img-responsive img-circle img-centered">
+					<img src="../img/13.JPG" height="260" width="235" class="img-responsive img-circle img-centered">
 					<h3>Diveana</h3>
 					<p>Cantante profesional</p>
 				</div>
 
 				<div class="row">
 					<div class="col-sm-6" id="final">
-						<img src="../img/22.JPG" height="252" width="256" class="img-responsive img-circle img-centered">
+						<img src="../img/22.JPG" height="260" width="210" class="img-responsive img-circle img-centered">
 						<h3>Aracelis Fiallo</h3>
 						<p>Violinista Profesional</p>
 					</div>
@@ -149,10 +150,12 @@
 
 		<!-- Collage de Imagenes -->
 
-		<section id="collage1">
-			<!-- Aqui se coloca un collage -->
-		</section>
+		<section id="collage01"></section>
 		
+		<?php 
+
+			include("./modal.php");
+		?>		
 
 		<script src="../js/jquery.js"></script>
 		<script src="../js/bootstrap.min.js"></script>
@@ -187,8 +190,8 @@
 
 			<div class="col-md-4">
 				<ul class="list-inline quicklinks">
-					<li><a href="#">Políticas de privacidad</a></li>
-					<li><a href="#">Términos de uso</a></li>
+					<li><a data-toggle="modal" data-target="#privacidad" href="">Políticas de privacidad</a></li>
+					<li><a data-toggle="modal" data-target="#condiciones" href="">Condiciones de servicio</a></li>
 				</ul>
 			</div>
 

@@ -26,6 +26,13 @@ header {
 
 }
 
+h1 {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 45px;
+}
+
 h3 {
 
     line-height: 1.50;
@@ -34,7 +41,6 @@ h3 {
 header > .container {
 
 	margin-top: 10px;
-	text-transform: uppercase;
 	line-height: 1.75;
 }
 
@@ -145,15 +151,16 @@ a  {
 a:focus, a:active,
 a:active {
 
-    color: #40E0D0; 
+    color: #28667B; 
 }
 
 #final {
 
 	margin-bottom: 100px;
+    
 }
 
-#collage1 {
+#collage01 {
 
     background-image: url(./../img/Collage01.png);
     background-position: center;
@@ -164,6 +171,23 @@ a:active {
     -o-background-size: cover;
     padding-top: 700px;
     padding-bottom: 600px;  
+
 }
+
+/*Capa obscura se utiliza pseudo-elementos de css2*/
+
+#collage01:before {
+
+    content: "";
+    width: 2000px;
+    height: 1300px;
+    background-color: black;
+    position: absolute;
+    opacity: 0.4;
+    position: absolute;
+    margin-top: -700px;
+}
+
+
 
 

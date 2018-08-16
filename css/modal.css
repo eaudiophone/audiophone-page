@@ -93,3 +93,65 @@
 
 	margin-bottom: 25px;
 }
+
+#cabecera {
+
+	color: white;
+	text-transform: uppercase;
+	background-color: #262626;
+
+}
+
+#cabecera > h2 {
+
+	font-weight: bold;
+}
+
+#cabecera > button {
+
+	color: white;
+}
+
+#cuerpo {
+
+	background-color: white;
+	color: black;
+}
+
+#cuerpo > p {
+
+	font-size: 16px;
+	line-height: 1.75;
+	font-style: italic;
+}
+
+#cuerpo > ul > li {
+
+	font-size: 16px;
+	line-height: 1.75;
+	font-style: italic;
+}
+
+#footer {
+
+	background-color: #262626;
+}
+
+#footer > button {
+
+	color: white;
+	background-color: black;
+	text-transform: uppercase;
+	border-color: white;
+	font-weight: bold;
+}
+
+#footer > button:hover {
+
+	background-color: #28667B;
+
+}
+
+
+
+

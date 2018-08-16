@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/navbar.css">
 		<link rel="shorcut icon" type="image/png" href="../img/Logo 01.png">
 		<link rel="stylesheet" type="text/css" href="../css/tarifas.css">
+		<link rel="stylesheet" type="text/css" href="../css/modal.css">
 
 		<!-- Scroll -->
 		<script type="text/javascript" src="./../js/smooth-scroll.polyfills.min.js"></script>
@@ -52,9 +53,9 @@
 									<li><a href="estudio.php"><i class="fa fa-microphone"></i>
 										Estudio de grabación</a></li>
 									<li><a href="estudio.php"><i class="fa fa-microphone"></i>Nuestro equipamento</a></li>
-									<li><a href="alquiler.php"><i class="fa fa-truck"></i>Alquiler de equipos</a></li>
+									<!-- <li><a href="alquiler.php"><i class="fa fa-truck"></i>Alquiler de equipos</a></li> -->
 									<li class="divider"></li>
-									<li><a href="tarifas.php"><i class="fa fa-money"></i>Tarifas</a></li>
+									<li><a href="#audiophone"><i class="fa fa-money"></i>Tarifas</a></li>
 								</ul>
 							</a>
 
@@ -156,6 +157,12 @@
 
 		<!-- ============================================================================================== -->
 
+		<?php 
+
+			include("./modal.php");
+
+		?>
+
 		<script src="../js/jquery.js"></script>
 		<script src="../js/bootstrap.min.js"></script>
 
@@ -189,8 +196,8 @@
 
 				<div class="col-md-4">
 				<ul class="list-inline quicklinks">
-					<li><a href="">Politicas de privacidad</a></li>
-					<li><a href="">Términos de uso</a></li>
+					<li><a data-toggle="modal" data-target="#privacidad" href="">Políticas de privacidad</a></li>
+					<li><a data-toggle="modal" data-target="#condiciones" href="">Condiciones de servicio</a></li>
 				</ul>
 			</div>
 			</div>

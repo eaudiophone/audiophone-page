@@ -1,4 +1,4 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang = "es-VE">
 	<head>
 		<meta charset="utf-8">
@@ -330,7 +330,7 @@
 		<section id="tarifas">
 			<div class="container responsive">
 				<div class="row">
-					<h1>precios y tarfifas</h1>
+					<h1>precios y tarifas</h1>
 					
 					<div class="col-sm-3">
 						<a href="vistas/tarifas.php" type="button" class="btn btn-default"><p>tiempo de estudio</p></a>
@@ -491,8 +491,8 @@
 
 				<div class="col-md-4">
 				<ul class="list-inline quicklinks">
-					<li><a href="">Políticas de privacidad</a></li>
-					<li><a href="">Condiciones de servicio</a></li>
+					<li><a data-toggle="modal" data-target="#privacidad" href="">Políticas de privacidad</a></li>
+					<li><a data-toggle="modal" data-target="#condiciones" href="">Condiciones de servicio</a></li>
 				</ul>
 			</div>
 			</div>

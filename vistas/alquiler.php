@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/navbar.css">
 	<link rel="stylesheet" type="text/css" href="../css/alquiler.css">
+	<link rel="stylesheet" type="text/css" href="../css/modal.css">
 	<!-- Scroll -->
 	<script type="text/javascript" src="./../js/smooth-scroll.polyfills.min.js"></script>
 	<script type="text/javascript" src="./../js/scroll.js"></script>
@@ -49,7 +50,7 @@
 									<li><a href="estudio.php"><i class="fa fa-microphone"></i>
 										Estudio de grabación</a></li>
 									<li><a href="estudio.php"><i class="fa fa-microphone"></i>Nuestro equipamento</a></li>
-									<li><a href="alquiler.php"><i class="fa fa-truck"></i>Alquiler de equipos</a></li>
+									<li><a href="#audiophone"><i class="fa fa-truck"></i>Alquiler de equipos</a></li>
 									<li class="divider"></li>
 									<li><a href="tarifas.php"><i class="fa fa-money"></i>Tarifas</a></li>
 								</ul>
@@ -123,36 +124,10 @@
 
 	<!-- ============================================================================= -->
 
-	<section id="condiciones">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-sm-12">
-					<h2>Condiciones del servicio</h2>
-				</div>
-				<div class="row">
-					<div class="col-sm-offset-1 col-sm-12">
-						<ul>
-							<li>
-								Ofrecemos el paquete completo.
-							</li>
-							<li>
-								Para los servicios de alquiler de equipos se cobra por noche.
-							</li>
-							<li>
-								Se le pasa un presupuesto de servicios al cliente solicitando el 50% y el 
-								otro 50% al final.
-							</li>
-							<li>
-								Solo se realiza este servicio dentro de la ciudad de Caracas. 
-								no se realiza servicios al interior. 
-							</li>
-						</ul>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</section>
+	<?php 
+
+		include("./modal.php");
+	?>
 
 	<script src="../js/jquery.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
@@ -192,8 +167,8 @@
 
 				<div class="col-md-4">
 				<ul class="list-inline quicklinks">
-					<li><a href="#">Políticas de privacidad</a></li>
-					<li><a href="#">Términos de uso</a></li>
+					<li><a data-toggle="modal" data-target="#privacidad" href="">Políticas de privacidad</a></li>
+					<li><a data-toggle="modal" data-target="#condiciones" href="">Condiciones de servicio</a></li>
 				</ul>
 			</div>
 			</div>
