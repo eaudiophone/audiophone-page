@@ -47,31 +47,31 @@
 						<li class="dropdown" role="menu"> 
 								
 							<a href="" class="dropdown-toggle" data-toggle="dropdown">
-								<i class="fa fa-star-o"> </i>Servicios
+								<i class="fa fa-star-o"> </i> Servicios
 								<span class="caret"></span>
 								<ul class="dropdown-menu" role="menu">
 									<li><a href="estudio.php"><i class="fa fa-microphone"></i>
-										Estudio de grabación</a></li>
-									<li><a href="estudio.php"><i class="fa fa-microphone"></i>Nuestro equipamento</a></li>
-									<!-- <li><a href="alquiler.php"><i class="fa fa-truck"></i>Alquiler de equipos</a></li> -->
+										 Estudio de grabación</a></li>
+									<li><a href="estudio.php"><i class="fa fa-microphone"></i> Nuestro equipamento</a></li>
+									<!-- <li><a href="alquiler.php"><i class="fa fa-truck"></i> Alquiler de equipos</a></li> -->
 									<li class="divider"></li>
-									<li><a href="#audiophone"><i class="fa fa-money"></i>Tarifas</a></li>
+									<li><a href="#audiophone"><i class="fa fa-money"></i> Tarifas</a></li>
 								</ul>
 							</a>
 
 						</li>
 
-						<li><a id="elemento" href="clientes.php"><i class="fa fa-users"></i>Clientes</a></li>
-						<li><a  id="elemento" href="../#contactanos"><i class="fa fa-phone-square"></i>Contactanos</a></li>
+						<li><a id="elemento" href="clientes.php"><i class="fa fa-users"></i> Clientes</a></li>
+						<li><a  id="elemento" href="../#contactanos"><i class="fa fa-phone-square"></i> Contactanos</a></li>
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right">
 							
-							<li><a id="elemento2" href="https://www.facebook.com/estudio.audiophone?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+							<li><a id="elemento2" href=""><i class="fa fa-facebook-square fa-2x"></i></a></li>
 							<!-- <li><a id="elemento2" title="Whatsapp" data-toggle="popover" data-container="body" 
 								data-placement="bottom" data-content="+58 0416-905-57-06"><i class="fa fa-whatsapp fa-2x"></i></a></li> -->
-							<li><a id="elemento2" href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-							<li><a id="elemento2" href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+							<li><a id="elemento2" href=""><i class="fa fa-twitter-square fa-2x"></i></a></li>
+							<li><a id="elemento2" href=""><i class="fa fa-instagram fa-2x"></i></a></li>
 					</ul>
 
 				</div>
@@ -104,7 +104,7 @@
 						<img src="../img/estudio5.jpg" height="2764" width="4146" class="img-responsive" alt="...">
 						<div class="caption">
 							<h3>Tiempo de Grabación</h3>
-							<h4>Precio: <span class="label label-info">2500 Bs. por hora</span></h4>
+							<h4>Precio: <span class="label label-info"> Negociable</span></h4>
 							<p>
 								La hora hasta la fecha está en 2500 Bs. Pero es mejor llamar a los telefonos
 								para preguntar.
@@ -119,7 +119,7 @@
 						<img src="../img/consola1.jpg" height="2848" width="4288" class="img-responsive" alt="...">
 						<div class="caption">
 							<h3>Mezclas músicales</h3>
-							<h4>Precio: <span class="label label-info">Negociable</span></h4>
+							<h4>Precio: <span class="label label-info"> Negociable</span></h4>
 							<p>Según la disponbilidad del cliente se llegará de acuerdo por ambas partes podría ser
 							por horas o precio paquete.</p>
 						</div>
@@ -131,19 +131,19 @@
 
 				<div class="col-sm-6" id="#final">
 					<div class="thumbnail">
-						<img src="../img/consola2.jpg" class="img-responsive">
+						<img src="../img/consola2.jpg" class="img-responsive" height="2848" width="4288">
 						<div class="caption">
 							<h3>Masterización</h3>
-							<h4>Precio: <span class="label label-info">Negociable</span></h4>
+							<h4>Precio: <span class="label label-info"> Negociable</span></h4>
 							<p>Las masterizaciones se cobrá de la misma manera que las mezclas músicales</p>
 						</div>	
 					</div>
 				</div>
 
 
-				<div class="col-sm-6" id="final">
+				<div class="col-sm-6" id="#final">
 					<div class="thumbnail">
-						<img src="../img/DSCF9455.jpg" height="4288" width="2500" class="img-responsive" id="reducir">
+						<img src="../img/DSCF9467.jpg" height="2848" width="4288" class="img-responsive">
 						<div class="caption">
 							<h3>Producciones Músicales</h3>
 							<h4>Precio: <span class="label label-info">Negociable</span></h4>
@@ -190,8 +190,8 @@
 							<!--<li><a title="Whatsapp" data-toggle="popover" data-container="body" 
 								data-placement="top" data-content="+58 0416-905-57-06">
 								<i class="fa fa-whatsapp"></i></a></li> -->
-							<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href=""><i class="fa fa-twitter-square"></i></a></li>
+							<li><a href=""><i class="fa fa-instagram"></i></a></li>
 				</div>
 
 				<div class="col-md-4">

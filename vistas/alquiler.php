@@ -39,36 +39,36 @@
 					<ul class="nav navbar-nav">
 							
 						<li><a href="../index.php" id="elemento">
-							<i class="fa fa-home"></i>Inicio</a></li>
+							<i class="fa fa-home"></i> Inicio</a></li>
 							
 						<li class="dropdown" role="menu"> 
 								
 							<a href="" class="dropdown-toggle" data-toggle="dropdown">
-								<i class="fa fa-star-o"> </i>Servicios
+								<i class="fa fa-star-o"> </i> Servicios
 								<span class="caret"></span>
 								<ul class="dropdown-menu" role="menu">
 									<li><a href="estudio.php"><i class="fa fa-microphone"></i>
-										Estudio de grabación</a></li>
-									<li><a href="estudio.php"><i class="fa fa-microphone"></i>Nuestro equipamento</a></li>
-									<li><a href="#audiophone"><i class="fa fa-truck"></i>Alquiler de equipos</a></li>
+										 Estudio de grabación</a></li>
+									<li><a href="estudio.php"><i class="fa fa-microphone"></i> Nuestro equipamento</a></li>
+									<li><a href="#audiophone"><i class="fa fa-truck"></i> Alquiler de equipos</a></li>
 									<li class="divider"></li>
-									<li><a href="tarifas.php"><i class="fa fa-money"></i>Tarifas</a></li>
+									<li><a href="tarifas.php"><i class="fa fa-money"></i> Tarifas</a></li>
 								</ul>
 							</a>
 
 						</li>
 
-						<li><a id="elemento" href="clientes.php"><i class="fa fa-users"></i>Clientes</a></li>
+						<li><a id="elemento" href="clientes.php"><i class="fa fa-users"></i> Clientes</a></li>
 						<li><a  id="elemento" href="../#contactanos"><i class="fa fa-phone-square"></i> Contactanos</a></li>
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right">
 							
-							<li><a id="elemento2" href="https://www.facebook.com/estudio.audiophone?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+							<li><a id="elemento2" href=""><i class="fa fa-facebook-square fa-2x"></i></a></li>
 							<!--<li><a id="elemento2" title="Whatsapp" data-toggle="popover" data-container="body" 
 								data-placement="bottom" data-content="+58 0416-905-57-06"><i class="fa fa-whatsapp fa-2x"></i></a></li> -->
-							<li><a id="elemento2" href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-							<li><a id="elemento2" href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+							<li><a id="elemento2" href=""><i class="fa fa-twitter-square fa-2x"></i></a></li>
+							<li><a id="elemento2" href=""><i class="fa fa-instagram fa-2x"></i></a></li>
 					</ul>
 
 				</div>
@@ -157,12 +157,12 @@
 
 				<div class="col-sm-4">
 					<ul class="list-inline social-buttons">
-						<li><a href="https://www.facebook.com/estudio.audiophone?fref=ts"><i class="fa fa-facebook-square"></i></a></li>
+						<li><a href=""><i class="fa fa-facebook-square"></i></a></li>
 							<!--<li><a title="Whatsapp" data-toggle="popover" data-container="body" 
 								data-placement="top" data-content="+58 0416-905-57-06">
 								<i class="fa fa-whatsapp"></i></a></li> -->
-							<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href=""><i class="fa fa-twitter-square"></i></a></li>
+							<li><a href=""><i class="fa fa-instagram"></i></a></li>
 				</div>
 
 				<div class="col-md-4">
