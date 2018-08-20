@@ -7,13 +7,13 @@
 
     text-align: center;
     color: white;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
     font-style: italic;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
 
-.jumbotron > h1 {
+.jumbotron  h1 {
 
     text-transform: uppercase;
     color: white;
@@ -23,25 +23,43 @@
     font-weight: bold;
 }
 
+/*#reducir {
+
+    width: 1300px;
+    height: 550px;
+}*/
+
 
 #alquiler {
 
     background-color: #28667B;
     color: white;
-    font-style: italic;
     margin-top: -30px;
+}
+
+#alquiler p, h4 {
+
+    font-style: italic;
 }
 
 .col-sm-3 {
 
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 80px;
 }
 
 .col-sm-3 > h4 {
 
+    margin-top: 60px;
     margin-bottom: 40px;
     font-weight: bold;
+}
+
+.col-sm-3 > p {
+
+    line-height: 1.75;
+    font-size: 16px;
+
 }
 
 
@@ -99,6 +117,40 @@ footer a {
 
     color: black;
 }
+
+/*Color de fondo de los circulos*/
+
+span > i  {
+
+    background-color: #262626;
+    border-radius: 100px;
+}
+
+#alquiler h2 {
+
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+#boton4 {
+
+    background-color: black;
+    color: white;
+    border-color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+
+#boton4:hover, #boton4:active, #boton4:focus {
+
+    background-color:  #28667B;
+    color: white;
+    border-color: white;
+} 
 
 
 

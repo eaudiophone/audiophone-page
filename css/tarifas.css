@@ -93,7 +93,7 @@ header > .container {
 	margin-bottom: 30px;
 }
 
-#boton1:hover, #boton1:active, boton1:focus {
+#boton1:hover, #boton1:active, #boton1:focus {
 
 	background-color:  #28667B;
 	color: white;

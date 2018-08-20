@@ -51,7 +51,7 @@
 									<li><a href="estudio.php"><i class="fa fa-microphone"></i>
 										 Estudio de grabación</a></li>
 									<li><a href="estudio.php"><i class="fa fa-microphone"></i> Nuestro equipamento</a></li>
-									<!-- <li><a href="alquiler.php"><i class="fa fa-truck"></i> Alquiler de equipos</a></li> -->
+									<li><a href="alquiler.php"><i class="fa fa-truck"></i> Alquiler de equipos</a></li> 
 									<li class="divider"></li>
 									<li><a href="tarifas.php"><i class="fa fa-money"></i> Tarifas</a></li>
 								</ul>

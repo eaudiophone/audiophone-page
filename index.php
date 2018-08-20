@@ -57,7 +57,7 @@
 									<li><a href="#estudio"><i class="fa fa-microphone"></i>
 										 Estudio de grabación</a></li>
 									<li><a href="#equipamento"><i class="fa fa-microphone"></i>  Nuestro equipamento</a></li>
-									<!--<li><a href="#alquiler"><i class="fa fa-truck"></i>Alquiler de equipos</a></li> --> 
+									<li><a href="#alquiler"><i class="fa fa-truck"></i> Alquiler de equipos</a></li>
 									<li class="divider"></li>
 									<li><a data-scroll href="#tarifas"><i class="fa fa-money"></i> Tarifas</a></li>
 								</ul>
@@ -291,7 +291,8 @@
 			</div>
 		</section>
 
-		<!-- Seccion de alquiler de equipos
+		<!-- Secccion de laquiler -->
+
 		<section id="alquiler">
 			<div class="container-fluid">
 				<div class="row">
@@ -305,7 +306,7 @@
 					</div>
 				</div>
 			</div>
-		</section>  -->
+		</section>  
 
 		<!-- Seccion de los clientes -->
 

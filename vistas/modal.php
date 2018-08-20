@@ -102,6 +102,7 @@
 			<div class="modal-body" id="cuerpo"> <!-- cuerpo del modal -->
 				<ul>
 					<li>Solo se realiza el servicio dentro de la ciudad de Caracas.</li>
+					<li>Ofrecemos el paquete completo de alquiler de equipos.</li>
 					<li>
 						Prohibido la utilización de este servicio a menores de 18 años. 
 						A menos que este autorizado por su representante legal.

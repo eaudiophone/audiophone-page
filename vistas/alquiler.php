@@ -77,9 +77,16 @@
 
 	<!-- ======================================================================================= -->
 
-	<header id="audiophone">
+	<section>
+		<div class="container-fluid">
+			<div class="row">
+				<img src="./../img/Imagen0096.jpg" class="img-responsive" id="reducir">
+			</div>
+		</div>
+	</section>
 
-		<!-- Colocar imagen aqui -->
+
+	<header id="audiophone">
 
 		<div class="jumbotron">
 			<h1>alquiler de equipos</h1>
@@ -87,18 +94,36 @@
 				Tambien ofrecemos servicio de alquier de equipos desde sonidos de grupos musicales
 				hasta minitecas para sus fiestas y eventos en la ciudad de Caracas.  
 			</p>
+			<center>
+				<a href="../#contactanos" type="button" class="btn btn-default btn-lg" id="boton4">
+					Contáctanos
+				</a>
+			<center>
 		</div>
 	</header>
 
 	<section id="alquiler">
 		<div class="container">
 			<div class="row">
+				<div class="col-sm-12">
+					<h2>¿que paquete ofrecemos?</h2>
+				</div>
+
 				<div class="col-sm-3 text-center">
-					<h4>Sonidos</h4>
+					<span class="fa-stack fa-4x">
+						<i class="fa fa-circle fa-stack-2x text-primary"></i>
+						<i class="fa fa-music fa-stack-1x fa-inverse"></i>
+					</span>
+					<h4>Sonido</h4>
 					<p>Incluye todo tipo de salida de audio desde sub-bajo, monitores, satelites
 						y cornetas de alta gamma para ambientar sus fiestas y eventos</p>
 				</div>
 				<div class="col-sm-3 text-center">
+
+					<span class="fa-stack fa-4x">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-headphones fa-stack-1x fa-inverse"></i>
+					</span>
 					<h4>Display</h4>
 					<p>
 						Tenemos dispositivos de salidas de audio como mezcladores y consolas para
@@ -106,12 +131,22 @@
 					</p>
 				</div>
 				<div class="col-sm-3 text-center">
+
+					<span class="fa-stack fa-4x">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-eye fa-stack-1x fa-inverse"></i>
+					</span>
 					<h4>Luces</h4>
 					<p>
 						Incluye todo tipo de luces de miniteca para dar vida a sus eventos
 					</p>	
 				</div>
 				<div class="col-sm-3 text-center">
+
+					<span class="fa-stack fa-4x">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-truck fa-stack-1x fa-inverse"></i>
+					</span>
 					<h4>Transporte</h4>
 					<p>
 						Incluye transporte de los equipos.
