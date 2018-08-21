@@ -328,6 +328,8 @@
 			</div>
 		</section>
 		
+		<!-- Seccion de tarifas -->
+
 		<section id="tarifas">
 			<div class="container responsive">
 				<div class="row">
@@ -352,12 +354,14 @@
 			</div>
 		</section>
 
+		<!-- Sección de contáctanos -->
+
 		<section id="contactanos">
 			
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-offset-4 col-sm-8">
-						<h1 class="section-heading">Contáctanos</h1>
+						<h1 class="section-heading">contáctanos</h1>
 						<h3 class="section-subheading">¿Preparado para una sesión músical?</h3>
 						<p>
 							
@@ -372,6 +376,8 @@
 				</div>
 				
 		</section>
+
+		<!-- Seccion de dreccion -->
 
 		<section id="direccion">
 			<div class="container-fluid">
@@ -399,7 +405,7 @@
 			include('./vistas/modal.php');
 		?>	
 
-		<!-- Fin ventana modal -->
+		<!-- JavaScript -->
 
 		<script src="./js/jquery.js"></script>
 		<script src="./js/bootstrap.min.js"></script>
@@ -421,15 +427,9 @@
 		})
 
 		</script>
+	
+	</body>  <!-- Fin del body -->
 
-	<!-- Seccion de Collage2 -->
-		<section id="collage2">
-			<div class="container"></div>
-		</section>
-
-	<!-- Fin del body -->
-
-	</body>
 	<footer>
 
 		<div class="container-fluid">

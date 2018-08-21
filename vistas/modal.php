@@ -110,7 +110,7 @@
 					<li>Para el servicio del estudio se cobra la tarifa por hora.</li>
 					<li>
 						Cualquier sugerencia o reclamo dirigirse a los números que indican en 
-						la sección de contactanos.
+						la sección de Contáctanos.
 					</li>
 					<li>
 						Tenga en cuenta si se realiza grabaciones afuera del estudio. Se le cobrará

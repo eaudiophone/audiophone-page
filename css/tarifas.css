@@ -32,6 +32,7 @@ header {
 header > .container > h1 {
 
 	font-size: 50px;
+	font-weight: bold;
 }
 
 header > .container {
@@ -74,8 +75,8 @@ header > .container {
 .jumbotron > p {
 
 	font-style: italic;
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 90px;
+	margin-right: 90px;
 	margin-bottom: 100px;
 	border-color: black;
 	color: white;

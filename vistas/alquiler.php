@@ -77,22 +77,21 @@
 
 	<!-- ======================================================================================= -->
 
-	<section>
+	<header id="audiophone">
 		<div class="container-fluid">
 			<div class="row">
 				<img src="./../img/Imagen0096.jpg" class="img-responsive" id="reducir">
 			</div>
 		</div>
-	</section>
+	</header>
 
 
-	<header id="audiophone">
-
+	<section id="intro">
 		<div class="jumbotron">
 			<h1>alquiler de equipos</h1>
 			<p>
 				Tambien ofrecemos servicio de alquier de equipos desde sonidos de grupos musicales
-				hasta minitecas para sus fiestas y eventos en la ciudad de Caracas.  
+				hasta minitecas para sus fiestas y eventos en la ciudad de Caracas. Contáctatanos para solicitar un presupuesto. 
 			</p>
 			<center>
 				<a href="../#contactanos" type="button" class="btn btn-default btn-lg" id="boton4">
@@ -100,7 +99,7 @@
 				</a>
 			<center>
 		</div>
-	</header>
+	</section>
 
 	<section id="alquiler">
 		<div class="container">
@@ -138,7 +137,7 @@
 					</span>
 					<h4>Luces</h4>
 					<p>
-						Incluye todo tipo de luces de miniteca para dar vida a sus eventos
+						Incluye todo tipo de luces para dar vida a sus eventos nocturnos.
 					</p>	
 				</div>
 				<div class="col-sm-3 text-center">
@@ -149,7 +148,7 @@
 					</span>
 					<h4>Transporte</h4>
 					<p>
-						Incluye transporte de los equipos.
+						Todo el servicio de alquiler, incluye transporte de los equipos. 
 					</p>	
 				</div>
 			</div>

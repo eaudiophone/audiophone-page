@@ -82,14 +82,14 @@
 
 			<header id="audiophone">
 				<div class="container">
-					<h1>tarifas</h1>
+					<h1>precios y tarifas</h1>
 				</div>
 			</header>
 			
 			<div class="jumbotron">
 					<p>
 					Somos flexibles en nuestras tarifas, especialmente para los más reservados. 
-					Nuestra pasión es ayudar a los músicos locales a que realicen grabaciones con impresionante sonido.<br>
+					Nuestra pasión es ayudar a los músicos locales a que realicen grabaciones con impresionante sonido.
 					Todas las tarifas incluyen un ingeniero de sonido.
 				</p>
 				<center><a href="../#contactanos" type="button" class="btn btn-default btn-lg" id="boton1">Contáctanos</a></center>	
@@ -106,7 +106,7 @@
 							<h3>Tiempo de Grabación</h3>
 							<h4>Precio: <span class="label label-info"> Negociable</span></h4>
 							<p>
-								La hora hasta la fecha está en 2500 Bs. Pero es mejor llamar a los telefonos
+								El precio actual de la hora de grabación puede variar. Es mejor llamar a los telefonos
 								para preguntar.
 							</p>
 						</div>
