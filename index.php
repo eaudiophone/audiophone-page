@@ -71,15 +71,15 @@
 
 					<ul class="nav navbar-nav navbar-right">
 							
-							<li><a id="elemento2" href=""><i class="fa fa-facebook-square fa-2x"></i></a></li>
+							<li><a id="elemento2" href="https://www.facebook.com/estudio.audiophone"><i class="fa fa-facebook-square fa-2x"></i></a></li>
 							
 							<!--<li>
 								<a id="elemento2" title="Whatsapp" data-toggle="popover" data-container="body" 
 								data-placement="bottom" data-content="+58 0416-905-57-06">
 								<i class="fa fa-whatsapp fa-2x"></i></a>
 							</li>-->
-							<li><a id="elemento2" href=""><i class="fa fa-twitter-square fa-2x"></i></a></li>
-							<li><a id="elemento2" href=""><i class="fa fa-instagram fa-2x"></i></a></li>
+							<!-- <li><a id="elemento2" href=""><i class="fa fa-twitter-square fa-2x"></i></a></li> -->
+							<li><a id="elemento2" href="https://www.instagram.com/estudio_audiophone/"><i class="fa fa-instagram fa-2x"></i></a></li>
 					</ul>
 
 				</div>
@@ -368,7 +368,7 @@
 							Llámenos al número local (0212) 8616101 o al (0416) 9055706<br>
 							<br>
 
-							Puede ubicarnos en las Redes Sociales: Facebook, Twitter, <br> 
+							Puede ubicarnos en las Redes Sociales: Facebook, <br> 
 							Whatsapp e Instagram.
 						<p>	
 					</div>
@@ -442,12 +442,12 @@
 
 				<div class="col-sm-4">
 					<ul class="list-inline social-buttons">
-						<li><a href=""><i class="fa fa-facebook-square"></i></a></li>
+						<li><a href="https://www.facebook.com/estudio.audiophone"><i class="fa fa-facebook-square"></i></a></li>
 							<!--<li><a title="Whatsapp" data-toggle="popover" data-container="body" 
 								data-placement="top" data-content="+58 0416-905-57-06">
 								<i class="fa fa-whatsapp"></i></a></li> -->
-							<li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-							<li><a href=""><i class="fa fa-instagram"></i></a></li>
+							<!-- <li><a href=""><i class="fa fa-twitter-square"></i></a></li> -->
+							<li><a href="https://www.instagram.com/estudio_audiophone/"><i class="fa fa-instagram"></i></a></li>
 				</div>
 
 				<div class="col-md-4">
