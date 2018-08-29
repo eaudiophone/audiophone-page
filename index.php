@@ -365,7 +365,8 @@
 						<h3 class="section-subheading">¿Preparado para una sesión músical?</h3>
 						<p>
 							
-							Llámenos al número local (0212) 8616101 o al (0416) 9055706<br>
+							Llámenos al número <b>+58</b> (0416) 9055706 o al correo
+							electronico: <b>eaudiophonesa@gmail.com</b><br>
 							<br>
 
 							Puede ubicarnos en las Redes Sociales: Facebook, <br> 
