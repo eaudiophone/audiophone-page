@@ -21,10 +21,10 @@
 
 	</head>
 	<body>
-			
+
 		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<div class="container-fluid">
-					
+
 			<!-- Creacion del menú de código -->
 
 			<div class="navbar-header page-scroll">
@@ -40,23 +40,23 @@
 					<a data-scroll href="#inicio" class="navbar-brand page-scroll">Audiophone</a>
 
 				</div> <!-- Fin del Navbar header -->
-					
+
 				<div class="collapse navbar-collapse" id="collapse1">
-						
+
 					<ul class="nav navbar-nav">
-							
+
 						<li><a href="#inicio" id="elemento">
 							<i class="fa fa-home"></i> Inicio</a></li>
-							
-						<li class="dropdown" role="menu"> 
-								
+
+						<li class="dropdown" role="menu">
+
 							<a href="" class="dropdown-toggle" data-toggle="dropdown">
 								<i class="fa fa-star-o"> </i>  Servicios
 								<span class="caret"></span>
 								<ul class="dropdown-menu" role="menu">
 									<li><a href="#estudio"><i class="fa fa-microphone"></i>
 										 Estudio de grabación</a></li>
-									<li><a href="#equipamento"><i class="fa fa-microphone"></i>  Nuestro equipamento</a></li>
+									<li><a href="#equipamento"><i class="fa fa-microphone"></i>  Nuestro equipamiento</a></li>
 									<li><a href="#alquiler"><i class="fa fa-truck"></i> Alquiler de equipos</a></li>
 									<li class="divider"></li>
 									<li><a data-scroll href="#tarifas"><i class="fa fa-money"></i> Tarifas</a></li>
@@ -70,9 +70,9 @@
 					</ul>
 
 					<ul class="nav navbar-nav navbar-right">
-							
+
 							<li><a id="elemento2" href="https://www.facebook.com/estudio.audiophone"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-							
+
 							<!--<li>
 								<a id="elemento2" title="Whatsapp" data-toggle="popover" data-container="body" 
 								data-placement="bottom" data-content="+58 0416-905-57-06">
@@ -84,8 +84,8 @@
 
 				</div>
 			</div>
-		</nav> <!-- Fin del navbar -->	
-		
+		</nav> <!-- Fin del navbar -->
+
 		<!-- Carrusel de imagenes -->
 
 	<section id="inicio">
@@ -95,7 +95,7 @@
 		<!-- Indicadores -->
 
 			<ol class="carousel-indicators">
-				
+
 				<li data-target="#carousel1" data-slide-to="0" class="active"></li>
 				<li data-target="#carousel1" data-slide-to="1" class="active"></li>
 				<li data-target="#carousel1" data-slide-to="2" class="active"></li>
@@ -170,7 +170,7 @@
 		<!-- Fin del carrusel -->
 	</section>
 
-		
+
 
 		<section id="intro">
 
@@ -184,7 +184,7 @@
 							Dentro de nuestras instalaciones realizamos todo tipo de grabaciones con 
 							alta calidad profesional e impecable con las reproduciones de audio.
 						</p>
-					
+
 					</div>
 
 					<div class="col-sm-4">
@@ -192,7 +192,7 @@
 						<h4>Mezclas</h4><br>
 						<p class="inferior">
 							En el mismo estudio realizamos mezclas de todo tipo de música, con su respectiva calidad
-							de audio. 
+							de audio.
 						</p>
 					</div>
 
@@ -206,7 +206,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 		</section>
 
 		<section id="estudio">
@@ -222,19 +222,19 @@
 					</div>
 				</div>
 					<div class="row">
-			
+
 						<!-- col-sm-push-1: desplaza el objeto un lado hacia la derecha  -->	
 
 							<div class="col-sm-10 col-sm-push-1">
 								<div class="thumbnail">
 									<img src="img/estudio6.jpg" height="3216" width="4288" class="img-responsive" id="imagen">
-								
+
 									<div class="caption">
 										<a href="#galeria1" class="btn btn-default portfolio-link" type="button" data-toggle="modal">
 										<i class="fa fa-eye"></i> Ver detalles
 									</a>
 									</div>
-								
+
 								</div>
 							</div>
 					</div>
@@ -245,10 +245,10 @@
 
 		<section id="equipamento">
 			<div class="container-fluid text-center">
-				
+
 				<div class="row">
-					
-					<h1>nuestro equipamento</h1>
+
+					<h1>nuestro equipamiento</h1>
 
 					<div class="col-sm-4 col-xs-12">
 						<img src="img/caset.png" class="img-responsive img-centered2">
@@ -306,7 +306,7 @@
 					</div>
 				</div>
 			</div>
-		</section>  
+		</section>
 
 		<!-- Seccion de los clientes -->
 
@@ -324,10 +324,10 @@
 							<a href="vistas/clientes.php" type="button" class="btn btn-info">Ver más artistas</a>
 					</div>
 
-				</div>	
+				</div>
 			</div>
 		</section>
-		
+
 		<!-- Seccion de tarifas -->
 
 		<section id="tarifas">

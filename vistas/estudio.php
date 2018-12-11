@@ -53,7 +53,7 @@
 								<ul class="dropdown-menu" role="menu">
 									<li><a href="#audiophone"><i class="fa fa-microphone"></i>
 										 Estudio de grabación</a></li>
-									<li><a href="#equipos"><i class="fa fa-microphone"></i> Nuestro equipamento</a></li>
+									<li><a href="#equipos"><i class="fa fa-microphone"></i> Nuestro equipamiento</a></li>
 									<li><a href="alquiler.php"><i class="fa fa-truck"></i> Alquiler de equipos</a></li> 
 									<li class="divider"></li>
 									<li><a href="tarifas.php"><i class="fa fa-money"></i> Tarifas</a></li>
