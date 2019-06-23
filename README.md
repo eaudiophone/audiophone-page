@@ -1,4 +1,4 @@
-REPOSITORIO DE LA PAGINA WEB DEL ESTUDIO AUDIOPHONE
+## REPOSITORIO DE LA PAGINA WEB DEL ESTUDIO AUDIOPHONE
 
 Diseño del portal del estudio audiophone.
 
@@ -9,7 +9,7 @@ Que contiene
  - JQuery
  - JavaScript
 
-Instalación:
+### Instalación:
 
 Incluye en tu directorio en tu servidor web, asigna los permisos de acceso y visualizalo 
-localmente en tu navegador. 
+localmente en tu navegador desde localhost. 
