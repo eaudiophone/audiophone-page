@@ -170,8 +170,6 @@
 		<!-- Fin del carrusel -->
 	</section>
 
-
-
 		<section id="intro">
 
 			<div class="container">
@@ -200,7 +198,7 @@
 						<img src="img/masterizacion.png" height="112" width="112" class="img-responsive img-centered"><br>
 						<h4>Masterizaciones</h4><br>
 						<p>
-							Además se realizan materizaciones de audio con calidad profesional correspondiente a la peticion
+							Además se realizan masterizaciones de audio con calidad profesional correspondiente a la peticion
 							del cliente.
 						</p>
 					</div>
@@ -461,5 +459,3 @@
 		</div>	
 	</footer>
 	</html>
-
-

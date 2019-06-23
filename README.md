@@ -3,13 +3,12 @@
 Diseño del portal del estudio audiophone.
 
 Que contiene
- - html5
+ - HTML5
  - Boostrap 3.7
- - Css
+ - CSS
  - JQuery
  - JavaScript
 
-### Instalación:
+### INSTALACIÓN:
 
-Incluye en tu directorio en tu servidor web, asigna los permisos de acceso y visualizalo 
-localmente en tu navegador desde localhost. 
+Incluye en tu directorio en tu servidor web, asigna los permisos de acceso y visualizalo localmente en tu navegador desde localhost. 
