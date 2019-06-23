@@ -1,7 +1,15 @@
-ESTE ES EL REPOSITORIO DEL PROYECTO DE EAUDIOPHONE
+REPOSITORIO DE LA PAGINA WEB DEL ESTUDIO AUDIOPHONE
 
 Diseño del portal del estudio audiophone.
 
-ATENCIÓN: Este repositorio está protegido por las leyes de derechos de autor
-puede ser distribuido solamente por la autorización por el dueño de la empresa
-bajo su consentimiento.
+Que contiene
+ - html5
+ - Boostrap 3.7
+ - Css
+ - JQuery
+ - JavaScript
+
+Instalación:
+
+Incluye en tu directorio en tu servidor web, asigna los permisos de acceso y visualizalo 
+localmente en tu navegador. 
