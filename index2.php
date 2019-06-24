@@ -6,26 +6,34 @@
 		<title>Audiophone S.A</title>
 		<!-- CSS -->
 		<link rel="stylesheet" href="./css/bootstrap-4.0.css">
+		<link rel="stylesheet" href="./css/index2.css">
 	</head>
 	<body>
 		<!-- =============================== -->
 		<!-- 		Header 					 -->
 		<!-- =============================== -->
 		<header>
-			<div class="container-fluid p-0">
-				encabezado
-			</div>
+			<!-- Carousel -->
+			<?php  include('./component/carousel.php'); ?>
 		</header>
+		<!-- =============================== -->
+		<!-- 		Navbar 					 -->
+		<!-- =============================== -->
+		<section>
+			
+		</section>
 		<!-- =============================== -->
 		<!-- 		Acerca 			     -->
 		<!-- =============================== -->
 		<section>
-			<div class="container-fluid p-0">
+			<div class="container-fluid p-0 pt-5 pb-5" id="acerca">
 				<div class="row">
-					<div class="col-sm-12 col-md-6">Imagen</div>
-					<div class="col-sm-12 col-md-6">
-						<h4>¿Quienes Somos?</h4>
-						<article class="text-justify">
+					<div class="col-sm-12 col-md-4 p-0 text-right">
+						<img src="./img/LogoEA.png" class=" img img-fluid">
+					</div>
+					<div class="col-sm-12 col-md-8 pt-4">
+						<h4 class="text-center">¿Quienes Somos?</h4>
+						<article class="text-justify ml-5 mr-5 pt-4">
 							Somos un grupo de músicos profesionales con muchos años de experiencia
 							dentro de la industria de la música. Nuestra misión y pasión es ofrecer
 							siempre la mejor experiencia musical para nuestros clientes.
@@ -38,28 +46,30 @@
 		<!-- 		Servicios 				 -->
 		<!-- =============================== -->
 		<section>
-			<div class="container-fluid p-0" id="intro">
+			<div class="container-fluid pt-5" id="intro">
+				<h2 class="text-center pb-5">Nuestros servicios</h2>
 				<div class="row">
-					<div class="col-md-4 col-sm-12">
-						<h4>Estudio de Grabación</h4>
-						<p class="text-justify">
+					<div class="col-md-4 col-sm-12 text-center">
+						<img src="./img/disco.png" class="img img-fluid">
+						<h4 class="pt-5">Estudio de Grabación</h4>
+						<p class="padding">
 							Contamos con un estudio de grabación equipado con mejores herramientas,
 							para una calidad de audio impecable en un ambiente íntimo.
 						</p>
 					</div>
-					<div class="col-md-4 col-sm-12">
-						<h4>Alquiler de Equipos para Fiestas y Eventos</h4>
-						<p class="text-justify">
-							Ofrecemos servicio de alquiler de equipos para realizar sonidos a grupos 
-							músicales e incluso minitecas para sus fiestas y eventos dentro de la 
-							ciudad de Caracas.
+					<div class="col-md-4 col-sm-12 text-center">
+						<img src="img/mezcla.png" class="img img-fluid">
+						<h4 class="pt-5">Alquiler de Equipos para Fiestas y Eventos</h4>
+						<p class="padding">
+							Ofrecemos servicio de alquiler de equipos para realizar sonidos a grupos músicales e incluso minitecas para sus fiestas y eventos
+							dentro de la ciudad de Caracas.
 						</p>
 					</div>
-					<div class="col-md-4 col-sm-12">
-						<h4>Contratación de Grupos Músicales</h4>
-						<p class="text-justify"> 
-							Para ofrecer el mejor ambiente en sus fiestas y eventos contamos con el 
-							apoyo de diversos grupos de músicos profesionales. 
+					<div class="col-md-4 col-sm-12 text-center">
+						<img src="img/masterizacion.png" class="img img-fluid"><br>
+						<h4 class="pt-5">Contratación de Grupos Músicales</h4>
+						<p class="padding"> 
+							Para ofrecer el mejor ambiente en sus fiestas y eventos, contamos con el apoyo de diversos grupos de músicos profesionales. 
 						</p>
 					</div>
 				</div>
@@ -209,7 +219,8 @@
 							Av. Principal de Manicomio Esq. Trinchera, <br> 
 							vaya despues de la bomba de gasolina y en la tercera parada del <br> 
 							metrobus de Agua Salud. Casa N° 152 La Pastora,<br> 
-							Caracas, Venezuela</p>
+							Caracas, Venezuela
+						</p>
 					</div>
 					<div class="col-sm-12 col-md-6 text-center">
 						<h4>Horario de trabajo:</h4>
