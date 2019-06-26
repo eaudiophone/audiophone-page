@@ -10,38 +10,36 @@
 	</head>
 	<body>
 		<!-- =============================== -->
+		<!-- 		Navbar 					 -->
+		<!-- =============================== -->
+		<?php include('./component/navbar.php'); ?>
+
+		<!-- =============================== -->
 		<!-- 		Header 					 -->
 		<!-- =============================== -->
 		<header>
-			<!-- Carousel -->
-			<?php  include('./component/carousel.php'); ?>
-		</header>
-		<!-- =============================== -->
-		<!-- 		Navbar 					 -->
-		<!-- =============================== -->
-		<section>
-			
-		</section>
-		<!-- =============================== -->
-		<!-- 		Acerca 			     -->
-		<!-- =============================== -->
-		<section>
-			<div class="container-fluid p-0 pt-5 pb-5" id="acerca">
+			<div class="container-fluid" id="header">
 				<div class="row">
-					<div class="col-sm-12 col-md-4 p-0 text-right">
-						<img src="./img/LogoEA.png" class=" img img-fluid">
+					<div class="col-sm-12 col-md-6">
+						<div class="d-flex flex-column align-items-center 
+						justify-content-center text-center pt-4">
+							<h1>Estudios Audiophone</h1>
+							<h3 class="pt-3" style="font-style: italic;">
+								"El que plasma tu talento en una grabación"
+							</h3>
+							<div class="pt-3 align-self-center">
+								<a href="" class="btn btn-info btn-lg">
+									Ver más 
+								</a>	
+							</div>
+						</div>
 					</div>
-					<div class="col-sm-12 col-md-8 pt-4">
-						<h4 class="text-center">¿Quienes Somos?</h4>
-						<article class="text-justify ml-5 mr-5 pt-4">
-							Somos un grupo de músicos profesionales con muchos años de experiencia
-							dentro de la industria de la música. Nuestra misión y pasión es ofrecer
-							siempre la mejor experiencia musical para nuestros clientes.
-						</article>
+					<div class="col-sm-12 col-md-6 p-0">
+						<img src="./img/consola2.jpg" class="w-100" alt="imagen">
 					</div>
 				</div>
-			</div>
-		</section>
+			</div>	
+		</header>
 		<!-- =============================== -->
 		<!-- 		Servicios 				 -->
 		<!-- =============================== -->
@@ -76,10 +74,23 @@
 			</div>
 		</section>
 		<!-- =============================== -->
+		<!-- 		Comentario 				-->
+		<!-- =============================== -->
+		<section>
+			<div class="row text-center pt-5 pb-5 pl-5 pr-5" id="comentario">
+				<div class="col-12">
+					<h3 class="comment">
+						"Una forma de crear piezas músicales con calidad profesional y 
+						con servicio personalizado" 
+					</h3>
+				</div>
+			</div>
+		</section>
+		<!-- =============================== -->
 		<!-- 		Tarifas 					 -->
 		<!-- =============================== -->
 		<section>
-			<div class="container-fluid p-4">
+			<div class="container-fluid p-4" id="tarifas">
 				<div class="row">
 					<!-- Accordion menu -->
 					<div class="col-12">

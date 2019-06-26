@@ -1,6 +1,16 @@
 body {
 	font-family: helvetica;
-	overflow-x:hidden;  
+	overflow-x:hidden;
+}
+
+#header {
+	background-color: #262626;
+	color: white;
+}
+
+#header h1 {
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 #acerca {
@@ -14,10 +24,6 @@ body {
 	font-weight: bold;
 }
 
-.img {
-	max-width: 200px;
-}
-
 #intro {
 	background-color: black;
 	color: white;
@@ -28,6 +34,11 @@ h2 {
 	font-weight: bold;
 }
 
+#tarifas {
+	background-color: #262626;
+	color: white;
+}
+
 .padding {
 	padding-top: 30px;
 	padding-right: 30px;
@@ -35,4 +46,9 @@ h2 {
 	padding-bottom: 50px;
 	font-style: italic;
 	text-align: justify;
+}
+
+.comment {
+	font-weight: bold;
+	font-style: italic;
 }
