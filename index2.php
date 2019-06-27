@@ -13,46 +13,69 @@
 		<!-- 		Navbar 					 -->
 		<!-- =============================== -->
 		<?php include('./component/navbar.php'); ?>
-
 		<!-- =============================== -->
 		<!-- 		Header 					 -->
 		<!-- =============================== -->
 		<header>
-			<div class="container-fluid" id="header">
+			<div class="text-center pt-5 pb-5">
+				<hgroup>
+					<h1>Estudios Audiophone</h1>
+					<h3>"El que plasma tu talento en una grabación"</h3>
+				</hgroup>
+			</div>
+		</header>
+
+		<!-- =============================== -->
+		<!-- 		Intro 					 -->
+		<!-- =============================== -->
+		<section>
+			<div class="container-fluid" id="intro">
 				<div class="row">
-					<div class="col-sm-12 col-md-6">
-						<div class="d-flex flex-column align-items-center 
-						justify-content-center text-center pt-4">
-							<h1>Estudios Audiophone</h1>
-							<h3 class="pt-3" style="font-style: italic;">
-								"El que plasma tu talento en una grabación"
-							</h3>
-							<div class="pt-3 align-self-center">
-								<a href="" class="btn btn-info btn-lg">
-									Ver más 
-								</a>	
-							</div>
-						</div>
+					<div class="col-sm-12 col-md-6 flex text-center padding">
+						<h4 class="flex-child">
+							"Estudio músical de alta gamma en un ambiente intimo"
+						</h4>
 					</div>
 					<div class="col-sm-12 col-md-6 p-0">
-						<img src="./img/consola2.jpg" class="w-100" alt="imagen">
+						<img src="./img/estudio6.jpg" class="w-100" alt="imagen">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-6 p-0">
+						<img src="./img/Imagen0091.jpg" class="w-100" alt="imagen">
+					</div>
+					<div class="col-sm-12 col-md-6 padding flex text-center">
+						<h4 class="flex-child">
+							"Servicio de alquiler de equipos para sus fiestas y eventos en la 
+							ciudad de Caracas". 
+						</h4>
+					</div>
+					
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-6 flex text-center padding">
+						<h4 class="flex-child">
+							"Contamos y ofrecemos apoyo a grupos de músicales de la industria". 
+						</h4>
+					</div>
+					<div class="col-sm-12 col-md-6 p-0">
+						<img src="./img/Collage04.png" class="w-100" alt="imagen">
 					</div>
 				</div>
 			</div>	
-		</header>
+		</section>
 		<!-- =============================== -->
 		<!-- 		Servicios 				 -->
 		<!-- =============================== -->
 		<section>
-			<div class="container-fluid pt-5" id="intro">
+			<div class="container-fluid pt-5" id="servicios">
 				<h2 class="text-center pb-5">Nuestros servicios</h2>
 				<div class="row">
 					<div class="col-md-4 col-sm-12 text-center">
 						<img src="./img/disco.png" class="img img-fluid">
 						<h4 class="pt-5">Estudio de Grabación</h4>
 						<p class="padding">
-							Contamos con un estudio de grabación equipado con mejores herramientas,
-							para una calidad de audio impecable en un ambiente íntimo.
+							Contamos con un estudio de grabación equipado con mejores equipos, para una calidad de audio impecable.
 						</p>
 					</div>
 					<div class="col-md-4 col-sm-12 text-center">
@@ -90,128 +113,76 @@
 		<!-- 		Tarifas 					 -->
 		<!-- =============================== -->
 		<section>
-			<div class="container-fluid p-4" id="tarifas">
+			<div class="container-fluid p-5" id="tarifas">
+				<h2 class="text-center pb-5">precios y tarifas</h2>
 				<div class="row">
-					<!-- Accordion menu -->
-					<div class="col-12">
-						<div id="accordion">
-							<div class="card">
-								<div class="card-header text-center">
-									<h5 class="mb-0">
-        								<button class="btn btn-link" data-toggle="collapse" 
-        								data-target="#record" aria-expanded="true" 
-        								aria-controls="collapseOne">
-         									 Estudio de Grabación
-        								</button>
-      								</h5>				
-								</div>
-								<div id="record" class="collapse" data-parent="#accordion">
-									<div class="card-body">
-										<div class="row">
-											<div class="col-md-3 col-sm-12">
-												<h5>Incluye:</h5>
-												<ul>
-													<li>Masterización</li>
-													<li>Mezclas</li>
-													<li>Producciones Musicales</li>
-												</ul>
-											</div>
-											<div class="col-md-7 col-sm-12">
-												<article class="text-justify">
-													El precio actual de la hora de grabación puede variar. 
-													Según la disponibilidad del cliente se llegará a un 
-													acuerdo por ambas partes.
-												</article>
-											</div>
-											<div class="col-md-2 col-sm-12 text-center">
-												<h5>Precio:</h5>
-												<span class="badge badge-success">Negociable</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="card">
-								<div class="card-header text-center">
-									<h5 class="mb-0">
-        								<button class="btn btn-link" data-toggle="collapse" 
-        								data-target="#rental" aria-expanded="true" 
-        								aria-controls="collapseTwo">
-         									 Alquiler de equipos
-        								</button>
-      								</h5>				
-								</div>
-								<div id="rental" class="collapse" data-parent="#accordion">
-									<div class="card-body">
-										<div class="row">
-											<div class="col-sm-12 col-md-3">
-												<h4>Incluye:</h4>
-												<ul>
-													<li>sub-bajos, monitores y satelites</li>
-													<li>Mezcladores y consolas de minitecas</li>
-													<li>Luces</li>
-													<li>Transporte de equipos</li>
-													<li>Presupuesto</li>
-												</ul>
-											</div>
-											<div class="col-sm-12 col-md-7">
-												<article class="text-justify">
-													Para contratar el servicio de alquiler, se necesita 
-													contactar directamente a la empresa, el precio puede 
-													variar.
-												</article>
-											</div>
-											<div class="col-sm-12 col-md-2 text-center">
-												<h5>Precio:</h5>
-												<span class="badge badge-success">Negociable</span>
-											</div>
-										</div>
-									</div>
-								</div>	
-							</div>
-							<div class="card">
-								<div class="card-header text-center">
-									<h5 class="mb-0">
-        								<button class="btn btn-link" data-toggle="collapse" 
-        								data-target="#group" aria-expanded="true" 
-        								aria-controls="collapseThree">
-         									 Grupo Musical
-        								</button>
-      								</h5>				
-								</div>
-								<div id="group" class="collapse" data-parent="#accordion">
-									<div class="card-body">
-										<div class="row">
-											<div class="col-sm-12 col-md-3">
-												<h5>Incluye:</h5>
-												<ul>
-													<li>Presupuesto</li>
-													<li>Músicos profesionales</li>
-													<li>Servicio personalizado</li>
-													<li>Servicio de sonido incluido</li>
-												</ul>
-											</div>
-											<div class="col-sm-12 col-md-7">
-												<article>
-													Para solicitar los servicios del grupo musical,
-													 contactar directamente con nosotros.
-												</article>
-											</div>
-											<div class="col-sm-12 col-md-2 text-center">
-												<h5>Precio:</h5>
-												<span class="badge badge-success">Negociable</span>
-											</div>
-										</div>
-									</div>
-								</div>
+					<div class="col-md-4">
+						<div class="card">
+							<img src="./img/DSC_6376.jpg" class="card-img-top w-100" alt="">
+							<div class="card-body">
+								<h5 class="card-title">
+									Estudio de Grabación
+								</h5>
+								<p>Incluye:</p>
+								<ul>
+									<li>Masterización</li>
+									<li>Mezclas</li>
+									<li>Producciones Musicales</li>
+								</ul>
+								<p class="text-justify p-1">
+									El precio actual de la hora de grabación puede variar. 
+									Según la disponibilidad del cliente se llegará a un 
+									acuerdo por ambas partes.
+								</p>
 							</div>
 						</div>
 					</div>
-
-				</div>		
+					<div class="col-md-4">
+						<div class="card">
+							<img src="./img/Imagen0095.jpg" class="card-img-top w-100" alt="">
+							<div class="card-body">
+								<h5 class="card-title">
+									Alquiler de Equipos
+								</h5>
+								<p>Incluye:</p>
+								<ul>
+									<li>sub-bajos, monitores y satelites</li>
+									<li>Mezcladores y consolas de minitecas</li>
+									<li>Luces</li>
+									<li>Transporte de equipos</li>
+								</ul>
+								<p class="text-justify p-1">
+									Para contratar el servicio de alquiler, se necesita 
+									contactar directamente a la empresa, el precio puede 
+									variar.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<img src="./img/Collage03.png" class="card-img-top w-100" alt="">
+							<div class="card-body">
+								<h5 class="card-title">
+									Grupos Musicales
+								</h5>
+								<p>Incluye:</p>
+								<ul>
+									<li>Músicos profesionales</li>
+									<li>Servicio personalizado</li>
+									<li>Sonido incluido</li>
+								</ul>
+								<p class="text-justify p-1">
+									Para contratar el servicio de grupos musicales
+									contactar directamente con el dueño.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
 				<!-- Boton Contactanos -->
-				<div class="text-center">
-					<h4>Si deseas mayor Información:</h4>
+				<div class="text-center pt-5">
+					<h4>Si deseas mayor Información:</h4> <br>
 					<a href="" class="btn btn-lg btn-primary" type="button">
 						Contáctenos
 					</a>

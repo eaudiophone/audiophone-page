@@ -3,14 +3,42 @@ body {
 	overflow-x:hidden;
 }
 
-#header {
+header h1 {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+header h3 {
+	font-style: italic;
+}
+
+header div {
+	background-color: black;
+	color: white;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#intro {
 	background-color: #262626;
 	color: white;
 }
 
-#header h1 {
-	text-transform: uppercase;
-	font-weight: bold;
+#intro h3 {
+	font-style: italic;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.flex-child {
+	align-self: center;
 }
 
 #acerca {
@@ -24,18 +52,16 @@ body {
 	font-weight: bold;
 }
 
-#intro {
+#servicios {
 	background-color: black;
 	color: white;
 }
 
-h2 {
-	text-transform: uppercase;
-	font-weight: bold;
-}
-
 #tarifas {
 	background-color: #262626;
+}
+
+#tarifas h2, h4 {
 	color: white;
 }
 
