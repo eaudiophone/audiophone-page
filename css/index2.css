@@ -65,6 +65,11 @@ h2 {
 	color: white;
 }
 
+#tarifas h5 {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
 .padding {
 	padding-top: 30px;
 	padding-right: 30px;
@@ -77,4 +82,43 @@ h2 {
 .comment {
 	font-weight: bold;
 	font-style: italic;
+}
+
+.dark-blue {
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	border-color: white;
+}
+
+.dark-blue:hover, .dark-blue:active, .dark-blue:hover {
+	background-color: #28667B;
+	color: white;
+	border-color: white;
+}
+
+#iconos {
+	background-color: #28667B;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#contacto {
+	background-color: black;
+	color: white;
+	padding: 50px 50px;
+}
+
+#contacto h4 {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#footer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#footer span {
+	font-weight: bold;
 }

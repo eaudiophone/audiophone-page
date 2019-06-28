@@ -7,6 +7,8 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="./css/bootstrap-4.0.css">
 		<link rel="stylesheet" href="./css/index2.css">
+		<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+		<link rel="shortcut icon" type="image/png" href="./img/Logo_01.png">
 	</head>
 	<body>
 		<!-- =============================== -->
@@ -14,17 +16,20 @@
 		<!-- =============================== -->
 		<?php include('./component/navbar.php'); ?>
 		<!-- =============================== -->
+		<!-- 		Modal 					 -->
+		<!-- =============================== -->
+		<?php include('./component/modal.php') ?>
+		<!-- =============================== -->
 		<!-- 		Header 					 -->
 		<!-- =============================== -->
 		<header>
-			<div class="text-center pt-5 pb-5">
+			<div class="text-center pt-5 pb-5 pl-1 pr-1" id="inicio">
 				<hgroup>
 					<h1>Estudios Audiophone</h1>
 					<h3>"El que plasma tu talento en una grabación"</h3>
 				</hgroup>
 			</div>
 		</header>
-
 		<!-- =============================== -->
 		<!-- 		Intro 					 -->
 		<!-- =============================== -->
@@ -120,20 +125,21 @@
 						<div class="card">
 							<img src="./img/DSC_6376.jpg" class="card-img-top w-100" alt="">
 							<div class="card-body">
-								<h5 class="card-title">
+								<h5 class="card-title text-center">
 									Estudio de Grabación
 								</h5>
-								<p>Incluye:</p>
+								<h6>Incluye:</h6>
 								<ul>
 									<li>Masterización</li>
 									<li>Mezclas</li>
 									<li>Producciones Musicales</li>
 								</ul>
-								<p class="text-justify p-1">
-									El precio actual de la hora de grabación puede variar. 
-									Según la disponibilidad del cliente se llegará a un 
-									acuerdo por ambas partes.
-								</p>
+								<h6 class="text-right">
+									Precio:
+									<span class="badge badge-success">
+										Negociable
+									</span>
+								</h6>
 							</div>
 						</div>
 					</div>
@@ -141,21 +147,21 @@
 						<div class="card">
 							<img src="./img/Imagen0095.jpg" class="card-img-top w-100" alt="">
 							<div class="card-body">
-								<h5 class="card-title">
+								<h5 class="card-title text-center">
 									Alquiler de Equipos
 								</h5>
-								<p>Incluye:</p>
+								<h6>Incluye:</h6>
 								<ul>
 									<li>sub-bajos, monitores y satelites</li>
-									<li>Mezcladores y consolas de minitecas</li>
-									<li>Luces</li>
+									<li>Consolas de minitecas y luces</li>
 									<li>Transporte de equipos</li>
 								</ul>
-								<p class="text-justify p-1">
-									Para contratar el servicio de alquiler, se necesita 
-									contactar directamente a la empresa, el precio puede 
-									variar.
-								</p>
+								<h6 class="text-right">
+									Precio:
+									<span class="badge badge-success">
+										Negociable
+									</span>
+								</h6>
 							</div>
 						</div>
 					</div>
@@ -163,19 +169,22 @@
 						<div class="card">
 							<img src="./img/Collage03.png" class="card-img-top w-100" alt="">
 							<div class="card-body">
-								<h5 class="card-title">
+								<h5 class="card-title text-center">
 									Grupos Musicales
 								</h5>
-								<p>Incluye:</p>
+								<h6>Incluye:</h6>
 								<ul>
 									<li>Músicos profesionales</li>
 									<li>Servicio personalizado</li>
 									<li>Sonido incluido</li>
 								</ul>
-								<p class="text-justify p-1">
-									Para contratar el servicio de grupos musicales
-									contactar directamente con el dueño.
-								</p>
+								<h6 class="text-right">
+									Precio:
+									<span class="badge badge-success">
+										Negociable
+									</span>
+								</h6>
+								
 							</div>
 						</div>
 					</div>
@@ -183,32 +192,33 @@
 				<!-- Boton Contactanos -->
 				<div class="text-center pt-5">
 					<h4>Si deseas mayor Información:</h4> <br>
-					<a href="" class="btn btn-lg btn-primary" type="button">
+					<a href="" class="btn btn-lg btn-info" type="button">
+						<i class="fa fa-phone pr-1"></i>
 						Contáctenos
 					</a>
 				</div>
 			</div>
 		</section>
 		<!-- =============================== -->
-		<!-- 		 Contactanos					 -->
+		<!-- 		 Contactanos			 -->
 		<!-- =============================== -->
 		<section>
-			<div class="container-fluid p-0">
+			<div class="container-fluid" id="contacto">
 				<div class="row">
 					<div class="col-sm-12 col-md-6 text-center">
 						<h4>Dirección</h4>
-						<p>
-							Av. Principal de Manicomio Esq. Trinchera, <br> 
-							vaya despues de la bomba de gasolina y en la tercera parada del <br> 
-							metrobus de Agua Salud. Casa N° 152 La Pastora,<br> 
-							Caracas, Venezuela
+						<p class="p-2">
+							Av. Principal de Manicomio Esq. Trinchera,
+							vaya despues de la bomba de gasolina y en la 
+							tercera parada del metrobus de Agua Salud. 
+							Casa N° 152 La Pastora, Caracas, Venezuela
 						</p>
 					</div>
 					<div class="col-sm-12 col-md-6 text-center">
 						<h4>Horario de trabajo:</h4>
-						<p>
+						<p class="p-2">
 							Lunes a Viernes <br> 
-							Desde las 10 AM a 7 PM
+							Desde las 10 AM a 3:30 PM
 						</p>
 					</div>
 				</div>
@@ -218,16 +228,17 @@
 		<!-- 		Footer 					 -->
 		<!-- =============================== -->
 		<footer>
-			<div class="d-flex flex-wrap justify-content-around">
-				<div>
+			<div class="row text-center" id="footer">
+				<div class="col-md-4">
 					<span>Copyright &copy;2018 Audiophone</span>
 				</div>
-				<div>
-					<a href="">face</a>
-					<a href="">inst</a>
+				<div class="social-media col-md-4">
+					<a href="https://www.instagram.com/estudio_audiophone/" target="_blank">
+						<i class="fa fa-instagram fa-2x"></i>
+					</a>
 				</div>
-				<div>
-					<a href="">Condiciones</a>
+				<div class="col-md-4">
+					<a href="">Condiciones de servicio</a>
 				</div>
 			</div>	
 		</footer>

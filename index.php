@@ -12,7 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="./css/navbar.css"> 
 		<link rel="stylesheet" type="text/css" href="./css/modal.css">
 		<!-- Favicon-->
-		<link rel="shortcut icon" type="image/png" href="./img/Logo 01.png">
+		<link rel="shortcut icon" type="image/png" href="./img/Logo_01.png">
 		<title>Estudio Audiophone</title>
 
 		<!-- Scroll -->
