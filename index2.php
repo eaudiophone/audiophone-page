@@ -14,11 +14,7 @@
 		<!-- =============================== -->
 		<!-- 		Navbar 					 -->
 		<!-- =============================== -->
-		<?php include('./component/navbar.php'); ?>
-		<!-- =============================== -->
-		<!-- 		Modal 					 -->
-		<!-- =============================== -->
-		<?php include('./component/modal.php') ?>
+		<?php include('./components/navbar/navbar.php'); ?>
 		<!-- =============================== -->
 		<!-- 		Header 					 -->
 		<!-- =============================== -->
@@ -87,15 +83,15 @@
 						<img src="img/mezcla.png" class="img img-fluid">
 						<h4 class="pt-5">Alquiler de Equipos para Fiestas y Eventos</h4>
 						<p class="padding">
-							Ofrecemos servicio de alquiler de equipos para realizar sonidos a grupos músicales e incluso minitecas para sus fiestas y eventos
-							dentro de la ciudad de Caracas.
+							Ofrecemos servicio de alquiler de equipos para realizar sonidos a grupos músicales, fiestas y eventos dentro de la ciudad de Caracas.
 						</p>
 					</div>
 					<div class="col-md-4 col-sm-12 text-center">
 						<img src="img/masterizacion.png" class="img img-fluid"><br>
 						<h4 class="pt-5">Contratación de Grupos Músicales</h4>
 						<p class="padding"> 
-							Para ofrecer el mejor ambiente en sus fiestas y eventos, contamos con el apoyo de diversos grupos de músicos profesionales. 
+							Contamos con el apoyo de diversos grupos de músicos profesionales.
+							dispuestos a ofrecer el mejor ambiente en sus fiestas y eventos
 						</p>
 					</div>
 				</div>
@@ -132,7 +128,8 @@
 								<ul>
 									<li>Masterización</li>
 									<li>Mezclas</li>
-									<li>Producciones Musicales</li>
+									<li>Producciones</li>
+									<li>Alquiler de instrumentos</li>
 								</ul>
 								<h6 class="text-right">
 									Precio:
@@ -152,9 +149,9 @@
 								</h5>
 								<h6>Incluye:</h6>
 								<ul>
-									<li>sub-bajos, monitores y satelites</li>
-									<li>Consolas de minitecas y luces</li>
+									<li>Consolas de minitecas</li>
 									<li>Transporte de equipos</li>
+									<li>Luces para eventos</li>
 								</ul>
 								<h6 class="text-right">
 									Precio:
@@ -191,8 +188,9 @@
 				</div>
 				<!-- Boton Contactanos -->
 				<div class="text-center pt-5">
-					<h4>Si deseas mayor Información:</h4> <br>
-					<a href="" class="btn btn-lg btn-info" type="button">
+					<h4>Si deseas mayor información:</h4> <br>
+					<a href="" class="btn btn-lg dark-blue" type="button" 
+						data-toggle="modal" data-target="#modalContact">
 						<i class="fa fa-phone pr-1"></i>
 						Contáctenos
 					</a>
@@ -238,14 +236,25 @@
 					</a>
 				</div>
 				<div class="col-md-4">
-					<a href="">Condiciones de servicio</a>
+					<a href="#" data-toggle="modal" data-target="#modalTerms">
+						Condiciones de servicio
+					</a>
 				</div>
 			</div>	
 		</footer>
+		<!-- =============================== -->
+		<!-- 		Modal 					 -->
+		<!-- =============================== -->
+		<?php 
+			include('./components/modal/contact.php');
+			include('./components/modal/terms.php');
+		?> 
 		<!-- =============================== -->
 		<!-- 		JavaScript 				 -->
 		<!-- =============================== -->
 		<script src="./js/jquery-3.4.1.js"></script>
 		<script src="./js/bootstrap-4.0.js"></script>
+		<script src="./js/smooth-scroll.polyfills.min.js"></script>
+		<script src="./js/scroll.js"></script>
 	</body>
 </html> 

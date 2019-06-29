@@ -1,6 +1,7 @@
 body {
 	font-family: helvetica;
 	overflow-x:hidden;
+	font-size: 1em;
 }
 
 header h1 {
@@ -85,14 +86,13 @@ h2 {
 }
 
 .dark-blue {
-	background-color: black;
+	background-color: #28667B;
 	color: white;
 	border-radius: 10px;
 	border-color: white;
 }
 
 .dark-blue:hover, .dark-blue:active, .dark-blue:hover {
-	background-color: #28667B;
 	color: white;
 	border-color: white;
 }
@@ -122,3 +122,14 @@ h2 {
 #footer span {
 	font-weight: bold;
 }
+
+#footer a {
+	color: #28667B
+}
+
+.modal-header, .modal-footer {
+	background-color: #262626;
+	color: white;
+}
+
+

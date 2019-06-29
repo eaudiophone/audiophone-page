@@ -15,7 +15,7 @@
 		</div>
 		<!-- right side -->
 		<div class="navbar-nav ml-auto mr-0 mr-md-3 my-2 my-md-0">
-			<a href="" class="btn btn-info">
+			<a href="" class="btn dark-blue" data-toggle="modal" data-target="#modalContact">
 				<i class="fa fa-phone pr-1"></i>
 				Contáctenos
 			</a>
