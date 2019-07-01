@@ -17,7 +17,7 @@
 		<?php include('./components/navbar/navbar.php'); ?>
 		<!-- =============================== -->
 		<!-- 		Header 					 -->
-		<!-- =============================== -->
+		<!-- =============================== -->	
 		<header>
 			<div class="text-center pt-5 pb-5 pl-1 pr-1" id="inicio">
 				<hgroup>
@@ -34,7 +34,7 @@
 				<div class="row">
 					<div class="col-sm-12 col-md-6 flex text-center padding">
 						<h4 class="flex-child">
-							"Estudio músical de alta gamma en un ambiente intimo"
+							"Estudio músical en un ambiente intimo"
 						</h4>
 					</div>
 					<div class="col-sm-12 col-md-6 p-0">
@@ -56,7 +56,7 @@
 				<div class="row">
 					<div class="col-sm-12 col-md-6 flex text-center padding">
 						<h4 class="flex-child">
-							"Contamos y ofrecemos apoyo a grupos de músicales de la industria". 
+							"Contamos y ofrecemos apoyo a músicos de la industria". 
 						</h4>
 					</div>
 					<div class="col-sm-12 col-md-6 p-0">
@@ -90,7 +90,7 @@
 						<img src="img/masterizacion.png" class="img img-fluid"><br>
 						<h4 class="pt-5">Contratación de Grupos Músicales</h4>
 						<p class="padding"> 
-							Contamos con el apoyo de diversos grupos de músicos profesionales.
+							Contamos con el apoyo de diversos grupos de músicos profesionales,
 							dispuestos a ofrecer el mejor ambiente en sus fiestas y eventos
 						</p>
 					</div>
@@ -231,12 +231,14 @@
 					<span>Copyright &copy;2018 Audiophone</span>
 				</div>
 				<div class="social-media col-md-4">
-					<a href="https://www.instagram.com/estudio_audiophone/" target="_blank">
-						<i class="fa fa-instagram fa-2x"></i>
-					</a>
+					<div>
+						<a href="https://www.instagram.com/estudio_audiophone/" target="_blank">
+							<i class="fa fa-instagram fa-2x"></i>
+						</a>
+					</div>
 				</div>
 				<div class="col-md-4">
-					<a href="#" data-toggle="modal" data-target="#modalTerms">
+					<a href="" data-toggle="modal" data-target="#modalTerms">
 						Condiciones de servicio
 					</a>
 				</div>

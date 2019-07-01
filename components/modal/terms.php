@@ -1,15 +1,15 @@
 <div class="modal modal fade" id="modalTerms" tabindex="-1" role="dialog"
   aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header center">
         <h5 class="modal-title">
-          <i class="fa fa-file p-2"></i>
+          <i class="fa fa-check p-2"></i>
           Condiciones del servicio
         </h5>
       </div>
       <div class="modal-body">
-        <ul>   
+        <ul class="modal-list">   
           <li>Solo se realiza el servicio dentro de la ciudad de Caracas.</li>
           <li>Ofrecemos el paquete completo de alquiler de equipos.</li>
           <li>
