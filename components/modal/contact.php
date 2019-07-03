@@ -12,24 +12,28 @@
         <div class="row">
           <div class="col-sm-12 text-center">
             <p>
-              Puede contáctarnos a través de los siguientes medios:
+              Puede contáctarnos a través de:
             </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-4 text-right">
+        <div class="row modal-content-center">
+          <div class="col-sm-3 col-xs-12 icon">
             <i class="fa fa-envelope fa-2x"></i>
           </div> 
-          <div class="col-sm-8">
-            eaudiophonesa@gmail.com
+          <div class="col-sm-9 col-xs-12">
+            <span class="modal-text">
+              eaudiophonesa@gmail.com
+            </span>
           </div>
         </div>
-        <div class="row pt-2">
-          <div class="col-sm-3 text-right">
+        <div class="row pt-2 modal-content-center">
+          <div class="col-sm-3  col-xs-12 icon">
             <i class="fa fa-whatsapp fa-2x"></i>
           </div> 
-          <div class="col-sm-9">
-            Alfonso Martínez +58 0416-905-57-06
+          <div class="col-sm-9 col-xs-12">
+            <span class="modal-text">
+              Alfonso Martínez +58 0416-905-57-06
+            </span>
           </div>
         </div>
       </div>

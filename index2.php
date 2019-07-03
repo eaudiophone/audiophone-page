@@ -7,6 +7,7 @@
 		<!-- CSS -->
 		<link rel="stylesheet" href="./css/bootstrap-4.0.css">
 		<link rel="stylesheet" href="./css/index2.css">
+		<link rel="stylesheet" href="./css/media.index.css">
 		<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 		<link rel="shortcut icon" type="image/png" href="./img/Logo_01.png">
 	</head>
@@ -33,7 +34,7 @@
 			<div class="container-fluid" id="intro">
 				<div class="row">
 					<div class="col-sm-12 col-md-6 flex text-center padding">
-						<h4 class="flex-child">
+						<h4 class="flex-child ">
 							"Estudio músical en un ambiente intimo"
 						</h4>
 					</div>
@@ -90,7 +91,7 @@
 						<img src="img/masterizacion.png" class="img img-fluid"><br>
 						<h4 class="pt-5">Contratación de Grupos Músicales</h4>
 						<p class="padding"> 
-							Contamos con el apoyo de diversos grupos de músicos profesionales,
+							Contamos con el apoyo de diversos grupos de músicales,
 							dispuestos a ofrecer el mejor ambiente en sus fiestas y eventos
 						</p>
 					</div>
