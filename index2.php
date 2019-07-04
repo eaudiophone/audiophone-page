@@ -203,7 +203,17 @@
 		<!-- =============================== -->
 		<section>
 			<div class="container-fluid" id="contacto">
-				<div class="row">
+				
+				<div class="row pb-5">
+					<div class="col-sm-12 text-center">
+						<h2>¿Donde nos ubicamos?</h2>
+					</div>
+				</div>
+
+				<!-- Google maps -->
+				<?php include('./components/maps/maps.php'); ?>
+
+				<div class="row pt-5 direction">
 					<div class="col-sm-12 col-md-6 text-center">
 						<h4>Dirección</h4>
 						<p class="p-2">

@@ -1,7 +1,4 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id="cambio">
-	<!--<a class="navbar-brand" href="#">
-		Audiophone S.A
-	</a> -->
 	<img src="./img/Logo_01.png" class="logo-brand">
 	<button class="navbar-toggler" type="button" data-toggle="collapse" 
 		data-target="#menu-responsive" aria-controls="menu-responsive" 

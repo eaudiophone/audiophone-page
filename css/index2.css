@@ -180,3 +180,8 @@ h2 {
 .modal-content-center {
 	text-align: center;
 }
+
+.maps {
+	width: 600px;
+	height: 450px;
+}
