@@ -8,16 +8,20 @@
 	<div class="collapse navbar-collapse" id="menu-responsive">
 		<div class="navbar-nav link-center" >
 			<a class="nav-item nav-link pr-5" href="#inicio">
-				<i class="fa fa-home pr-2"></i>
+				<i class="fa fa-star pr-2"></i>
 				Inicio
 			</a>
 			<a class="nav-item nav-link pr-5" href="#servicios">
-				<i class="fa fa-star pr-2"></i>
+				<i class="fa fa-microphone pr-2"></i>
 				Servicios
 			</a>
-			<a class="nav-item nav-link" href="#tarifas">
+			<a class="nav-item nav-link pr-5" href="#tarifas">
 				<i class="fa fa-money pr-2"></i>
 				Tarifas
+			</a>
+			<a class="nav-item nav-link" href="#contacto">
+				<i class="fa fa-home pr-2"></i>
+				Dirección
 			</a>
 		</div>
 		<!-- right side -->
