@@ -4,10 +4,13 @@ Diseño del portal del estudio audiophone.
 
 Que contiene
  - HTML5
- - Boostrap 3.7
+ - Boostrap 3.7 => 4.0
  - CSS
  - JQuery
  - JavaScript
+
+ Se mejora el aspecto visual y los componentes de la pagina 
+ versión 2.0 (04-07-19).
 
 ### INSTALACIÓN:
 

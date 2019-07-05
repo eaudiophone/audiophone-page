@@ -1,0 +1,27 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+	#tarifas .col-md-4 {
+		padding-bottom: 30px;
+	}
+
+	.icon {
+		margin-bottom: 8px;
+	}
+	
+	.maps {
+		display: none;
+	}
+
+	.social-media {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	
+	.margin-top {
+		
+		margin-top: 50px;
+	}
+}
