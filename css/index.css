@@ -1,580 +1,187 @@
-/*Estructura de la pagina index.css*/
+html {      
+    width:100%;
+    height:100%;       
+}
 
 body {
-
-	font-family: Helvetica;
-	overflow-x:hidden;  
-
+	font-family: helvetica;
+	overflow-x:hidden;
+	font-size: 1em;
 }
 
-
-#boton2 {
-
-	background-color: black;
-	font-weight: 700;
-	text-transform: none;
-	color: white;
-	border-color: white;
-	margin-top: 10px;
-	margin-bottom: 10px;
+header {
+	background-image: url(./../img/consola3.jpg);
+	 background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
-#boton2:hover, #boton2:active, #boton2:focus {
-
-	background-color: #28667B;
-	color: white;
-	border-color: white;
-} 
-
-p {
-
-	font-size: 14px;
-	line-height: 1.75;
-}
-
-h1 {
-	
+header h1 {
+	font-weight: bold;
 	text-transform: uppercase;
-	font-weight: 700;
-
 }
 
-
-.img-centered {
-
-	margin: 0 auto;
-	margin-top: 100px;
+header h3 {
+	font-style: italic;
 }
 
-/* Seccion del intro */
+header div {
+	color: white;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
 
 #intro {
-
-	background-color: black;
-	color: white; 
-
-}
-
-#intro > .container > .row  {
-	
-	margin-bottom: 100px;
-	text-align: center; 
-}
-
-#intro > .container > .row {
-
-	font-style: italic;
-}
-
-/* Seccion del estudio */
-
-#estudio {
-
-	text-align: center;
-	background-color:  #262626;	
-
-}
-
-#estudio h1 {
-
-	margin-top: 100px;
-	margin-bottom: 50px;
-	color: white;
-	
-}
-
-#estudio p {
-
-	font-size: 20px;
-	color: white;
-	margin-bottom: 50px;
-	font-style: italic;
-
-}
-
-#estudio .thumbnail {
-
-	background-color: black;
-	border-color: white;
-	margin-bottom: 150px; 
- 
-}
-
-#estudio a {
-
-	background-color: black;
-	text-transform: uppercase;
-	color: white;
-	font-weight: 700;
-}
-
-/* Efecto boton galeria */
-
-
-#estudio .btn-default:hover, .btn-default:active, .btn-default:focus {
-
-	background-color: #28667B;
-	color: white;
-	border-color: white;
-	
-}
-
-
-#imagen {
-
-	border-radius: 10px;
-	padding-bottom: 10px;
-}
-
-
-/* Seccion de equipamento */
-
-
-#equipamento {
-
-	background-color: #28667B;
-	color: black;
-}
-
-#equipamento h1 {
-
-	margin-top: 100px;
-	margin-bottom: 100px;
-	color: white;
-	
-
-}
-
-#equipamento > .container-fluid > .row {
-
-	margin-bottom: 50px;
-}
-
-#equipamento > .container-fluid >  #inferior {
-
-	margin-bottom: 100px;
-}
-
-.img-centered2 {
-
-	margin: 0 auto;
-	margin-bottom: 50px;
-}
-
-/* Botones de equipamento */
-
-#equipamento > .container-fluid > .row .btn-default {
-
-	background-color: #28667B;
-	border-color: white;
-	text-transform: uppercase;
-	color: white;
-	font-weight: 700;
-}
-
-/* Efecto de botones equipamento */
-
-#equipamento > .container-fluid > .row .btn-default:hover, .btn-default:active {
-
-	background-color: black;
-	border-color: white;
-	color: white;
-}
-
-#equipamento > .container-fluid .row > .col-xs-12 {
-
-	padding-bottom: 100px; 
-}
-
-/*Seccion alquiler*/
-
-#alquiler {
-
 	background-color: #262626;
-	color: white;	
-	background-image: url(./../img/Imagen009.png);
-	background-position: center;
-	background-repeat: none;
 	color: white;
-	text-align: center;
-
-	/*Distribuye la imagen en toda la seccion*/
-
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-
 }
 
-
-#alquiler h1 {
-
-	margin-top: 100px;
-	margin-bottom: 50px;
-	text-align: center;
-
+#intro h3 {
+	font-style: italic;
 }
 
-#alquiler a {
+.flex {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
 
-	text-transform: uppercase;
+.flex-child {
+	align-self: center;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#acerca {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #262626;
 	color: white;
-	background-color: black;
+}
+
+#acerca h4 {
 	font-weight: bold;
-	margin-bottom: 100px;
-	
-
 }
 
-#alquiler .btn-default:hover, .btn-default:active, .btn-default:focus {
-
-	background-color: #28667B;
-	color: white;
-	border-color: white;
-} 
-
-#alquiler h3 {
-
-	font-style: italic;
-	margin-bottom: 100px;
-	text-align: center;
-	line-height: 1.75;
-	margin-left: 50px;
-	margin-right: 50px;
-}
-
-/* Sección clientes*/
-
-#clientes {
-
+#servicios {
 	background-color: black;
 	color: white;
-	text-align: center;
 }
-
-#clientes h1 {
-
-	margin-top: 100px;
-	margin-bottom: 100px;
-
-
-}
-
-#clientes h3 {
-
-	margin-bottom: 50px;
-	font-style: italic;
-
-}
-
-#clientes p {
-
-	font-size: 20px;
-	font-family: helvetica;
-	margin-bottom: 50px;
-}
-
-#clientes .btn-info {
-
-	background-color: black;
-	color: white;
-	border-color: white;
-	margin-bottom: 300px;
-	text-transform: uppercase; 
-	font-weight: 700;
-}
-
-#clientes .btn-info:hover, .btn-info:active {
-
-	background-color: #28667B;
-	color: white;
-	border-color: white;
-	text-transform: uppercase; 
-}
-
-#climg {
-
-	height: 350px; 
-	width: 350px;
-}
-
-/* Seccion tarifas */
 
 #tarifas {
-
-	background-image: url(../img/consola1.jpg);
-	background-position: center;
-	background-repeat: none;
-	color: white;
-	text-align: center;
-
-	/*Distribuye la imagen en toda la seccion*/
-
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;	
-} 
-
-#tarifas h1 {
-
-	margin-top: 150px;
-	margin-bottom: 150px;
-}
-
-#tarifas .btn-default {
-
-	color: white;
-	height: 150px;
-	width: 180px;
-	text-decoration: none;
-	margin-bottom: 150px;
-	font-size: 14px;
-	background-color: transparent;
-	font-weight: 700;
-}
-
-#tarifas .btn-default p {
-
-	margin-top: 50px;
-	text-transform: uppercase;
-}
-
-#tarifas .btn-default:hover, .btn-default:active {
-
-	background-color: black;
-	color: white;
-	border-color: white; 
-
-	/*Efectos de botones CSS3*/
-
-	text-transform: none;
-	-webkit-transition: all 0.8s ease;
-	-moz-transition:all 0.8s ease;
-	-ms-transition:all 0.8s ease;
-	-o-transition:all 0.8s ease;
-	transition:all 0.8s ease;
-
-
-}
-
-/*Seccion contactanos*/
-
-#contactanos {
-
-	background-color:  #25272F;
-	text-align: center;
-	color: white;
-	background-position: center;
-	background-repeat: none;
-
-
-	background-image: url(../img/fondo3.png);
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-
-}
-
-
-
-#contactanos h1 {
-
-	margin-bottom: 50px;
-	margin-top: 100px;
-}
-
-#contactanos h3 {
-	margin-bottom: 30px;
-	font-style: italic;
-	font-weight: 700;
-}
-
-#contactanos p {
-
-	font-size: 20px;
-	margin-bottom: 100px;
-
-}
-
-
-#contactanos form {
-
-	margin-top: 50px;
-}
-
-#contactanos .btn-danger {
-
-	background-color: black;
-	border-color: white;
-	color: white;
-}
-
-#contactanos .btn-danger:hover, .btn-danger:active {
-
-	background-color: #7F0C0C;
-	border-color: white;
-	color: white;
-}
-
-/*Boton enviar*/
-
-#contactanos .btn-primary {
-
-	background-color: black;
-	border-color: white;
-	color: white;
-
-}
-
-#contactanos button {
-
-	margin-bottom: 100px;
-}
-
-#contactanos .btn-primary:hover, .btn-primary:active {
-
-	background-color: #28667B;
-	color: white;
-	border-color: white; 
-}
-
-#contactanos .form-group {
-
-	margin-bottom: 25px;
-}
-
-#contactanos .form-control:focus {
-
-	border-color: #28667B;
-	box-shadow: 100; 
-}
-
-
-#contactanos  a {
-
-	position: center;
-}
-
-
-#contactanos a > img {
-
-	height: 260px;
-	width:  260px;
-	margin-bottom: 150px;
-
-
-}
-
-#contactanos .col-xs-12 {
-
-	padding-top: 50px;
-
-}
-
-/*Seccion direccion*/
-
-#direccion {
-
 	background-color: #262626;
-	margin-top: -30px; 
 }
 
-#direccion .container {
-
-	background-color: black;
+#tarifas h2, h4 {
 	color: white;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border-color: black;
-	border-radius: 50px; 
-
-
 }
 
-#direccion .container-fluid {
-
-	margin-top: 30px;
-	margin-bottom: 30px;
-	text-align: center;
-
-
-}
-
-
-#direccion h4 {
-
-	margin-top: 50px;
-	margin-bottom: 20px;
+#tarifas h5 {
 	font-weight: bold;
 	text-decoration: underline;
 }
 
-#direccion p {
-
-	margin-bottom: 50px;
+.padding {
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 50px;
+	font-style: italic;
+	text-align: justify;
 }
 
-footer {
-
-	padding: 25px 0;
-    text-align: center;
-    font-weight: 700;
+.comment {
+	font-weight: bold;
+	font-style: italic;
 }
 
-/* Footer de la pagina */
-
-footer span .copyright {
-
-	line-height: 40px;
+.dark-blue {
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	border-color: white;
 }
 
-footer ul.quicklinks {
-    
-    margin-bottom: 0;
-    line-height: none;
-    text-decoration: none;
-
+.dark-blue:hover, .dark-blue:active, .dark-blue:hover {
+	color: white;
+	border-color: white;
+	background-color: #28667B
 }
 
-a:hover {
-	color:  #28667B;
+#iconos {
+	background-color: #28667B;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-ul.social-buttons {
-
-    margin-bottom: 0;
+#contacto {
+	background-color: black;
+	color: white;
+	padding: 50px 50px;
 }
 
-ul.social-buttons li a {
-
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
-    outline: 0;
-    color: #fff;
-    background-color: #222;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
+#contacto h4 {
+	text-decoration: underline;
+	font-weight: bold;
 }
 
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
+#footer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
 
-    background-color: #28667B;
+#footer span {
+	font-weight: bold;
+}
+
+#footer a {
+	color: black
+}
+
+#footer a:hover {
+	color: #28667B;
+	text-decoration: none;
+}
+
+.modal-header, .modal-footer {
+	background-color: #262626;
+	color: white;
+}
+
+.modal-title {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.link-center {
+	margin: 0 auto;
+}
+
+#comentario {
+	background-image: url(./../img/estudio1.1.jpg);
+	 background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     color: white;
 }
 
-footer a {
-
-	color: black;
+.logo-brand {
+	height: 50px;
+	width: 50px;
 }
 
+.modal-content-center {
+	text-align: center;
+}
 
+.maps {
+	width: 600px;
+	height: 450px;
+}
