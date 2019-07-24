@@ -15,7 +15,7 @@
 		<!-- =============================== -->
 		<!-- 		Navbar 					 -->
 		<!-- =============================== -->
-		<?php include('./components/navbar/navbar.php'); ?>
+		<?php include './components/navbar/navbar.php'; ?>
 		<!-- =============================== -->
 		<!-- 		Header 					 -->
 		<!-- =============================== -->	
@@ -102,13 +102,14 @@
 		<!-- 		Comentario 				-->
 		<!-- =============================== -->
 		<section>
-			<div class="row text-center pt-5 pb-5 pl-5 pr-5" id="comentario">
-				<div class="col-12">
-					<h3 class="comment">
-						"Una forma de crear piezas músicales con calidad profesional y 
-						con servicio personalizado" 
-					</h3>
-				</div>
+			<div class="container-fluid" id="comentario">
+				<div class="row text-center pt-5 pb-5 pl-5 pr-5">
+					<div class="col-12">
+						<h3 class="comment">
+							"Una forma de crear piezas músicales con calidad profesional y con servicio personalizado" 
+						</h3>
+					</div>
+				</div>	
 			</div>
 		</section>
 		<!-- =============================== -->
@@ -259,8 +260,8 @@
 		<!-- 		Modal 					 -->
 		<!-- =============================== -->
 		<?php 
-			include('./components/modal/contact.php');
-			include('./components/modal/terms.php');
+			include './components/modal/contact.php';
+			include'./components/modal/terms.php';
 		?> 
 		<!-- =============================== -->
 		<!-- 		JavaScript 				 -->
