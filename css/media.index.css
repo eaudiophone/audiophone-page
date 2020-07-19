@@ -1,27 +1,39 @@
-@media screen and (min-width: 320px) and (max-width: 768px) {
-
-	#tarifas .col-md-4 {
-		padding-bottom: 30px;
+@media screen and ( min-width: 320px ) and ( max-width: 575px ) {
+	.d-xs {
+		display: block;
 	}
 
-	.icon {
-		margin-bottom: 8px;
-	}
-	
-	.maps {
-		display: none;
-	}
-
-	.social-media {
-		padding-top: 10px;
-		padding-bottom: 10px;
+	.d-sm {
+		display: none !important;
 	}
 }
 
-@media screen and (min-width: 769px) {
-	
-	.margin-top {
-		
-		margin-top: 50px;
+@media screen and ( min-width: 576px ) {
+	.d-xs {
+		display: none;
 	}
+
+	.d-sm {
+		display: block;
+	}
+
+	.links > a > i {
+		color: white;
+	}
+
+	.links > a {
+		margin-right: 30px;
+	}
+}
+
+@media screen and ( min-width: 576px ) and (max-width: 768px) {
+	.font-20 {
+		font-size: 15px;
+	}
+
+	.links > a > i {
+		color: white;
+		font-size: 24px;
+	}
+
 }

@@ -12,6 +12,35 @@
 	background-color: #28667b
 }
 
+.font-20 {
+	font-size: 20px;
+}
+
+.bg {
+	background-color: #343434;
+}
+
+.nav-item {
+	color: white !important;
+	margin-right: 30px; 
+}
+
+.logo-brand {
+	max-width: 40px;
+}
+
+.font-menu-xs {
+	font-size: 12px;
+}
+
+.contact-button {
+	background: #255062;
+	color: white;
+}
+
+.bars {
+	color: white;
+}
 
 /*html {      
     width:100%;

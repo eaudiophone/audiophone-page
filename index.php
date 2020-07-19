@@ -9,56 +9,48 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/index.css">
 	<link rel="stylesheet" type="text/css" href="./css/navbar.css">
+	<link rel="stylesheet" type="text/css" href="./css/media.index.css">
 	<script src="./js/jquery-3.4.1.js"></script>
 	<script src="./js/bootstrap-4.0.js"></script>
 </head>
 <body class="audiophone-page-dark-theme">
-	<?php include './components/navbar/navbar.php'; ?> <!-- header -->
-	<header></header> <!-- carrousel -->
-	<section> <!-- Servicies -->
+	<?php include './components/navbar/navbar.php'; ?> <!-- navbar -->
+	<header>
+	</header> <!-- carrousel -->
+	<!-- <section>
 		<div class="container">
 			<h3 class="text-center font-italic">Servicios</h3>
 			<div class="row">
 				<div class="col-sm-4 col-12">
-					
-					<div class="text-center">
-						<img src="https://dummyimage.com/100x100/000/fff" alt="Prueba" class="rounded">
-					</div>
+				
 
-					<h4 class="text-center">Prueba</h4>
-					<p class="text-justify">
-						Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, 
+					<h4 class="text-center">Estudio de Grabación</h4>
+					<p class="text-justify mt-4">
+						El estudio Audiophone son salas de grabaciones preparadas con equipos profesionales y personal capacitado para dar una calidad impecable a tus grabaciones de audio. Dentro de nuestras instalaciones realizamos todo tipo de grabaciones de forma impecable dentro de un ambiente íntimo.
 					</p>
 				</div>
 				<div class="col-sm-4 col-12">
 
-					<div class="text-center">
-						<img src="https://dummyimage.com/100x100/000/fff" alt="Prueba" class="rounded">
-					</div>
+	
 
-					<h4 class="text-center">Prueba</h4>
-					<p class="text-justify">
-						Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, 
+					<h4 class="text-center">Alquiler de Equipos para Fiestas y Eventos</h4>
+					<p class="text-justify mt-4">
+						Tambien ofrecemos servicio de alquier de equipos desde sonidos de grupos musicales hasta minitecas para sus fiestas y eventos en la ciudad de Caracas. Proporcionamos buen ambiente musical, contratando profesionales de la musica para tocar y cantar en vivo.   
 					</p>
 				</div>
 				<div class="col-sm-4 col-12">
 
-					<div class="text-center">
-						<img src="https://dummyimage.com/100x100/000/fff" alt="Prueba" class="rounded">
-					</div>
-
-					<h4 class="text-center">Prueba</h4>
-					<p class="text-justify">
-						Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, 
+					<h4 class="text-center">Contratación de Grupos Músicales</h4>
+					<p class="text-justify mt-4">
+						Audiophone, posee contacto directo con el Grupo Musical Horizonte, encargada de la contratación de profesionales del canto, para tus eventos de música en vivo dentro de la ciudad de Caracas.
 					</p>
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<section></section>
 	<section></section>
 	<section></section>
 	<section></section>
-	<script src="./js/menu.js"></script> <!-- JS -->
 </body>
 </html>
