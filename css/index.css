@@ -1,4 +1,19 @@
-html {      
+.audiophone-page-dark-theme {
+	background-color: #343434;
+	color: white;
+}
+
+.audiophone-page-primary-color {
+	background-color: #ab3038;
+}
+
+
+.audiophone-page-primary-color-contrast {
+	background-color: #28667b
+}
+
+
+/*html {      
     width:100%;
     height:100%;       
 }
@@ -184,4 +199,4 @@ h2 {
 .maps {
 	width: 600px;
 	height: 450px;
-}
+}*/
