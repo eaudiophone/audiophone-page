@@ -20,6 +20,10 @@
 	background-color: #343434;
 }
 
+.carousel-height {
+	height: 50%;
+} 
+
 .nav-item {
 	color: white !important;
 	margin-right: 30px; 
@@ -33,13 +37,31 @@
 	font-size: 12px;
 }
 
-.contact-button {
-	background: #255062;
-	color: white;
+.header-background {
+	background: rgb(171,48,56);
+	background: linear-gradient(90deg, rgba(171,48,56,1) 0%, rgba(40,102,123,1) 100%);
+	border-radius: 0;
+}
+
+.header-title {
+	font-style: italic;
 }
 
 .bars {
 	color: white;
+}
+
+.button-shadow {
+	box-shadow: 0px 0px 8px 1px rgba(184,184,184,1);
+}
+
+.services {
+	padding: 25px;
+}
+
+.fondo {
+	background-image: url('./../img/consola1.jpg');
+	background-repeat: no-repeat;
 }
 
 /*html {      

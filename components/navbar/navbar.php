@@ -41,9 +41,9 @@
 					<span class="ml-3 font-menu-xs">Facebook</span>
 				</a>
 				
-				<a href="#" class="btn contact-button" data-toggle="modal" data-target="#modalContact">
+				<button class="btn contact-button" data-toggle="modal" data-target="#modalContact">
 					<b class="font-weight-bold font-italic">Contáctar</b>
-				</a>
+				</button>
 			</div>
 		</div>
 	</div>
