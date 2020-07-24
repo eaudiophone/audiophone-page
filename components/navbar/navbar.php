@@ -3,7 +3,7 @@
 	<!-- only-xs -->
 	<div class="p-0 m-0 d-xs w-100"> 
 		<div class="p-0 m-0 d-flex fle-row justify-content-between align-items-center">
-			<img src="./img/logo_100x100.png" class="logo-brand">
+			<img src="./img/logoEstudioAudiophoneTranspBlanco.png" class="logo-brand">
 			<span class="font-italic font-weight-bold" style="font-size: 14px;">Estudios Audiophone</span>
 			<button class="navbar-toggler" style="border: none;" type="button" data-toggle="collapse" 
 				data-target="#menu-responsive" aria-controls="menu-responsive" 
@@ -51,7 +51,7 @@
 	<!-- others devices sm-xl -->
 	<div class="p-0 m-0 d-sm d-flex flex-row justify-content-between w-100">  
 		<div class="p-0 m-0" style="width: 50vw;">
-			<img src="./img/logo_100x100.png" class="logo-brand">
+			<img src="./img/logoEstudioAudiophoneTranspBlanco.png" class="logo-brand">
 			<span class="font-italic font-weight-bold font-20 ml-3">Estudios Audiophone</span>
 		</div>
 		
