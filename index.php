@@ -80,7 +80,42 @@
 			</div>
 		</div>
 	</section>
-	<section></section>
+	<section>
+		<div class="container-fluid pb-5 pt-5 d-none d-xl-block"> <!-- only-xl -->
+			<h3 class="text-center font-italic">Precios y Tárifas</h3>
+			<div class="row mb-3">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-8">
+					<div class="animate-right">
+						<div class="circle-blue d-flex flex-column justify-content-center align-items-center">
+							<span>Estudio de Grabación</span>	
+						</div>
+					</div>
+				</div>	
+			</div>
+			<!-- <div class="row mb-3">
+				<div class="col-sm-12">
+					<div class="animate-inverse">
+						<div class="d-flex flex-row justify-content-end">
+							<div class="circle-red d-flex flex-column justify-content-center align-items-center">
+								<span>Alquiler de equipos</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<div class="row">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-8">
+					<div class="animate-right">
+						<div class="circle-blue d-flex flex-column justify-content-center align-items-center">
+							<span>Grupo Músical Horizonte</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<section></section>
 	<section></section>
 	<section></section>

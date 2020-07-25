@@ -1,3 +1,7 @@
+body {
+	overflow-x: hidden;
+}
+
 .audiophone-page-dark-theme {
 	background-color: #343434;
 	color: white;
@@ -70,6 +74,53 @@
 	opacity: 0.8;
 	height: 100%;
 }
+
+.circle-blue {
+	border-radius: 50%;
+	background-color: #28667b;
+	height: 300px;
+  width: 300px;	
+  display: inline-block;
+}
+
+.circle-red {
+	background-color: rgba(171,48,56,1);
+	height: 300px;
+  width: 300px;	
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle-blue > span {
+	font-style: italic;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.circle-red > span {
+	font-style: italic;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+/* Transiciones circulos */
+.animate-inverse {
+	width: 500px;
+	transition: width 2s;
+}
+
+.animate-inverse:hover {
+	width: 100%;
+}
+
+.animate-right {
+	transition:  transform 2s;
+}
+
+.animate-right:hover {
+	transform: translateX(25%);  /* mueve  */
+}
+
 
 /*html {      
     width:100%;
