@@ -51,7 +51,7 @@
 
 						<h4 class="text-center">Estudio de Grabación</h4>
 						<p class="text-justify mt-4">
-							El estudio Audiophone son salas de grabaciones preparadas con equipos profesionales y personal capacitado para dar una calidad impecable a tus grabaciones de audio. Dentro de nuestras instalaciones realizamos todo tipo de grabaciones de forma impecable dentro de un ambiente íntimo.
+							El estudio Audiophone son salas de grabaciones preparadas con equipos profesionales y personal capacitado para dar una calidad impecable a tus grabaciones de audio. Dentro de nuestras instalaciones realizamos todo tipo de grabaciones, mezclas y remasterizaciones dentro de un ambiente íntimo.
 						</p>
 					</div>
 					<div class="col-sm-4 col-12 services">
@@ -62,7 +62,7 @@
 
 						<h4 class="text-center">Alquiler de Equipos para Fiestas y Eventos</h4>
 						<p class="text-justify mt-4">
-							Tambien ofrecemos servicio de alquiler de equipos desde sonidos de grupos musicales hasta minitecas para sus fiestas y eventos en la ciudad de Caracas. Proporcionamos buen ambiente musical, contratando profesionales de la musica para tocar y cantar en vivo.   
+							Ofrecemos servicio de alquiler de equipos desde sonidos de grupos musicales, minitecas e instrumentos para dar vida y color a sus eventos en la ciudad de Caracas. Preparados y listos para la cualquier celebración.
 						</p>
 					</div>
 					<div class="col-sm-4 col-12 services">
@@ -73,7 +73,7 @@
 
 						<h4 class="text-center">Contratación de Grupos Músicales</h4>
 						<p class="text-justify mt-4">
-							Audiophone, posee contacto directo con el Grupo Musical Horizonte, encargada de la contratación de profesionales del canto, para tus eventos de música en vivo dentro de la ciudad de Caracas.
+							Poseemos contacto directo con el Grupo Musical Horizonte, encargada de la contratación de profesionales del canto, para tus eventos de música en vivo dentro de la ciudad de Caracas, proporcionando un buen ambiente musical para tus clientes, amigos y seres queridos.
 						</p>
 					</div>
 				</div>
