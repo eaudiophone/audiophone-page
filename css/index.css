@@ -1,3 +1,22 @@
+
+/* Transiciones circulos */
+
+/*.animate-left {
+	transition: transform 2s;
+}
+
+.animate-left:hover {
+	transform: translateX(-25%);
+}
+
+.animate-right {
+	transition:  transform 2s;
+}
+
+.animate-right:hover {
+	transform: translateX(25%); 
+}*/
+
 body {
 	overflow-x: hidden;
 }
@@ -64,7 +83,7 @@ body {
 }
 
 .fondo {
-	background-image: url('./../img/FondoServicios.png');
+	background-image: url('./../img/FondoDeservicios.png');
 	background-repeat: none;
 	background-size: cover;
 }
@@ -72,7 +91,6 @@ body {
 .opacity {
 	background-color: black;
 	opacity: 0.8;
-	height: 100%;
 }
 
 .circle-blue {
@@ -81,6 +99,8 @@ body {
 	height: 300px;
   width: 300px;	
   display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .circle-red {
@@ -89,6 +109,8 @@ body {
   width: 300px;	
   border-radius: 50%;
   display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .circle-blue > span {
@@ -103,23 +125,75 @@ body {
 	font-weight: bold;
 }
 
-/* Transiciones circulos */
-.animate-inverse {
-	width: 500px;
-	transition: width 2s;
-}
-
-.animate-inverse:hover {
-	width: 100%;
-}
-
 .animate-right {
-	transition:  transform 2s;
+	margin-right: 50%;
+	transition: margin-right 1.5s ease;
+	-webkit-transition: margin-right 1.5s ease;
+	-moz-transition: margin-right 1.5s ease;
+	-o-transition: margin-right 1.5s ease;
 }
 
 .animate-right:hover {
-	transform: translateX(25%);  /* mueve  */
+	margin-right: 25%;
 }
+
+.animate-left {
+	margin-left: 50%;
+	transition: margin-left 1.5s ease;
+	-webkit-transition: margin-left 1.5s ease;
+	-moz-transition: margin-left 1.5s ease;
+	-o-transition: margin-left 1.5s ease;
+}
+
+.animate-left:hover {
+	margin-left: 25%;
+}
+
+
+.fondo-blue {
+	background: #1c4756;
+	padding-right: 10px;
+	border-top-right-radius: 150px;
+	border-bottom-right-radius: 150px;
+}
+
+.fondo-red {
+	background: #99272f;
+	padding-left: 10px;
+	border-top-left-radius: 150px;
+	border-bottom-left-radius: 150px;
+}
+
+.ajuste {
+	width: 65%;
+}
+
+.ajuste li {
+	font-size: 18px;
+	font-style: italic;
+}
+
+.piano {
+	background-image: url('../img/FondodeGrupoMusical.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 320px;
+}
+
+.consola {
+	background-image: url('./../img/FondoServicios.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 320px;
+}
+
+.alquiler {
+	background-image: url('../img/Imagen0094.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 320px;
+}
+
 
 
 /*html {      
