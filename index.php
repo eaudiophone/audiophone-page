@@ -14,7 +14,7 @@
 	<script src="./js/bootstrap-4.0.js"></script>
 </head>
 <body class="audiophone-page-dark-theme">
-	<?php include './components/navbar/navbar.php'; ?> <!-- navbar -->
+	<?php require './components/navbar/navbar.php'; ?> <!-- navbar -->
 	<header> 
 		<div class="header-background jumbotron m-0">
 			<div class="row h-100">
@@ -81,122 +81,48 @@
 		</div>
 	</section>
 	<section>
-		<div class="container-fluid pb-5 pt-5 d-none d-xl-block"> <!-- only-xl -->
-			<h3 class="text-center font-italic mb-5">Precios y Tárifas</h3>
-			
-			<div class="row mb-3">
-				<div class="col-12 p-0">
-					<div class="animate-right">
-						<div class="fondo-blue d-flex flex-row justify-content-end align-items-center">
-							
-							<div class="consola opacity p-0" style="width: 35%"></div>
-							<div class="text-center ajuste">
-								<ul>
-									<li>Grabaciones</li>
-									<li>Mezclas</li>
-									<li>Masterizaciones</li>
-								</ul>
-
-								<button class="btn contact-button mt-3" style="background-color: #343434">
-									<b class="font-weight-bold font-italic">Ver más</b>
-								</button>
-							</div>
-
-
-							<div class="d-flex flex-row justify-content-end">
-								<div class="circle-blue d-flex flex-column justify-content-center align-items-center">
-									<span>Estudio de Grabación</span>	
-								</div>
-							</div>
-						</div>
-					</div>	
-				</div>	
-			</div>
-
-			<div class="row mb-3">
-				<div class="col-12 p-0">
-					
-					<div class="animate-left">
-							<div class="fondo-red d-flex flex-row justify-content-end align-items-center">
-								<div class="d-flex flex-row justify-content-start">
-									<div class="circle-red d-flex flex-column justify-content-center align-items-center">
-										<span>Alquiler de equipos</span>
-									</div>
-								</div>
-
-								<div class="text-center ajuste">
-									<ul>
-										<li>Transporte incluido.</li>
-										<li>Minitecas y Equipos.</li>
-										<li>Instrumentos</li>
-									</ul>
-
-									<button class="btn contact-button mt-3" style="background-color: #343434">
-										<b class="font-weight-bold font-italic">Ver más</b>
-									</button>
-								</div>
-								<div class="alquiler p-0" style="width: 35%"></div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-
-
-			<div class="row mb-3">
-				<div class="col-12 p-0">
-					<div class="animate-right">
-						<div class="fondo-blue d-flex flex-row justify-content-end align-items-center">
-
-							<div class="piano opacity p-0" style="width: 35%"></div>
-							<div class="text-center ajuste">
-								<ul>
-									<li>Músicos profesionales</li>
-									<li>Servicio Personalizado</li>
-									<li>Sonido Incluido</li>
-								</ul>
-
-								<button class="btn contact-button mt-3" style="background-color: #343434">
-									<b class="font-weight-bold font-italic">Ver más</b>
-								</button>
-							</div>
-
-
-							<div class="d-flex flex-row justify-content-end">
-								<div class="circle-blue d-flex flex-column justify-content-center align-items-center">
-									<span>Grupo Músical Horizonte</span>	
-								</div>
-							</div>
-						</div>	
-					</div>
-				</div>	
-			</div>
-			<!--<div class="row mb-3">
-				<div class="col-sm-8">
-					<div class="animate-left">
-						<div class="d-flex flex-row justify-content-end">
-							<div class="circle-red d-flex flex-column justify-content-center align-items-center">
-								<span>Alquiler de equipos</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">prueba</div>
-			</div>
+		<div class="container-fluid pb-5 pt-5 d-none d-xl-block"> <!-- services-only-xl -->
+			<?php require './components/sections/services-index.php'; ?>	
+		</div>
+	</section>
+	<section>
+		<h3 class="text-center font-italic mb-5">Clientes y Amigos</h3>
+		<div class="container pb-5 pt-5 mb-5 clients">
 			<div class="row">
-				<div class="col-sm-4">prueba</div>
-				<div class="col-sm-8">
-					<div class="animate-right">
-						<div class="circle-blue d-flex flex-column justify-content-center align-items-center">
-							<span>Grupo Músical Horizonte</span>
-						</div>
+				<div class="col-sm-6 col-12 text-center">
+					colocar video o audio
+				</div>
+				<div class="col-sm-6 col-12 padding">
+					<p class="text-justify">
+						Conservamos los mejores momentos en la labor de los servicios de nuestros clientes, 
+						tenemos historias que contar y queremos que tú también consideres al equipo Audiophone como 
+						tu mejor opción al momento de realizar algún proyecto músical, evento o carrera artistica, 
+						colaboramos con el desarrollo de talento a muchos profesionales del canto. <br><br>
+
+						Por eso decimos que una acción vale más que mil palabras por ello dejamos demostraciones, para 
+						que puedas conocer nuestro trabajo y puedas comprobar ti mismo si quieres trabajar con
+						nosostros. Además siguenos en nuestras redes sociales o contactanos para saber más. 
+					</p>
+					<div class="d-flex flex-row justify-content-center mt-5">
+						<a href="#contacto" style="color: white">
+							<i class="fa fa-instagram fa-2x"></i>
+						</a>
+						<a href="#contacto" style="color: white">
+							<i class="fa fa-facebook fa-2x ml-5 mr-5"></i>
+						</a>
+						<button class="btn contact-button" data-toggle="modal" data-target="#modalTerms">
+							<b class="font-weight-bold font-italic">Contáctar</b>
+						</button>
 					</div>
 				</div>
 			</div>
-		</div> -->
+		</div>
 	</section>
 	<section></section>
 	<section></section>
-	<section></section>
+	<section> <!-- modals -->
+		<?php require './components/modal/contact.php'; ?>
+		<?php require './components/modal/terms.php'; ?>
+	</section>
 </body>
 </html>

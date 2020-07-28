@@ -16,6 +16,7 @@
             </p>
           </div>
         </div>
+
         <div class="row modal-content-center">
           <div class="col-sm-3 col-xs-12 icon">
             <i class="fa fa-envelope fa-2x"></i>
@@ -38,9 +39,9 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn dark-blue" data-dismiss="modal">
+        <button type="button" class="btn contact-button" data-dismiss="modal" style="font-style: italic;">
           <i class="fa fa-close"></i>
-          Close
+          <b>Cerrar</b>
         </button>
       </div>
     </div>
