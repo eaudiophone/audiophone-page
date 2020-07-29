@@ -82,7 +82,7 @@
 	</section>
 	<section>
 		<div class="container-fluid pb-5 pt-5 d-none d-xl-block"> <!-- services-only-xl -->
-			<?php require './components/sections/services-index.php'; ?>	
+			<?php require './components/sections/services_xl.php'; ?>	
 		</div>
 	</section>
 	<section>
@@ -118,8 +118,54 @@
 			</div>
 		</div>
 	</section>
-	<section></section>
-	<section></section>
+	<section>
+		<h3 class="text-center font-italic mb-5">Encuentrános en:</h3>
+		<?php require './components/maps/maps.php'; ?>
+		<div class="d-none d-xl-block"> <!-- only-xl -->
+			<div class="row mt-4">
+				<div class="col-sm-5 col-12 fondo-l">
+					<div class="d-flex flex-row justify-content-end align-items-center">
+						<div class="text-center" style="width: 50%">
+							<p class="p-0 mr-5 text-right font-italic" style="font-size: 18px">
+								Lunes a Viernes <br>
+								Desde las <br>
+								10:00am a las 3:00pm
+							</p>
+
+						</div>
+
+						<div class="d-flex flex-row justify-content-end">
+							<div class="circle-l-red d-flex flex-column justify-content-center align-items-center">
+								<span>Horarios</span>	
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2"></div>
+				<div class="col-sm-5 col-12 fondo-r">
+					<div class="d-flex flex-row justify-content-start align-items-center">
+						<div class="circle-l-blue d-flex flex-column justify-content-center align-items-center">
+							<span>Dirección</span>
+						</div>
+						<div class="text-center" style="width: 50%">
+							<p class="p-0 font-italic text-left ml-5" style="font-size: 18px">
+								Av. Principal de Manicomio <br>
+								Esq. Trinchera <br>
+								Casa N°. 152 <br>
+								La Pastora - Caracas
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="d-flex flex-row justify-content-between" style="padding: 20px;">
+			<div>Design for: Gabriel Martínez & Darianna Martinez</div>
+			<div>Términos y condiciones del Servicio</div>
+		</div>
+	</footer>
 	<section> <!-- modals -->
 		<?php require './components/modal/contact.php'; ?>
 		<?php require './components/modal/terms.php'; ?>

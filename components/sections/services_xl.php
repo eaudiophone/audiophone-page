@@ -1,13 +1,13 @@
 <!-- services template xl --> 
 
-<h3 class="text-center font-italic mb-5">Precios y Tárifas</h3>
+<!-- <h3 class="text-center font-italic mb-5">Precios y Tárifas</h3> -->
 			
 <div class="row mb-3">
 	<div class="col-12 p-0">
 		<div class="animate-right">
 			<div class="fondo-blue d-flex flex-row justify-content-end align-items-center">
 				
-				<!-- <div class="consola opacity p-0" style="width: 35%"></div> --> 
+				<div class="consola opacity p-0" style="width: 35%"></div> 
 				<div class="text-center ajuste">
 					<ul class="p-0">
 						<li>Grabaciones</li>
@@ -53,7 +53,7 @@
 							<b class="font-weight-bold font-italic">Ver más</b>
 						</button>
 					</div>
-					<!-- <div class="alquiler p-0" style="width: 35%"></div> -->
+					<div class="alquiler p-0" style="width: 35%"></div>
 			</div>
 
 		</div>
@@ -66,7 +66,7 @@
 		<div class="animate-right">
 			<div class="fondo-blue d-flex flex-row justify-content-end align-items-center">
 
-				<!-- <div class="piano opacity p-0" style="width: 35%"></div> -->
+				<div class="piano opacity p-0" style="width: 35%"></div>
 				<div class="text-center ajuste">
 					<ul class="p-0">
 						<li>Músicos profesionales</li>
