@@ -17,6 +17,11 @@
 	transform: translateX(25%); 
 }*/
 
+@font-face {
+	font-family: "Times";
+	src: url('./../fonts/Hathem Bosteem.ttf');
+}
+
 body {
 	overflow-x: hidden;
 }
@@ -33,6 +38,16 @@ body {
 
 .audiophone-page-primary-color-contrast {
 	background-color: #28667b
+}
+
+.font-special {
+	font-family: "Times" !important;
+	color: white;
+}
+
+.font-special:hover {
+	color: white;
+	text-decoration: none;
 }
 
 .font-20 {
@@ -241,7 +256,8 @@ body {
 }
 
 .circle-l-red > span {
-
+	font-size: 28px;
+	font-style: italic;	
 }
 
 .circle-l-blue {
@@ -277,6 +293,11 @@ body {
 	border-bottom-right-radius: 130px; 
 }
 
+.terms {
+	cursor: pointer;
+	text-decoration: underline;
+	font-weight: bold;
+}
 
 
 /*html {      

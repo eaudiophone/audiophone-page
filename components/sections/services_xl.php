@@ -9,14 +9,14 @@
 				
 				<div class="consola opacity p-0" style="width: 35%"></div> 
 				<div class="text-center ajuste">
-					<ul class="p-0">
+					<ul class="p-0" style="list-style: none;">
 						<li>Grabaciones</li>
 						<li>Mezclas</li>
 						<li>Masterizaciones</li>
 					</ul>
 
-					<button class="btn contact-button mt-3" style="background-color: #343434">
-						<b class="font-weight-bold font-italic">Ver más</b>
+					<button class="btn contact-button mt-3 button-shadow" style="background-color: #343434">
+						<b class="font-weight-bold font-italic">Ver Descripción y Tarifas</b>
 					</button>
 				</div>
 
@@ -43,14 +43,14 @@
 					</div>
 
 					<div class="text-center ajuste">
-						<ul class="p-0">
+						<ul class="p-0" style="list-style: none;">
 							<li>Transporte incluido.</li>
 							<li>Minitecas y Equipos.</li>
 							<li>Instrumentos</li>
 						</ul>
 
-						<button class="btn contact-button mt-3" style="background-color: #343434">
-							<b class="font-weight-bold font-italic">Ver más</b>
+						<button class="btn contact-button mt-3 button-shadow" style="background-color: #343434">
+							<b class="font-weight-bold font-italic">Ver Descripción y Tarifas</b>
 						</button>
 					</div>
 					<div class="alquiler p-0" style="width: 35%"></div>
@@ -68,14 +68,14 @@
 
 				<div class="piano opacity p-0" style="width: 35%"></div>
 				<div class="text-center ajuste">
-					<ul class="p-0">
+					<ul class="p-0" style="list-style: none;">
 						<li>Músicos profesionales</li>
 						<li>Servicio Personalizado</li>
 						<li>Sonido Incluido</li>
 					</ul>
 
-					<button class="btn contact-button mt-3" style="background-color: #343434">
-						<b class="font-weight-bold font-italic">Ver más</b>
+					<button class="btn contact-button mt-3 button-shadow" style="background-color: #343434">
+						<b class="font-weight-bold font-italic">Ver Descripción y Tarifas</b>
 					</button>
 				</div>
 
