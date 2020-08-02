@@ -299,6 +299,12 @@ body {
 	font-weight: bold;
 }
 
+.fondo05 {
+	background-image: url('./../img/Fondo05.jpg');
+	background-repeat: none;
+	background-size: cover;
+}
+
 
 /*html {      
     width:100%;

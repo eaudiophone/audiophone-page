@@ -90,7 +90,7 @@
 		<div class="container pb-5 pt-5 mb-5 clients">
 			<div class="row">
 				<div class="col-sm-6 col-12 text-center">
-					colocar video o audio
+					<!-- <img src=""> -->
 				</div>
 				<div class="col-sm-6 col-12 padding">
 					<p class="text-justify">
@@ -119,48 +119,50 @@
 		</div>
 	</section>
 	<section>
-		<h3 class="text-center font-italic mb-5">Encuentrános en:</h3>
-		<?php require './components/maps/maps.php'; ?>
-		<div class="d-none d-xl-block"> <!-- only-xl -->
-			<div class="row mt-4">
-				<div class="col-sm-5 col-12 fondo-l">
-					<div class="d-flex flex-row justify-content-end align-items-center">
-						<div class="text-center" style="width: 50%">
-							<p class="p-0 mr-5 text-right font-italic" style="font-size: 18px">
-								Lunes a Viernes <br>
-								Desde las <br>
-								10:00am a las 3:00pm
-							</p>
+		<div class="fondo05 pb-5">
+			<h3 class="text-center font-italic mb-5">Encuentrános en:</h3>
+			<?php require './components/maps/maps.php'; ?>
+			<div class="d-none d-xl-block"> <!-- only-xl -->
+				<div class="row mt-4">
+					<div class="col-sm-5 col-12 fondo-l">
+						<div class="d-flex flex-row justify-content-end align-items-center">
+							<div class="text-center" style="width: 50%">
+								<p class="p-0 mr-5 text-right font-italic" style="font-size: 18px">
+									Lunes a Viernes <br>
+									Desde las <br>
+									10:00am a las 3:00pm
+								</p>
 
-						</div>
+							</div>
 
-						<div class="d-flex flex-row justify-content-end">
-							<div class="circle-l-red d-flex flex-column justify-content-center align-items-center">
-								<span>Horarios</span>	
+							<div class="d-flex flex-row justify-content-end">
+								<div class="circle-l-red d-flex flex-column justify-content-center align-items-center">
+									<span>Horarios</span>	
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-sm-2"></div>
-				<div class="col-sm-5 col-12 fondo-r">
-					<div class="d-flex flex-row justify-content-start align-items-center">
-						<div class="circle-l-blue d-flex flex-column justify-content-center align-items-center">
-							<span>Dirección</span>
-						</div>
-						<div class="text-center" style="width: 50%">
-							<p class="p-0 font-italic text-left ml-5" style="font-size: 18px">
-								Av. Principal de Manicomio <br>
-								Esq. Trinchera <br>
-								Casa N°. 152 <br>
-								La Pastora - Caracas
-							</p>
+					<div class="col-sm-2"></div>
+					<div class="col-sm-5 col-12 fondo-r">
+						<div class="d-flex flex-row justify-content-start align-items-center">
+							<div class="circle-l-blue d-flex flex-column justify-content-center align-items-center">
+								<span>Dirección</span>
+							</div>
+							<div class="text-center" style="width: 50%">
+								<p class="p-0 font-italic text-left ml-5" style="font-size: 18px">
+									Av. Principal de Manicomio <br>
+									Esq. Trinchera <br>
+									Casa N°. 152 <br>
+									La Pastora - Caracas
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<footer class="mt-4">
+	<footer>
 		<div class="d-flex flex-row justify-content-between" style="padding: 20px;">
 			<div class="font-italic">Design for: 
 				<a class="font-special" href="https://gabmart1995.github.io/" target="_blank">Gabriel Martinez</a> & 
