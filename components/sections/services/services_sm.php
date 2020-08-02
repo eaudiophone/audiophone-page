@@ -1,9 +1,9 @@
 <!-- services-sm -->
 <div class="row mt-4 fondo-blue effect">
-	<div class="col-sm-6 text-right">
+	<div class="col-sm-5 text-right">
 		<img class="img-sm" src="./img/FondoServicios.png" alt="FondoServicios">
 	</div>
-	<div class="col-sm-6 p-0">
+	<div class="col-sm-7 p-0">
 		<div class="h-100 d-flex flex-column justify-content-center align-items-center">
 			<h4 class="font-italic mb-3"><b>Estudio de Grabación</b></h4>
 			<ul class="p-0" style="list-style: none;">
@@ -20,7 +20,7 @@
 </div>
 
 <div class="row mt-4 fondo-red effect">
-	<div class="col-sm-6 p-0">
+	<div class="col-sm-7 p-0">
 		<div class="h-100 d-flex flex-column justify-content-center align-items-center">
 			<h4 class="font-italic mb-3"><b>Alquiler de equipos</b></h4>
 			<ul class="p-0" style="list-style: none;">
@@ -34,16 +34,16 @@
 			</button>
 		</div>
 	</div>
-	<div class="col-sm-6 text-left p-0">
+	<div class="col-sm-5 text-left p-0">
 		<img class="img-sm" src="./img/Imagen0094.jpg" alt="alquiler">
 	</div>
 </div>
 
 <div class="row mt-4 fondo-blue effect">
-	<div class="col-sm-6 p-0 text-right">
+	<div class="col-sm-5 p-0 text-right">
 		<img src="./img/FondodeGrupoMusical.png" alt="piano" class="img-sm">
 	</div>
-	<div class="col-sm-6 p-0">
+	<div class="col-sm-7 p-0">
 		<div class="h-100 d-flex flex-column justify-content-center align-items-center">
 			<h4 class="font-italic mb-3"><b>Grupo Músical Horizonte</b></h4>
 			<ul class="p-0" style="list-style: none;">

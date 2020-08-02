@@ -167,6 +167,9 @@ body {
 
 .fondo-blue {
 	background: #1c4756;
+	background: -webkit-linear-gradient(left, rgba(52,52,52,1) 0%, rgba(28,71,86,1) 75%, rgba(52,52,52,1) 100%);
+	background: -o-linear-gradient(left, rgba(52,52,52,1) 0%, rgba(28,71,86,1) 75%, rgba(52,52,52,1) 100%);
+	background: linear-gradient(to right, rgba(52,52,52,1) 0%, rgba(28,71,86,1) 75%, rgba(52,52,52,1) 100%);
 	padding-right: 10px;
 	border-top-right-radius: 150px;
 	border-bottom-right-radius: 150px;
@@ -174,6 +177,9 @@ body {
 
 .fondo-red {
 	background: #99272f;
+	background: -webkit-linear-gradient(left, rgba(52,52,52,1) 0%, rgba(171,59,64,1) 35%, rgba(52,52,52,1) 80%);
+	background: -o-linear-gradient(left, rgba(52,52,52,1) 0%, rgba(171,59,64,1) 35%, rgba(52,52,52,1) 80%);
+	background: linear-gradient(to right, rgba(52,52,52,1) 0%, rgba(171,59,64,1) 35%, rgba(52,52,52,1) 80%);
 	padding-left: 10px;
 	border-top-left-radius: 150px;
 	border-bottom-left-radius: 150px;
