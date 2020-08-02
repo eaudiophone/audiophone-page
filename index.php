@@ -84,7 +84,7 @@
 		<div class="container-fluid pb-5 pt-5 d-none d-xl-block"> <!-- services-only-xl -->
 			<?php require './components/sections/services/services_xl.php'; ?>	
 		</div>
-		<div class="contianer-fluid pb-5 pt-5 d-none d-sm-block"> <!-- services-only-sm-lg -->
+		<div class="contianer-fluid pb-5 pt-5 d-none d-sm-block d-xl-none"> <!-- services-only-sm-lg -->
 			<?php require './components/sections/services/services_sm.php' ?>
 		</div>
 	</section>
