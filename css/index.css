@@ -168,8 +168,8 @@ body {
 .fondo-blue {
 	background: #1c4756;
 	padding-right: 10px;
-	border-top-right-radius: 150px;
-	border-bottom-right-radius: 150px;
+	/*border-top-right-radius: 150px;
+	border-bottom-right-radius: 150px;*/
 }
 
 .fondo-red {
