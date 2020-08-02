@@ -64,4 +64,9 @@
 		border-bottom-left-radius: 0;
 		padding: 0;
 	}
+
+	.effect {
+		color: transparent;
+		transition: color 1s ease;
+	}
 }

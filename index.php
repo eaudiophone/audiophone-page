@@ -186,5 +186,6 @@
 		<?php require './components/modal/contact.php'; ?>
 		<?php require './components/modal/terms.php'; ?>
 	</section>
+	<script src="./js/index.js"></script>
 </body>
 </html>

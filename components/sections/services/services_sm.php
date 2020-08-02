@@ -1,5 +1,5 @@
 <!-- services-sm -->
-<div class="row mt-4 fondo-blue">
+<div class="row mt-4 fondo-blue effect">
 	<div class="col-sm-6 text-right">
 		<img class="img-sm" src="./img/FondoServicios.png" alt="FondoServicios">
 	</div>
@@ -19,7 +19,7 @@
 	</div>
 </div>
 
-<div class="row mt-4 fondo-red">
+<div class="row mt-4 fondo-red effect">
 	<div class="col-sm-6 p-0">
 		<div class="h-100 d-flex flex-column justify-content-center align-items-center">
 			<h4 class="font-italic mb-3"><b>Alquiler de equipos</b></h4>
@@ -39,7 +39,7 @@
 	</div>
 </div>
 
-<div class="row mt-4 fondo-blue">
+<div class="row mt-4 fondo-blue effect">
 	<div class="col-sm-6 p-0 text-right">
 		<img src="./img/FondodeGrupoMusical.png" alt="piano" class="img-sm">
 	</div>
