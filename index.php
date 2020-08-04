@@ -92,8 +92,8 @@
 		<h3 class="text-center font-italic mb-5">Clientes y Amigos</h3>
 		<div class="container pb-5 pt-5 mb-5 clients">
 			<div class="row">
-				<div class="col-sm-6 col-12 text-right padding">
-					<img src="./img/Collage.jpg" class="rounded img-special img-clients"> 
+				<div class="col-sm-6 col-12 text-right padding pr-0">
+					<img src="./img/Collage.jpg" class="rounded-circle img-special img-clients"> 
 				</div>
 				<div class="col-sm-6 col-12 padding">
 					<div class="d-flex flex-column justify-content-center align-items-center">
