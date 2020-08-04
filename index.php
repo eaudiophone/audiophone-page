@@ -93,29 +93,31 @@
 		<div class="container pb-5 pt-5 mb-5 clients">
 			<div class="row">
 				<div class="col-sm-6 col-12 text-right padding">
-					<img src="./img/Collage.jpg" class="w-100 rounded-circle"> 
+					<img src="./img/Collage.jpg" class="rounded img-special img-clients"> 
 				</div>
 				<div class="col-sm-6 col-12 padding">
-					<p class="text-justify">
-						Conservamos los mejores momentos en la labor de los servicios de nuestros clientes, 
-						tenemos historias que contar y queremos que tú también consideres al equipo Audiophone como 
-						tu mejor opción al momento de realizar algún proyecto músical, evento o carrera artistica, 
-						colaboramos con el desarrollo de talento a muchos profesionales del canto. <br><br>
+					<div class="d-flex flex-column justify-content-center align-items-center">
+						<p class="text-justify font-14">
+							Conservamos los mejores momentos en la labor de los servicios de nuestros clientes, 
+							tenemos historias que contar y queremos que tú también consideres al equipo Audiophone como 
+							tu mejor opción al momento de realizar algún proyecto músical, evento o carrera artistica, 
+							colaboramos con el desarrollo de talento a muchos profesionales del canto. <br><br>
 
-						Por eso decimos que una acción vale más que mil palabras por ello dejamos demostraciones, para 
-						que puedas conocer nuestro trabajo y puedas comprobar ti mismo si quieres trabajar con
-						nosostros. Además siguenos en nuestras redes sociales o contactanos para saber más. 
-					</p>
-					<div class="d-flex flex-row justify-content-center mt-5">
-						<a href="#contacto" style="color: white">
-							<i class="fa fa-instagram fa-2x"></i>
-						</a>
-						<a href="#contacto" style="color: white">
-							<i class="fa fa-facebook fa-2x ml-5 mr-5"></i>
-						</a>
-						<button class="btn contact-button" data-toggle="modal" data-target="#modalTerms">
-							<b class="font-weight-bold font-italic">Contáctar</b>
-						</button>
+							Por eso decimos que una acción vale más que mil palabras por ello dejamos demostraciones, para 
+							que puedas conocer nuestro trabajo y puedas comprobar ti mismo si quieres trabajar con
+							nosostros. Además siguenos en nuestras redes sociales o contactanos para saber más. 
+						</p>
+						<div class="d-flex flex-row justify-content-center mt-4">
+							<a href="#contacto" style="color: white">
+								<i class="fa fa-instagram fa-2x"></i>
+							</a>
+							<a href="#contacto" style="color: white">
+								<i class="fa fa-facebook fa-2x ml-5 mr-5"></i>
+							</a>
+							<button class="btn contact-button" data-toggle="modal" data-target="#modalTerms">
+								<b class="font-weight-bold font-italic">Contáctar</b>
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -127,7 +129,7 @@
 			<?php require './components/maps/maps.php'; ?>
 			<div class="d-none d-xl-block"> <!-- only-xl -->
 				<div class="row mt-4">
-					<div class="col-sm-5 col-12 fondo-l">
+					<div class="col-5 fondo-l">
 						<div class="d-flex flex-row justify-content-end align-items-center">
 							<div class="text-center" style="width: 50%">
 								<p class="p-0 mr-5 text-right font-italic" style="font-size: 18px">
@@ -146,7 +148,7 @@
 						</div>
 					</div>
 					<div class="col-sm-2"></div>
-					<div class="col-sm-5 col-12 fondo-r">
+					<div class="col-5 fondo-r">
 						<div class="d-flex flex-row justify-content-start align-items-center">
 							<div class="circle-l-blue d-flex flex-column justify-content-center align-items-center">
 								<span>Dirección</span>
@@ -163,31 +165,54 @@
 					</div>
 				</div>
 			</div>
+			<div class="d-none d-sm-block d-xl-none"> 
+				<div class="row mt-4">
+					<div class="col-sm-6 text-center">
+						<p class="p-0 mr-5 text-right font-italic" style="font-size: 18px">
+							<span style="text-decoration: underline;">Horarios:</span><br>
+							Lunes a Viernes <br>
+							Desde las <br>
+							10:00am a las 3:00pm
+						</p>
+					</div>
+					<div class="col-sm-6">
+						<p class="p-0 font-italic text-left ml-5" style="font-size: 18px">
+							<span style="text-decoration: underline;">Dirección:</span><br>
+							Av. Principal de Manicomio <br>
+							Esq. Trinchera <br>
+							Casa N°. 152 <br>
+							La Pastora - Caracas
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
-	<footer>
-		<div class="d-flex flex-row justify-content-between" style="padding: 20px;">
-			<div class="font-italic">Design for: 
-				<a class="font-special" href="https://gabmart1995.github.io/" target="_blank">Gabriel Martinez</a> & 
-				<span class="font-special">Darianna Martinez</span>
-			</div>
-			<div class="links">
-				<a href="#contacto">
-					<i class="fa fa-instagram fa-2x"></i>
-				</a>
-				<a href="#contacto">
-					<i class="fa fa-facebook fa-2x"></i>
-				</a>
-			</div>
-			<div class="terms" data-toggle="modal" data-target="#modalTerms">
-				Términos y condiciones del Servicio
-			</div>
-		</div>
-	</footer>
 	<section> <!-- modals -->
 		<?php require './components/modal/contact.php'; ?>
 		<?php require './components/modal/terms.php'; ?>
 	</section>
+	<footer>
+		<div class="d-none d-sm-block">
+			<div class="d-flex flex-row justify-content-between" style="padding: 20px;">
+				<div class="font-italic">Design for: 
+					<a class="font-special" href="https://gabmart1995.github.io/" target="_blank">Gabriel Martinez</a> & 
+					<span class="font-special">Darianna Martinez</span>
+				</div>
+				<div class="links">
+					<a href="#contacto">
+						<i class="fa fa-instagram fa-2x"></i>
+					</a>
+					<a href="#contacto">
+						<i class="fa fa-facebook fa-2x"></i>
+					</a>
+				</div>
+				<div class="terms" data-toggle="modal" data-target="#modalTerms">
+					Términos y condiciones del Servicio
+				</div>
+			</div>
+		</div>
+	</footer>
 	<script src="./js/index.js"></script>
 </body>
 </html>

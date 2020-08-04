@@ -70,3 +70,24 @@
 		transition: color 1s ease;
 	}
 }
+
+@media screen and ( min-width: 720px ) and (max-width: 960px ) {
+	.font-14 {
+		font-size: 14px;
+	}
+
+	.img-special {
+		height: 30vh;
+		width: 100%;
+	}
+
+	.fondo-r {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.fondo-l {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
