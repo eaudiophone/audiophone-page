@@ -5,10 +5,30 @@ function seeTextServices() {
 		END: 2100
 	};
 
-	var CSS = {
-		color
-	};
+	var HEADER = {
+		START: 0,
+		END: 500
+	}
 
+	// navbar
+	if (  
+		window.scrollY >= HEADER.START && 
+		window.scrollY <= HEADER.END 
+	) {
+
+		if ( background === '#343434' ) {
+			background = 'linear-gradient(90deg, rgba(171,48,56,1) 0%, rgba(40,102,123,1) 100%)';
+		}
+
+	} else {
+
+		if ( background !== '#343434' ) {
+			background = '#343434';
+		}
+
+	}
+
+	// text
 	if ( 
 		window.scrollY >= SECTION_SERVICES.START && 
 		window.scrollY <= SECTION_SERVICES.END 
@@ -25,10 +45,15 @@ function seeTextServices() {
 		}
 	}
 
-	elementsEffect.css( CSS );
+	elementsEffect.css( 'color', color );
+	navbar.css( 'background', background );
+
+	console.log( window.scrollY );
 }
 
 var elementsEffect = $('.effect');
+var navbar = $('#cambio');
 var color = 'transparent';
+var background = 'linear-gradient(90deg, rgba(171,48,56,1) 0%, rgba(40,102,123,1) 100%)';
 
 $( document ).on( 'scroll', seeTextServices );

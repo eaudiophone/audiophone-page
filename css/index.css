@@ -55,7 +55,7 @@ body {
 }
 
 .bg {
-	background-color: #343434;
+	background: linear-gradient(90deg, rgba(171,48,56,1) 0%, rgba(40,102,123,1) 100%);
 }
 
 .carousel-height {
