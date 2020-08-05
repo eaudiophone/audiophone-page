@@ -1,4 +1,4 @@
-function seeTextServices() {
+function scrollEffects() {
 
 	var SECTION_SERVICES = {
 		START: 1000,
@@ -47,8 +47,6 @@ function seeTextServices() {
 
 	elementsEffect.css( 'color', color );
 	navbar.css( 'background', background );
-
-	console.log( window.scrollY );
 }
 
 var elementsEffect = $('.effect');
@@ -56,4 +54,4 @@ var navbar = $('#cambio');
 var color = 'transparent';
 var background = 'linear-gradient(90deg, rgba(171,48,56,1) 0%, rgba(40,102,123,1) 100%)';
 
-$( document ).on( 'scroll', seeTextServices );
+$( document ).on( 'scroll', scrollEffects );

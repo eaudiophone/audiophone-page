@@ -6,6 +6,19 @@
 	.d-sm {
 		display: none !important;
 	}
+
+	.clients {
+		width: 90%;
+	}
+
+	.maps {
+		width: 90%;
+	}
+
+	p {
+		font-size: 14px !important;
+		margin-top: 20px;
+	}
 }
 
 @media screen and ( min-width: 576px ) {
@@ -15,14 +28,6 @@
 
 	.d-sm {
 		display: block;
-	}
-
-	.links > a > i {
-		color: white;
-	}
-
-	.links > a {
-		margin-right: 30px;
 	}
 }
 

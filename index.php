@@ -84,7 +84,7 @@
 		<div class="container-fluid pb-5 pt-5 d-none d-xl-block"> <!-- services-only-xl -->
 			<?php require './components/sections/services/services_xl.php'; ?>	
 		</div>
-		<div class="contianer-fluid pb-5 pt-5 d-none d-sm-block d-xl-none"> <!-- services-only-sm-lg -->
+		<div class="contianer-fluid pb-5 pt-5 d-none d-md-block d-xl-none"> <!-- services-only-sm-lg -->
 			<?php require './components/sections/services/services_sm.php' ?>
 		</div>
 	</section>
@@ -92,11 +92,11 @@
 		<h3 class="text-center font-italic mb-5">Clientes y Amigos</h3>
 		<div class="container pb-5 pt-5 mb-5 clients">
 			<div class="row">
-				<div class="col-sm-6 col-12 text-right padding pr-0">
-					<img src="./img/Collage.jpg" class="rounded-circle img-special img-clients"> 
+				<div class="col-md-6 col-12 text-right padding line-s">
+					<img src="./img/Collage.jpg" class="w-100 rounded-circle"> 
 				</div>
-				<div class="col-sm-6 col-12 padding">
-					<div class="d-flex flex-column justify-content-center align-items-center">
+				<div class="col-md-6 col-12 padding">
+					<div class="d-flex flex-column justify-content-center align-items-center h-100">
 						<p class="text-justify font-14">
 							Conservamos los mejores momentos en la labor de los servicios de nuestros clientes, 
 							tenemos historias que contar y queremos que tú también consideres al equipo Audiophone como 
@@ -115,7 +115,7 @@
 								<i class="fa fa-facebook fa-2x ml-5 mr-5"></i>
 							</a>
 							<button class="btn contact-button" data-toggle="modal" data-target="#modalTerms">
-								<b class="font-weight-bold font-italic">Contáctar</b>
+								<b class="font-weight-bold font-italic">Ver más</b>
 							</button>
 						</div>
 					</div>
@@ -165,7 +165,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="d-none d-sm-block d-xl-none"> 
+			<div class="d-none d-md-block d-xl-none"> <!-- only md-lg -->
 				<div class="row mt-4">
 					<div class="col-sm-6 text-center">
 						<p class="p-0 mr-5 text-right font-italic" style="font-size: 18px">
@@ -186,6 +186,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="d-block d-sm-none"></div>
 		</div>
 	</section>
 	<section> <!-- modals -->
@@ -193,24 +194,11 @@
 		<?php require './components/modal/terms.php'; ?>
 	</section>
 	<footer>
-		<div class="d-none d-sm-block">
-			<div class="d-flex flex-row justify-content-between" style="padding: 20px;">
-				<div class="font-italic">Design for: 
-					<a class="font-special" href="https://gabmart1995.github.io/" target="_blank">Gabriel Martinez</a> & 
-					<span class="font-special">Darianna Martinez</span>
-				</div>
-				<div class="links">
-					<a href="#contacto">
-						<i class="fa fa-instagram fa-2x"></i>
-					</a>
-					<a href="#contacto">
-						<i class="fa fa-facebook fa-2x"></i>
-					</a>
-				</div>
-				<div class="terms" data-toggle="modal" data-target="#modalTerms">
-					Términos y condiciones del Servicio
-				</div>
-			</div>
+		<div class="d-none d-md-block">
+			<?php require './components/sections/footer/footer_md_xl.php'; ?>
+		</div>
+		<div class="d-block d-md-none">
+			<?php require './components/sections/footer/footer_xs_sm.php'; ?>
 		</div>
 	</footer>
 	<script src="./js/index.js"></script>
