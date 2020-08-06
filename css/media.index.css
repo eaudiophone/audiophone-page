@@ -19,6 +19,27 @@
 		font-size: 14px !important;
 		margin-top: 20px;
 	}
+
+	.alquiler-xs {
+		background-image: url('../img/AlquilerTelf.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 180px;
+	}
+
+	.consola-xs {
+		background-image: url('../img/EstudioGrabaTelf.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 180px;
+	}
+
+	.piano-xs {
+		background-image: url('../img/GrupoMusicalTelf.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 180px;
+	}
 }
 
 @media screen and ( min-width: 576px ) {
@@ -95,5 +116,4 @@
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
-
 }

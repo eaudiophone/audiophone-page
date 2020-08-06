@@ -84,9 +84,13 @@
 		<div class="container-fluid pb-5 pt-5 d-none d-xl-block"> <!-- services-only-xl -->
 			<?php require './components/sections/services/services_xl.php'; ?>	
 		</div>
-		<div class="contianer-fluid pb-5 pt-5 d-none d-md-block d-xl-none"> <!-- services-only-sm-lg -->
-			<?php require './components/sections/services/services_sm.php' ?>
+		<div class="contianer-fluid pb-5 pt-5 d-none d-md-block d-xl-none"> <!-- services-only-md-lg -->
+			<?php require './components/sections/services/services_md.php' ?>
 		</div>
+		<div class="contianer-fluid pb-5 pt-5 d-block d-md-none"> <!-- services-only-xs-sm -->
+			<?php require './components/sections/services/services_xs.php' ?>
+		</div>
+
 	</section>
 	<section>
 		<h3 class="text-center font-italic mb-5">Clientes y Amigos</h3>
