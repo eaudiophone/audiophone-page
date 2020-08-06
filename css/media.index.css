@@ -24,21 +24,34 @@
 		background-image: url('../img/AlquilerTelf.png');
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 180px;
+		height: 200px;
 	}
 
 	.consola-xs {
 		background-image: url('../img/EstudioGrabaTelf.png');
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 180px;
+		height: 200px;
 	}
 
 	.piano-xs {
 		background-image: url('../img/GrupoMusicalTelf.png');
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 180px;
+		height: 200px;
+	}
+
+	.title {
+		font-size: 16px;
+	}
+
+	.services-list {
+		font-size: 12px;
+	}
+
+	.effect {
+		color: transparent;
+		transition: color 1s ease;
 	}
 }
 
