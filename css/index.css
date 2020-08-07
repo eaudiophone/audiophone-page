@@ -3,7 +3,7 @@
 	src: url('./../fonts/Hathem Bosteem.ttf');
 }
 
-body {
+html {
 	overflow-x: hidden;
 }
 
@@ -29,14 +29,6 @@ body {
 .font-special:hover {
 	color: white;
 	text-decoration: none;
-}
-
-.font-20 {
-	font-size: 20px;
-}
-
-.bg {
-	background: linear-gradient(90deg, rgba(171,48,56,1) 0%, rgba(40,102,123,1) 100%);
 }
 
 .carousel-height {

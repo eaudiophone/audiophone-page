@@ -190,7 +190,22 @@
 					</div>
 				</div>
 			</div>
-			<div class="d-block d-sm-none"></div>
+			<div class="d-block d-md-none mt-4">
+				<p class="p-0 mr-5 text-right font-italic" style="font-size: 18px">
+					<span class="bold" style="text-decoration: underline;">Horarios:</span><br>
+					Lunes a Viernes <br>
+					Desde las <br>
+					10:00am a las 3:00pm
+				</p>
+			
+				<p class="p-0 font-italic text-left ml-5" style="font-size: 18px">
+					<span class="bold" style="text-decoration: underline;">Dirección:</span><br>
+					Av. Principal de Manicomio <br>
+					Esq. Trinchera <br>
+					Casa N°. 152 <br>
+					La Pastora - Caracas
+				</p>
+			</div>
 		</div>
 	</section>
 	<section> <!-- modals -->

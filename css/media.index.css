@@ -20,6 +20,18 @@
 		margin-top: 20px;
 	}
 
+	.title {
+		font-size: 16px;
+	}
+
+	.services-list {
+		font-size: 12px;
+	}
+
+	.bold {
+		font-weight: bold;
+	}
+
 	.alquiler-xs {
 		background-image: url('../img/AlquilerTelf.png');
 		background-repeat: no-repeat;
@@ -41,18 +53,44 @@
 		height: 200px;
 	}
 
-	.title {
-		font-size: 16px;
+	.effect {
+		color: transparent;
+		transition: color 1s ease;
 	}
 
-	.services-list {
-		font-size: 12px;
+	.font-20 {
+		margin-left: 0.25rem !important;
+	}
+}
+
+@media screen and ( min-width: 640px ) and ( max-width: 768px ) {
+
+	.alquiler-xs {
+		background-image: url('../img/AlquilerTelf.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 320px;
+	}
+
+	.consola-xs {
+		background-image: url('../img/EstudioGrabaTelf.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 320px;
+	}
+
+	.piano-xs {
+		background-image: url('../img/GrupoMusicalTelf.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 320px;
 	}
 
 	.effect {
 		color: transparent;
 		transition: color 1s ease;
 	}
+
 }
 
 @media screen and ( min-width: 576px ) {
