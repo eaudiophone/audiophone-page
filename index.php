@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/index.css">
 	<link rel="stylesheet" type="text/css" href="./css/navbar.css">
 	<link rel="stylesheet" type="text/css" href="./css/media.index.css">
+	<link rel="stylesheet" href="">
 	<script src="./js/jquery-3.4.1.js"></script>
 	<script src="./js/bootstrap-4.0.js"></script>
 </head>
