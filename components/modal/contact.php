@@ -2,9 +2,9 @@
   aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
-      <div class="modal-body p-0" style="border-radius: 10px;">
-        <div class="content w-100">
-          <div class="row h-100 align-items-center">
+      <div class="modal-body content h-100 p-0">
+        <div class="w-100">
+          <div class="row align-items-center">
             <div class="col-sm-6 col-5"></div>
             <div class="col-sm-6 col-7 text-left">
               <p>
@@ -19,7 +19,7 @@
               </p>
             </div>
             <div class="col-sm-12">
-              <div class="w-100 d-flex flex-row justify-content-around">
+              <div class="w-100 pb-2 d-flex flex-row justify-content-around">
                 <i class="fa fa-envelope fa-2x"></i>
                 <i class="fa fa-whatsapp fa-2x"></i>
                 <i class="fa fa-instagram fa-2x"></i>

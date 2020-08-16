@@ -113,12 +113,6 @@
 							nosostros. Además siguenos en nuestras redes sociales o contactanos para saber más. 
 						</p>
 						<div class="d-flex flex-row justify-content-center mt-4">
-							<a href="#contacto" style="color: white">
-								<i class="fa fa-instagram fa-2x"></i>
-							</a>
-							<a href="#contacto" style="color: white">
-								<i class="fa fa-facebook fa-2x ml-5 mr-5"></i>
-							</a>
 							<button class="btn contact-button" data-toggle="modal" data-target="#modalTerms">
 								<b class="font-weight-bold font-italic">Ver más</b>
 							</button>

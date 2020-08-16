@@ -85,10 +85,6 @@
 		font-size: 24px;
 	}
 
-	.content {
-		height: 68vh !important;
-	}
-
 	.alquiler-xs {
 		background-image: url('../img/AlquilerTelf.png');
 		background-repeat: no-repeat;
@@ -169,14 +165,5 @@
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
-
-	.content {
-		height: 24vh;
-	}
 }
 
-@media screen and ( min-width: 1024px ) and ( max-width: 1199px ) {
-	.content {
-		height: 32vh;
-	}
-}
