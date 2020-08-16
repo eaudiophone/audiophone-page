@@ -54,7 +54,7 @@ $navbar = <<<NAVBAR
 					<i class="fa fa-list-ul"></i>
 					<span class="ml-3 font-menu-xs">Horizonte</span>
 				</a>
-				<a class="nav-item nav-link" href="#">
+				<a class="nav-item nav-link" href="${path}#maps">
 					<i class="fa fa-map-marker"></i>
 					<span class="ml-3 font-menu-xs">Ubicación</span>
 				</a>
@@ -91,13 +91,13 @@ $navbar = <<<NAVBAR
 			<a href="${path}horizon.php">
 				<i class="fa fa-list-ul fa-2x"></i>
 			</a>
-			<a href="#tarifas">
+			<a href="${path}#maps">
 				<i class="fa fa-map-marker fa-2x"></i>
 			</a>
-			<a href="#contacto">
+			<a href="#">
 				<i class="fa fa-instagram fa-2x"></i>
 			</a>
-			<a href="#contacto">
+			<a href="#">
 				<i class="fa fa-facebook fa-2x"></i>
 			</a>
 			<button class="btn contact-button" data-toggle="modal" data-target="#modalContact">

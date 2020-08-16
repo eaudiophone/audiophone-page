@@ -125,7 +125,7 @@
 			</div>
 		</section>
 		<section>
-			<div class="fondo05 pb-5">
+			<div class="fondo05 pb-5" id="maps">
 				<h3 class="text-center font-italic mb-5">Encuentrános en:</h3>
 				<?php require_once './components/maps/maps.php'; ?>
 				<div class="d-none d-xl-block"> <!-- only-xl -->
