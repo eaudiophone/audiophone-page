@@ -302,10 +302,14 @@ html {
 
 /* modal-contact */
 .content {
-	height: 45vh;
 	background-image: url(./../img/Presentacion03.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
+	height: 40vh;
+}
+
+.content span {
+	font-size: 18px;
 }
