@@ -12,7 +12,11 @@
 				<li>Masterizaciones</li>
 			</ul>
 
-			<button class="btn contact-button mt-3 button-shadow" style="background-color: #343434">
+			<button 
+				onclick="redirectTo('./studio.php')" 
+				class="btn contact-button mt-3 button-shadow" 
+				style="background-color: #343434"
+			>
 				<b class="font-weight-bold font-italic">Ver Descripción y Tarifas</b>
 			</button>
 		</div>
@@ -52,7 +56,11 @@
 				<li>Sonido Incluido</li>
 			</ul>
 
-			<button class="btn contact-button mt-3 button-shadow" style="background-color: #343434">
+			<button 
+				class="btn contact-button mt-3 button-shadow" 
+				style="background-color: #343434"
+				onclick="redirectTo('./horizon.php')"
+			>
 				<b class="font-weight-bold font-italic">Ver Descripción y Tarifas</b>
 			</button>
 		</div>

@@ -49,6 +49,10 @@ function scrollEffects() {
 	navbar.css( 'background', background );
 }
 
+function redirectTo( route = '' ) {
+	return location.href = route;
+}
+
 var elementsEffect = $('.effect');
 var navbar = $('#cambio');
 var color = 'transparent';

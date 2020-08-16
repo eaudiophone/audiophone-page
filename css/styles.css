@@ -1,0 +1,8 @@
+@import './index.css';
+@import './media.index.css' screen;
+@import './navbar.css';
+
+.bg {
+	background: none !important;
+}
+

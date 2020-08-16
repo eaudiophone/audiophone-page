@@ -1,7 +1,3 @@
-<!-- services template xl --> 
-
-<!-- <h3 class="text-center font-italic mb-5">Precios y Tárifas</h3> -->
-			
 <div class="row mb-3">
 	<div class="col-12 p-0">
 		<div class="animate-right">
@@ -15,7 +11,11 @@
 						<li>Masterizaciones</li>
 					</ul>
 
-					<button class="btn contact-button mt-3 button-shadow" style="background-color: #343434">
+					<button 
+						class="btn contact-button mt-3 button-shadow" 
+						style="background-color: #343434"
+						onclick="redirectTo('./studio.php')" 
+					>
 						<b class="font-weight-bold font-italic">Ver Descripción y Tarifas</b>
 					</button>
 				</div>
@@ -74,7 +74,11 @@
 						<li>Sonido Incluido</li>
 					</ul>
 
-					<button class="btn contact-button mt-3 button-shadow" style="background-color: #343434">
+					<button 
+						class="btn contact-button mt-3 button-shadow" 
+						style="background-color: #343434"
+						onclick="redirectTo('./horizon.php')"
+					>
 						<b class="font-weight-bold font-italic">Ver Descripción y Tarifas</b>
 					</button>
 				</div>
