@@ -112,7 +112,7 @@
 							que puedas conocer nuestro trabajo y puedas comprobar ti mismo si quieres trabajar con
 							nosostros. Además siguenos en nuestras redes sociales o contactanos para saber más. 
 						</p>
-						<div class="d-flex flex-row justify-content-center mt-4">
+						<div class="d-flex flex-row justify-content-center mt-4">  
 							<a href="#contacto" style="color: white">
 								<i class="fa fa-instagram fa-2x"></i>
 							</a>
