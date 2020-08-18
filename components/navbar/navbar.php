@@ -1,20 +1,11 @@
 <?php  
-	
-$path = 'http://'. $_SERVER['HTTP_HOST']. '/audiophone-page/';
 
-/* sintaxis HEREDOC string 
+$env = true;
+$path = 'http://'. $_SERVER['HTTP_HOST'];
 
-	La sintaxis tiene una serie de advertencias que debes de seguir.
-
-	1.- Los identificadores debe empezar en la primera columna de la 
-	nueva linea.
-
-	2.- Debe contener solo caracteres alfanúmericos y guiones bajos,
-	empezar con un carácter alfabético o un guión bajo.
-
-	3.- la línea con el identificador de cierre no debe contener ningún otro carácter, excepto un punto y coma (;). Esto, en especial, significa que el identificador no debe estar sangrado, y que no debe existir ningún espacio ni tabulación antes o después del punto y coma. Es muy importante observar que el primer carácter antes del identificador de cierre debe ser un salto de línea definido por el sistema operativo local. 
-
-*/
+if ( $env ) {
+	$path .= '/audiophone-page/';
+}
 
 $navbar = <<<NAVBAR
 

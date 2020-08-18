@@ -3,6 +3,37 @@
 @import './navbar.css';
 
 .bg {
-	background: none !important;
+	background: #343434 !important;
 }
 
+.cons {
+	background-image: url('./../img/FondoServicios.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 250px;
+	background-position: center;
+}
+
+.separator {
+	background: linear-gradient(90deg, rgba(171,48,56,1) 0%, rgba(40,102,123,1) 100%);
+	height: 7px;
+}
+
+
+.sec {
+	background: #202020;
+	/* border-radius: 150px; */
+	border: 5px solid transparent;
+	border-image: linear-gradient(90deg, rgba(171,48,56,1) 0%, rgba(40,102,123,1) 100%) 1;
+}
+
+.img-studio {
+	/*border-radius: 135px;*/
+	max-height: 300px;
+	/*padding: 5px 5px 5px 10px;*/
+}
+
+.text {
+	margin-right: 5vw;
+	margin-left: 5vw;
+}
