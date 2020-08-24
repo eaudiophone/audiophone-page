@@ -27,7 +27,7 @@
 		<section>
 			<div class="tab-content">
 				<div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-					<div class="d-none d-xl-block">
+					<div class="d-none d-md-block">
 						<?php require_once './components/sections/description/description_xl.php'; ?>
 					</div>
 				</div>
