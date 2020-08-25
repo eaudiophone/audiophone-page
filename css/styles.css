@@ -75,5 +75,9 @@
 @media screen and ( min-width: 320px ) and ( max-width: 767px ) {
 	.icon {
 		margin-bottom: 25px;
+	}
+
+	.border-d  {
+		width: 95%;
 	}	
 }

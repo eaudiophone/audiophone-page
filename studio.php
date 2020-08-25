@@ -15,6 +15,7 @@
 		<?php require_once './components/navbar/navbar.php'; ?>
 		<header>
 			<div class="fondo"></div>
+			<div class="separator"></div>
 		</header>
 		<section>
 			<div class="container mb-5 mt-5">
