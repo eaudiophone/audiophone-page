@@ -23,17 +23,15 @@
 							<img src="./img/logoEstudioAudiophoneTranspBlanco.png" style="max-height: 250px;">
 						</div>
 					</div>
-					<div class="col-sm-8 col-12">
-						<div class="d-flex flex-column justify-content-center align-items-center h-100">
-							<hgroup class="text-center">
-								<h1 class="header-title"><b>Estudios Audiophone</b></h1>
-								<h2>¿Buscas Plasmar tu Talento?</h2>
-								<h4 class="header-title">Graba tu música y se la estrella que quieres mostrar</h4>
-							</hgroup>	
+					<div class="col-sm-8 col-12 align-self-center">
+						<div class="text-center">
+							<h1 class="header-title"><b>Estudios Audiophone</b></h1>
+							<h2>¿Buscas Plasmar tu Talento?</h2>
+							<h4 class="header-title">Graba tu música y se la estrella que quieres mostrar</h4>
 							<button class="btn contact-button btn-lg mt-3 button-shadow" data-toggle="modal" data-target="#modalContact">
 								<b class="font-weight-bold font-italic">Contáctar</b>
 							</button>
-						</div>
+						</div>	
 					</div>
 				</div>
 			</div>

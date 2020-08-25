@@ -1,6 +1,6 @@
 <div class="modal modal fade" id="modalTerms" tabindex="-1" role="dialog"
   aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header center">
         <h5 class="modal-title font-italic">
