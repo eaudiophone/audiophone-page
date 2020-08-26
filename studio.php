@@ -35,9 +35,7 @@
 				</div>
 				<div class="tab-pane fade" id="galery" role="tabpanel" aria-labelledby="galery-tab">
 					<div class="row">
-						<p class="w-100 text-center">
-							Gallery
-						</p>
+						<?php require_once './components/sections/studio/gallery.php'; ?>
 					</div>
 				</div>
 			</div>
@@ -86,5 +84,6 @@
 				<?php require_once './components/sections/footer/footer_xs_sm.php'; ?>
 			</div>
 	</footer>
+	<script src="./js/studio.js"></script>
 	</body>
 </html> 
