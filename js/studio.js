@@ -11,16 +11,8 @@ function getCardTemplate( card ) {
 
 	var html = `
 		<div class="card cards-fot">
-		  <img class="card-img-top" src="${ card.img }" alt="Card image cap">
-		  <div class="card-body">
-		    <h5 class="card-title">${ card.name }</h5>
-		    <p class="card-text">${ card.description }</p>
-		    <div class="text-center">
-		    	<button class="btn btn-primary" onclick="openModal('${ card.img }')">
-		    		Ver foto
-		    	</button>
-		    </div>
-		  </div>
+		  <img class="fot" src="${ card.img }" alt="Card image cap">
+		  <div class="card-body"></div>
 		</div>
 	`;
 
