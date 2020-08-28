@@ -1,13 +1,13 @@
 <?php  
 
-$env = true;
-$path = 'http://'. $_SERVER['HTTP_HOST'];
+	$env = true;
+	$path = 'http://'. $_SERVER['HTTP_HOST'];
 
-if ( $env ) {
-	$path .= '/audiophone-page/';
-}
-
-$navbar = <<<NAVBAR
+	if ( $env ) {
+		$path .= '/audiophone-page/';
+	}
+	
+?>
 
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg" id="cambio">
 
@@ -29,23 +29,23 @@ $navbar = <<<NAVBAR
 			<div class="navbar-nav link-center" >
 				<a 
 					class="nav-item nav-link" 
-					href="${path}"
+					href="<?= $path ?>"
 				>
 					<i class="fa fa-home"></i>
 					<span class="ml-3 font-menu-xs">Inicio</span>
 				</a>
 				<a 
 					class="nav-item nav-link" 
-					href="${path}studio.php"
+					href="<?= $path ?>studio.php"
 				>
 					<i class="fa fa-microphone"></i>
 					<span class="ml-3 font-menu-xs">Estudio</span>
 				</a>
-				<a class="nav-item nav-link" href="${path}horizon.php">
+				<a class="nav-item nav-link" href="<?= $path ?>horizon.php">
 					<i class="fa fa-list-ul"></i>
 					<span class="ml-3 font-menu-xs">Horizonte</span>
 				</a>
-				<a class="nav-item nav-link" href="${path}#maps">
+				<a class="nav-item nav-link" href="<?= $path ?>#maps">
 					<i class="fa fa-map-marker"></i>
 					<span class="ml-3 font-menu-xs">Ubicación</span>
 				</a>
@@ -73,16 +73,16 @@ $navbar = <<<NAVBAR
 		</div>
 		
 		<div class="d-sm w-100 d-flex flex-row justify-content-end align-items-center links">
-			<a href="${path}">
+			<a href="<?= $path ?>">
 				<i class="fa fa-home fa-2x"></i>
 			</a>
-			<a href="${path}studio.php">
+			<a href="<?= $path ?>studio.php">
 				<i class="fa fa-microphone fa-2x"></i>
 			</a>
-			<a href="${path}horizon.php">
+			<a href="<?= $path ?>horizon.php">
 				<i class="fa fa-list-ul fa-2x"></i>
 			</a>
-			<a href="${path}#maps">
+			<a href="<?= $path ?>#maps">
 				<i class="fa fa-map-marker fa-2x"></i>
 			</a>
 			<a href="#">
@@ -97,9 +97,3 @@ $navbar = <<<NAVBAR
 		</div>
 	</div>
 </nav>
-
-NAVBAR;
-
-echo $navbar;
-	
-?>
