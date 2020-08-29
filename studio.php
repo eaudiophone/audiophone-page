@@ -34,9 +34,7 @@
 					<?php require_once './components/sections/studio/description.php'; ?>
 				</div>
 				<div class="tab-pane fade" id="galery" role="tabpanel" aria-labelledby="galery-tab">
-					<div class="row">
-						<?php require_once './components/sections/studio/gallery.php'; ?>
-					</div>
+					<?php require_once './components/sections/studio/gallery.php'; ?>
 				</div>
 			</div>
 		</section>

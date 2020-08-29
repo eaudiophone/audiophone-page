@@ -99,6 +99,29 @@ img.hover-shadow {
 	max-height: 350px;
 }
 
+.foto-list {
+	max-height: 150px;
+	width: 150px;
+}
+
+/* Gallery XS */
+@media screen and ( min-width: 320px ) and ( max-width: 767px ) and ( orientation: portrait ) {
+	
+	.margin-gallery-xs {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.margin-gallery-xs img {
+		height: 200px;
+	}
+
+	.mt-r {
+		margin-top: 20px;
+	}
+}
+
+
 
 @media screen and ( min-width: 768px ) and ( max-width: 1280px ) {
 	.img-studio {
