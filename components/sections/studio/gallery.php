@@ -33,11 +33,11 @@
 
 <!-- fondo modal-lightbox -->
 <div class="modal modal-gallery" id="modal-gallery" tabindex="-1" role="dialog">
-  <div class="w-100 text-right" style="margin-top: 10px">
-    <i class="fa fa-close fa-2x cursor" onclick="openModal('hide')"></i>
-  </div>
+  	<div class="w-100 text-right" style="margin-top: 10px">
+    	<i class="fa fa-close fa-2x cursor" onclick="openModal('hide')"></i>
+  	</div>
 	<div class="row h-100 align-items-center">
-  	<div class="modal-gallery-content text-center" id="content"></div>
-  	<div id="foto-list" class="w-100 text-center"></div>
+  		<div class="modal-gallery-content text-center" id="content"></div>
+  		<div id="foto-list" class="w-100 text-center"></div>
 	</div>
 </div>
