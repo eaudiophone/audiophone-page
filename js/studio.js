@@ -48,7 +48,7 @@ function renderFotos() {
 			`<img 
 				src="${ foto.img }" 
 				alt="prueba" 
-				class="foto-list" 
+				class="foto-list cursor" 
 				onclick="changeFoto( ${ foto.id } )" 
 			/>`
 		);
@@ -57,7 +57,7 @@ function renderFotos() {
 	query.html( template );
 }
 
-function changeKeyboard( keyPress = 0 ) {
+function changeKeyboard( keyPress = 37 ) {
 
 	var KEY_CODE = Object.freeze({
 		ARROW_LEFT: 37,
