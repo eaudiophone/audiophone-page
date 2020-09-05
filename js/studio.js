@@ -48,7 +48,7 @@ function renderFotos() {
 			`<img 
 				src="${ foto.img }" 
 				alt="prueba" 
-				class="foto-list cursor" 
+				class="foto-list cursor hover-shadow" 
 				onclick="changeFoto( ${ foto.id } )" 
 			/>`
 		);

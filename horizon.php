@@ -30,8 +30,26 @@
 		<section>
 			<?php require_once './components/sections/GMH/description.php'; ?>
 		</section>
-		<section> <!-- carousel -->
-		
+		<section>
+			<div class="container-fluid fondo05 mt-5 pb-5">
+				<h3 class="font-italic text-center">Demostración en Vivo</h3>
+				<div class="text-center mt-3 mb-3 p-5">
+					 <video width="500" controls>
+	  					<source src="./videos/GHH1.ogv" type="video/ogg">
+						Your browser does not support the video tag.
+					</video> 
+				</div>
+				<div class="container">
+					<p class="text-justify">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores ab aut inventore officia ipsa accusantium voluptatem nobis soluta dolore quam reprehenderit accusamus et eum, a excepturi dolorem amet obcaecati quae enim iste quas eligendi mollitia assumenda temporibus. Nihil ducimus eaque illo voluptatem tempora commodi vel placeat labore iusto necessitatibus! <br> <br>
+					</p>
+					<div class="w-100 d-flex flex-row justify-content-center">
+						<button class="btn contact-button" data-toggle="modal" data-target="#modalContact">
+							<b class="font-weight-bold font-italic">Contáctar</b>
+						</button>
+					</div>		
+				</div>
+			</div>
 		</section>
 
 

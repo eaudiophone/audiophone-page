@@ -129,6 +129,17 @@ img.hover-shadow {
 	max-width: 250px !important;
 }
 
+
+/*
+	Video section
+*/
+
+video {
+	max-width: 100%;
+	height: auto;
+}
+
+
 /* Gallery XS */
 @media screen and ( min-width: 320px ) and ( max-width: 767px ) and ( orientation: portrait ) {
 	
