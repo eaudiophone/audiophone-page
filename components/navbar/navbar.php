@@ -39,21 +39,21 @@
 					href="<?= $path ?>studio.php"
 				>
 					<i class="fa fa-microphone"></i>
-					<span class="ml-3 font-menu-xs">Estudio</span>
+					<span class="ml-3 font-menu-xs">Estudio Principal</span>
 				</a>
 				<a class="nav-item nav-link" href="<?= $path ?>horizon.php">
 					<i class="fa fa-music"></i>
-					<span class="ml-3 font-menu-xs">Horizonte</span>
+					<span class="ml-3 font-menu-xs">Grupo Horizonte</span>
 				</a>
 				<a class="nav-item nav-link" href="<?= $path ?>#maps">
 					<i class="fa fa-map-marker"></i>
 					<span class="ml-3 font-menu-xs">Ubicación</span>
 				</a>
-				<!-- <a class="nav-item nav-link" href="#">
-					<i class="fa fa-instagram"></i>
-					<span class="ml-3 font-menu-xs">Instagram</span>
+				<a class="nav-item nav-link" href="<?= $path ?>rental.php">
+					<i class="fa fa-truck"></i>
+					<span class="ml-3 font-menu-xs">Servicio de Alquiler</span>
 				</a>
-				<a class="nav-item nav-link" href="#">
+				<!--<a class="nav-item nav-link" href="#">
 					<i class="fa fa-facebook"></i>
 					<span class="ml-3 font-menu-xs">Facebook</span>
 				</a>  -->
@@ -85,10 +85,10 @@
 			<a href="<?= $path ?>#maps">
 				<i class="fa fa-map-marker fa-2x"></i>
 			</a>
-			<!--<a href="#">
-				<i class="fa fa-instagram fa-2x"></i>
+			<a href="<?= $path ?>rental.php">
+				<i class="fa fa-truck fa-2x"></i>
 			</a>
-			<a href="#">
+			<!--<a href="#">
 				<i class="fa fa-facebook fa-2x"></i>
 			</a> -->
 			<button class="btn contact-button" data-toggle="modal" data-target="#modalContact">

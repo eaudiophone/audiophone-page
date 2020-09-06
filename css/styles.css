@@ -73,6 +73,17 @@
 	background-repeat: no-repeat;
 }
 
+.fondo-rental {
+	background-image: url('./../img/AlquilerdeEquposFondo.jpg');
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; /* effect paralax */
+	background-repeat: no-repeat;
+	opacity: 0.9;
+}
+
+
 /* Gallery */
 .foto {
 	height: 300px;
@@ -130,6 +141,7 @@ img.hover-shadow {
 }
 
 
+
 /*
 	Video responsive
 */
@@ -164,6 +176,13 @@ video {
 		border-radius: 135px;
 		height: 230px;
 		padding: 5px 5px 5px 10px;
+	}
+
+	.b-0-r {
+		max-height: 200px !important;
+		max-width: 200px !important;
+		border-radius: 0 !important;
+		height: 150px !important;
 	}	
 }
 
