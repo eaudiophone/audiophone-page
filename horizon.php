@@ -35,7 +35,8 @@
 				<h3 class="font-italic text-center">Demostración en Vivo</h3>
 				<div class="text-center mt-3 mb-3 p-5">
 					 <video width="500" controls>
-	  					<source src="./videos/GHH1.ogv" type="video/ogg">
+	  					<!--<source src="./videos/GHH1.ogv"> -->
+	  					<source src="./videos/garota2.ogv" type="video/ogg">
 						Your browser does not support the video tag.
 					</video> 
 				</div>
@@ -65,15 +66,5 @@
 				<?php require_once './components/sections/footer/footer_xs_sm.php'; ?>
 			</div>
 	</footer>
-	<script>
-		// inicializacion carousel
-		var options = {
-			interval: 6000,
-			pause: 'hover'
-		};
-
-		$('.carousel').carousel( options );
-
-	</script>
 	</body>
 </html> 
