@@ -34,7 +34,7 @@
 			<?php require_once './components/modal/contact.php'; ?>
 			<?php require_once './components/modal/terms.php'; ?>
 		</section>
-		<footer>
+		<footer class="mt-5">
 			<div class="d-none d-md-block">
 				<?php require_once './components/sections/footer/footer_md_xl.php'; ?>
 			</div>

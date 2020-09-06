@@ -140,6 +140,13 @@ img.hover-shadow {
 	max-width: 250px !important;
 }
 
+.b-0-r {
+	max-height: 200px !important;
+	max-width: 200px !important;
+	border-radius: 0 !important;
+	height: 150px !important;
+}
+
 
 
 /*
@@ -177,13 +184,6 @@ video {
 		height: 230px;
 		padding: 5px 5px 5px 10px;
 	}
-
-	.b-0-r {
-		max-height: 200px !important;
-		max-width: 200px !important;
-		border-radius: 0 !important;
-		height: 150px !important;
-	}	
 }
 
 @media screen and ( min-width: 768px ) and ( max-width: 1280px ) and ( orientation: portrait ) {
