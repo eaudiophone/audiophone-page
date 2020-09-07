@@ -7,6 +7,11 @@ html {
 	overflow-x: hidden;
 }
 
+video {
+	max-width: 100%;
+	height: auto;
+}
+
 .audiophone-page-dark-theme {
 	background-color: #343434;
 	color: white;

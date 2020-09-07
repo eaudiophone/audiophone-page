@@ -36,7 +36,8 @@
 				<div class="text-center mt-3 mb-3 p-5">
 					 <video width="500" controls>
 	  					<!--<source src="./videos/GHH1.ogv"> -->
-	  					<source src="./videos/garota2.ogv" type="video/ogg">
+	  					<source src="./videos/garota2.webm" type="video/webm">
+	  					<!-- <source src="./videos/garota2.ogv" type="video/ogg"> -->
 						Your browser does not support the video tag.
 					</video> 
 				</div>
