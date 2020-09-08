@@ -85,14 +85,14 @@ function changeKeyboard( keyPress = 37 ) {
 
 // ejecucion
 var data = [
-	{ id: 1, img: './img/22.JPG', name: 'prueba 1', description: 'prueba de description' },
-	{ id: 2, img: './img/21.JPG', name: 'prueba 2', description: 'prueba de description' },
-	{ id: 3, img: './img/can-stu.png', name: 'prueba 3', description: 'prueba de description' },
-	{ id: 4, img: './img/trom-stu.png', name: 'prueba 4', description: 'prueba de description' },
-	{ id: 5, img: './img/billy-stu.png', name: 'prueba 5', description: 'prueba de description' },
-	{ id: 6, img: './img/jho-ara.png', name: 'prueba 6', description: 'prueba de description' },
-	{ id: 7, img: './img/gen.png', name: 'prueba 7', description: 'prueba de description' },
-	{ id: 8, img: './img/pdro.png', name: 'prueba 8', description: 'prueba de description' }
+	{ id: 1, img: './img/22.JPG', name: 'Aracelis Fiallo', description: 'Aracelis Fiallo . Excelente violinista.' },
+	{ id: 2, img: './img/21.JPG', name: 'Verónica Fiallo', description: 'Verónica Fiallo. grabando música venezolana junto a su hermana Aracelys..' },
+	{ id: 3, img: './img/can-stu.png', name: 'José Mire', description: 'Excelente cantante.. José Mire.' },
+	{ id: 4, img: './img/trom-stu.png', name: 'Alexis González', description: 'Alexis González grabando en estudios Audiophone' },
+	{ id: 5, img: './img/billy-stu.png', name: 'Billys', description: 'Billys grabando trackjevy en Estudios Audiophone.' },
+	{ id: 6, img: './img/jho-ara.png', name: 'Jhonathan Araque', description: 'Grabando tema de Jesus Menudo con el cantante Yonathan Araque en los Estudios Audiophone.' },
+	{ id: 7, img: './img/gen.png', name: 'Génesis', description: 'Génesis joven talento nacional, grabando en Estudios Audiophone.' },
+	{ id: 8, img: './img/pdro.png', name: 'Pedro Moya', description: 'Sr. Pedro Moya grabando tema en los estudios audiophone' }
 ];
 
 var optionsModal = {

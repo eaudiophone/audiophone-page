@@ -24,7 +24,13 @@
 					<h3 class="font-italic font-weight-bold">Estudio de Grabación:</h3>
 				</div>
 				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui eum et veritatis suscipit eaque. Necessitatibus labore laboriosam delectus at! Tempore dolores distinctio temporibus odio tenetur nihil culpa sit, itaque harum voluptatum assumenda quam aspernatur beatae laboriosam pariatur quos, deserunt, ex fugiat quo corrupti consequatur excepturi necessitatibus. Deleniti repellat, eos necessitatibus provident architecto voluptatem minus explicabo sed eligendi adipisci rem accusamus. Ab dolorem suscipit eum in! Eveniet excepturi ut ratione debitis est ex aliquam minima hic, maiores ea. Aliquam atque, sint perspiciatis quae adipisci cum minus fugiat aspernatur et dicta non accusamus delectus, veritatis unde ipsa quia illum recusandae ipsam, suscipit provident, ut iure tempora maiores. Nemo nobis quas minus neque ullam ipsa impedit non soluta temporibus, reprehenderit! Saepe, placeat, explicabo. Aut eveniet debitis mollitia amet molestias praesentium beatae illum ex temporibus eos dolorum accusamus ipsum laboriosam alias, veritatis expedita cum deserunt earum, eius minima. Ea maiores quaerat atque saepe quis!
+					
+					El estudio Audiophone son salas de grabaciones preparadas con equipos profesionales y personal capacitado para dar una calidad impecable a tus grabaciones de audio. Dentro de nuestras instalaciones realizamos todo tipo de grabaciones, mezclas y remasterizaciones dentro de un ambiente íntimo.  
+					Cumplimos con el objetivo de crear contenido que permita al artista plasmar su talento y realizar grabaciones impecables, al momento de realizar algún proyecto o producción musical, doblajes de voz y comerciales preparados para subir a cualquier plataforma moderna. 
+
+					<br> <br>
+					Para la información de las tarifas del estudio es recomendable contactar, debido al servicio
+					personalizado de las sesiones de grabacion, mezclas, masterizaciones o restauraciones, el precio puede variar según la solicitud del cliente.
 				</p>
 			</div>
 		</section>
@@ -51,7 +57,7 @@
 					data-toggle="tab"
 					id="description-tab"
 				>
-					Descripción
+					Servicios
 				</a>
 			</li>
 			<li class="nav-sep"></li>
@@ -69,6 +75,12 @@
 				</a>
 			</li>
 		</ul>
+
+		<div class="container mb-5 mt-5">
+			<p>
+				
+			</p>
+		</div>
 
 		<section>
 			<?php require_once './components/modal/contact.php'; ?>
