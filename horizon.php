@@ -1,3 +1,4 @@
+<?php require_once './components/sections/footer/footer_md_xl.php'; ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -46,7 +47,7 @@
 				</div>
 				<div class="container">
 					<p class="text-center">
-						El grupo tiene historia, tocamos en las principales establecimientos comerciales en la ciudad de Caracas, siguenos a traves de las redes sociales o contactarnos directamente para solicitar servicios.
+						El grupo tiene historia, tocamos en las principales establecimientos comerciales en la ciudad de Caracas, siguenos a través de las redes sociales o contactarnos directamente para solicitar servicios.
 						<br> <br>
 					</p>
 					<div class="w-100 d-flex flex-row justify-content-center">
@@ -65,10 +66,10 @@
 		</section>
 		<footer>
 			<div class="d-none d-md-block">
-				<?php require_once './components/sections/footer/footer_md_xl.php'; ?>
+				<?= getFooter('https://www.instagram.com/grupomusicalhorizonte/') ?>
 			</div>
 			<div class="d-block d-md-none">
-				<?php require_once './components/sections/footer/footer_xs_sm.php'; ?>
+				<?= getFooterXS('https://www.instagram.com/grupomusicalhorizonte/') ?>
 			</div>
 		</footer>
 	</body>

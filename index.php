@@ -1,3 +1,4 @@
+<?php require_once './components/sections/footer/footer_md_xl.php'; ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -201,10 +202,10 @@
 		</section>
 		<footer>
 			<div class="d-none d-md-block">
-				<?php require_once './components/sections/footer/footer_md_xl.php'; ?>
+				<?= getFooter('https://www.instagram.com/estudio_audiophone/') ?>
 			</div>
 			<div class="d-block d-md-none">
-				<?php require_once './components/sections/footer/footer_xs_sm.php'; ?>
+				<?= getFooterXS('https://www.instagram.com/estudio_audiophone/') ?>
 			</div>
 		</footer>
 		<script src="./js/index.js"></script>
