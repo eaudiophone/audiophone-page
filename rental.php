@@ -23,7 +23,13 @@
 					<h3 class="font-weight-bold font-italic">Alquiler de equipos:</h3>
 				</div>
 				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui eum et veritatis suscipit eaque. Necessitatibus labore laboriosam delectus at! Tempore dolores distinctio temporibus odio tenetur nihil culpa sit, itaque harum voluptatum assumenda quam aspernatur beatae laboriosam pariatur quos, deserunt, ex fugiat quo corrupti consequatur excepturi necessitatibus. Deleniti repellat, eos necessitatibus provident architecto voluptatem minus explicabo sed eligendi adipisci rem accusamus. Ab dolorem suscipit eum in! Eveniet excepturi ut ratione debitis est ex aliquam minima hic, maiores ea. Aliquam atque, sint perspiciatis quae adipisci cum minus fugiat aspernatur et dicta non accusamus delectus, veritatis unde ipsa quia illum recusandae ipsam, suscipit provident, ut iure tempora maiores. Nemo nobis quas minus neque ullam ipsa impedit non soluta temporibus, reprehenderit! Saepe, placeat, explicabo. Aut eveniet debitis mollitia amet molestias praesentium beatae illum ex temporibus eos dolorum accusamus ipsum laboriosam alias, veritatis expedita cum deserunt earum, eius minima. Ea maiores quaerat atque saepe quis!
+
+					Ofrecemos servicio de alquiler de equipos desde sonidos de grupos musicales, minitecas e instrumentos para dar vida y color a sus eventos en la ciudad de Caracas. Preparados y listos para la cualquier celebración.
+					Buscamos ofrecer el mejor servicio de calidad al momento de realizar la solucitud de alquiler, por ello contamos con una gran varidad de equipos que puede disponer para hacer que su evento logre impactar a sus
+					invitados. <br> <br>
+
+					Desde pequeñas celebraciones hasta grandes eventos, cumplimos con 3 aspectos sencillos: equipo, instrumentos y transporte, que ya viene incluido cuando solicita el servicio. Su tarifa varia de acuerdo al equipo a solicitar, al contactar y aceptar se generará un contrato de servicios, deberá cancelar el 50% inicial y el 50% al final del evento. Para más información consulte nuestros términos y condiciones de servicio ubicado en la parte inferior.  
+
 				</p>
 			</div>
 		</section>
