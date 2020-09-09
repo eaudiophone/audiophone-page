@@ -23,7 +23,10 @@
 					<h3 class="font-weight-bold font-italic">Grupo Musical Horizonte:</h3>
 				</div>
 				<p class="text-justify">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui eum et veritatis suscipit eaque. Necessitatibus labore laboriosam delectus at! Tempore dolores distinctio temporibus odio tenetur nihil culpa sit, itaque harum voluptatum assumenda quam aspernatur beatae laboriosam pariatur quos, deserunt, ex fugiat quo corrupti consequatur excepturi necessitatibus. Deleniti repellat, eos necessitatibus provident architecto voluptatem minus explicabo sed eligendi adipisci rem accusamus. Ab dolorem suscipit eum in! Eveniet excepturi ut ratione debitis est ex aliquam minima hic, maiores ea. Aliquam atque, sint perspiciatis quae adipisci cum minus fugiat aspernatur et dicta non accusamus delectus, veritatis unde ipsa quia illum recusandae ipsam, suscipit provident, ut iure tempora maiores. Nemo nobis quas minus neque ullam ipsa impedit non soluta temporibus, reprehenderit! Saepe, placeat, explicabo. Aut eveniet debitis mollitia amet molestias praesentium beatae illum ex temporibus eos dolorum accusamus ipsum laboriosam alias, veritatis expedita cum deserunt earum, eius minima. Ea maiores quaerat atque saepe quis!
+
+					Para sus eventos en vivo puede solicitar los servicios del Grupo Musical Horizonte, encargado de la contratación de profesionales del canto, para tus eventos de música en vivo dentro de la ciudad de Caracas, proporcionando un buen ambiente musical para tus clientes, amigos y seres queridos. El Grupo Musical Horizonte es un grupo de diversos musicos que se unieron para ofrecer sus servicios para eventos en vivo en la ciudad de Caracas, trabajando en diferentes modelos de trabajos, en duetos, trietos y hasta cuartetos, en combinaciones básicas de piano, saxofón, bajo y canto. Especializados en Música Latina, Onda Nueva, Jazz y Bossanova. <br><br>
+
+					Para las tarifas funciona igual con el evento de alquiler se cobra el 50% inicial y el 50% en la finalizacion del trabajo. Para más información consulte nuestros términos y condiciones de servicio ubicado en la parte inferior. 
 				</p>
 			</div>
 		</section>
@@ -42,8 +45,9 @@
 					</video> 
 				</div>
 				<div class="container">
-					<p class="text-justify">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores ab aut inventore officia ipsa accusantium voluptatem nobis soluta dolore quam reprehenderit accusamus et eum, a excepturi dolorem amet obcaecati quae enim iste quas eligendi mollitia assumenda temporibus. Nihil ducimus eaque illo voluptatem tempora commodi vel placeat labore iusto necessitatibus! <br> <br>
+					<p class="text-center">
+						El grupo tiene historia, tocamos en las principales establecimientos comerciales en la ciudad de Caracas, siguenos a traves de las redes sociales o contactarnos directamente para solicitar servicios.
+						<br> <br>
 					</p>
 					<div class="w-100 d-flex flex-row justify-content-center">
 						<button class="btn contact-button" data-toggle="modal" data-target="#modalContact">
