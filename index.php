@@ -6,13 +6,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<title>Audiophone</title>
 		<link rel="shortcut icon" type="image/png" href="./img/Logo_01.png">
-		<link rel="stylesheet" href="./css/bootstrap-4.0.css">
-		<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="./css/index.css">
 		<link rel="stylesheet" type="text/css" href="./css/navbar.css">
 		<link rel="stylesheet" type="text/css" href="./css/media.index.css">
-		<script src="./js/jquery-3.4.1.js"></script>
-		<script src="./js/bootstrap-4.0.js"></script>
+		<script src="https://kit.fontawesome.com/a8e23f8d34.js" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</head>
 	<body class="audiophone-page-dark-theme">
 		<?php require_once './components/navbar/navbar.php'; ?> <!-- navbar -->
