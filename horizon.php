@@ -15,13 +15,15 @@
 	<body class="audiophone-page-dark-theme">
 		<?php require_once './components/navbar/navbar.php'; ?>
 		<header>
-			<div class="fondo-gmh"></div>
+			<div class="fondo-gmh">
+			</div>
 			<div class="separator"></div>
 		</header>
 		<section>
 			<div class="container mb-5 mt-5">
 				<div class="w-100 d-flex justify-content-center align-items-center flex-md-row flex-column mb-5 mt-5">
-					<h3 class="font-weight-bold font-italic">Grupo Musical Horizonte:</h3>
+					<img src="./img/icono_GMH.png" alt="Logo_01" style="max-height: 150px;">
+					<h3 class="font-weight-bold font-italic text-center text-sm-left">Grupo Musical Horizonte:</h3>
 				</div>
 				<p class="text-justify">
 
