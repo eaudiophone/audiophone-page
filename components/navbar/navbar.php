@@ -1,10 +1,10 @@
 <?php  
 
 	$env = true;
-	$path = 'http://'. $_SERVER['HTTP_HOST'];
+	$path = 'http://'. $_SERVER['SERVER_NAME']. '/';
 
 	if ( $env ) {
-		$path .= '/audiophone-page/';
+		$path .= 'audiophone-page/';
 	}
 	
 ?>
