@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Horizonte</title>
 		<link rel="shortcut icon" type="image/png" href="./img/Logo_01.png">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -29,7 +29,7 @@
 
 					Para sus eventos en vivo puede solicitar los servicios del Grupo Musical Horizonte, encargado de la contratación de profesionales del canto, para tus eventos de música en vivo dentro de la ciudad de Caracas, proporcionando un buen ambiente musical para tus clientes, amigos y seres queridos. El Grupo Musical Horizonte es un grupo de diversos musicos que se unieron para ofrecer sus servicios para eventos en vivo en la ciudad de Caracas, trabajando en diferentes modelos de trabajos, en duetos, trietos y hasta cuartetos, en combinaciones básicas de piano, saxofón, bajo y canto. Especializados en Música Latina, Onda Nueva, Jazz y Bossanova. <br><br>
 
-					Para las tarifas funciona igual con el evento de alquiler se cobra el 50% inicial y el 50% en la finalizacion del trabajo. Para más información consulte nuestros términos y condiciones de servicio ubicado en la parte inferior. 
+					Para las tarifas funciona igual con el evento de alquiler se cobra el 50% inicial y el 50% en la finalizacion del trabajo. Para más información consulte nuestros términos y condiciones de servicio ubicado en la parte inferior.
 				</p>
 			</div>
 		</section>
@@ -45,7 +45,7 @@
 	  					<source src="./videos/garota2.webm" type="video/webm">
 	  					<!-- <source src="./videos/garota2.ogv" type="video/ogg"> -->
 						Your browser does not support the video tag.
-					</video> 
+					</video>
 				</div>
 				<div class="container">
 					<p class="text-center">
@@ -54,9 +54,9 @@
 					</p>
 					<div class="w-100 d-flex flex-row justify-content-center">
 						<button class="btn contact-button" data-toggle="modal" data-target="#modalContact">
-							<b class="font-weight-bold font-italic">Contáctar</b>
+							<b class="font-weight-bold font-italic">Contactar</b>
 						</button>
-					</div>		
+					</div>
 				</div>
 			</div>
 		</section>
@@ -75,4 +75,4 @@
 			</div>
 		</footer>
 	</body>
-</html> 
+</html>

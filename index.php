@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Audiophone</title>
 		<link rel="shortcut icon" type="image/png" href="./img/Logo_01.png">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -16,7 +16,7 @@
 	</head>
 	<body class="audiophone-page-dark-theme">
 		<?php require_once './components/navbar/navbar.php'; ?> <!-- navbar -->
-		<header> 
+		<header>
 			<div class="header-background jumbotron m-0">
 				<div class="row h-100">
 					<div class="col-sm-4 d-sm-block d-none">
@@ -30,9 +30,9 @@
 							<h2>¿Buscas Plasmar tu Talento?</h2>
 							<h4 class="header-title">Graba tu música y se la estrella que quieres mostrar</h4>
 							<button class="btn contact-button btn-lg mt-3 button-shadow" data-toggle="modal" data-target="#modalContact">
-								<b class="font-weight-bold font-italic">Contáctar</b>
+								<b class="font-weight-bold font-italic">Contactar</b>
 							</button>
-						</div>	
+						</div>
 					</div>
 				</div>
 			</div>
@@ -43,7 +43,7 @@
 					<h3 class="text-center font-italic">Servicios</h3>
 					<div class="row">
 						<div class="col-sm-4 col-12 services">
-							
+
 							<div class="text-center mt-3 mb-5">
 								<img src="./img/disco.png" class="img-fluid">
 							</div>
@@ -81,7 +81,7 @@
 		</section>
 		<section>
 			<div class="container-fluid pb-5 pt-5 d-none d-xl-block"> <!-- services-only-xl -->
-				<?php require_once './components/sections/services/services_xl.php'; ?>	
+				<?php require_once './components/sections/services/services_xl.php'; ?>
 			</div>
 			<div class="contianer-fluid pb-5 pt-5 d-none d-md-block d-xl-none"> <!-- services-only-md-lg -->
 				<?php require_once './components/sections/services/services_md.php' ?>
@@ -96,19 +96,19 @@
 			<div class="container pb-5 pt-5 mb-5 clients">
 				<div class="row">
 					<div class="col-md-6 col-12 text-right padding line-s">
-						<img src="./img/Collage.jpg" class="w-100 rounded-circle"> 
+						<img src="./img/Collage.jpg" class="w-100 rounded-circle">
 					</div>
 					<div class="col-md-6 col-12 padding">
 						<div class="d-flex flex-column justify-content-center align-items-center h-100">
 							<p class="text-justify font-14">
-								Conservamos los mejores momentos en la labor de los servicios de nuestros clientes, 
-								tenemos historias que contar y queremos que tú también consideres al equipo Audiophone como 
-								tu mejor opción al momento de realizar algún proyecto músical, evento o carrera artistica, 
+								Conservamos los mejores momentos en la labor de los servicios de nuestros clientes,
+								tenemos historias que contar y queremos que tú también consideres al equipo Audiophone como
+								tu mejor opción al momento de realizar algún proyecto músical, evento o carrera artistica,
 								colaboramos con el desarrollo de talento a muchos profesionales del canto. <br><br>
 
-								Por eso decimos que una acción vale más que mil palabras por ello dejamos demostraciones, para 
+								Por eso decimos que una acción vale más que mil palabras por ello dejamos demostraciones, para
 								que puedas conocer nuestro trabajo y puedas comprobar ti mismo si quieres trabajar con
-								nosostros. Además siguenos en nuestras redes sociales o contactanos para saber más. 
+								nosostros. Además siguenos en nuestras redes sociales o contactanos para saber más.
 							</p>
 						</div>
 					</div>
@@ -134,7 +134,7 @@
 
 								<div class="d-flex flex-row justify-content-end">
 									<div class="circle-l-red d-flex flex-column justify-content-center align-items-center">
-										<span>Horarios</span>	
+										<span>Horarios</span>
 									</div>
 								</div>
 							</div>
@@ -185,7 +185,7 @@
 						Desde las <br>
 						10:00am a las 3:00pm
 					</p>
-				
+
 					<p class="p-0 font-italic text-left ml-5" style="font-size: 18px">
 						<span class="bold" style="text-decoration: underline;">Dirección:</span><br>
 						Av. Principal de Manicomio <br>
