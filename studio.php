@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Estudio</title>
 		<link rel="shortcut icon" type="image/png" href="./img/Logo_01.png">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -21,13 +21,13 @@
 		<section>
 			<div class="container mb-5 mt-5">
 				<div class="w-100 d-flex justify-content-center align-items-center flex-md-row flex-column mb-5 mt-5">
-					<img src="./img/microfonos.png" alt="microfonos" class="mr-md-5 icon" style="max-height: 50px;">
-					<h3 class="font-italic font-weight-bold">Estudio de Grabación:</h3>
+					<img src="./svg/studio.svg" alt="studio" class="mr-md-5 icon" style="max-height: 120px;">
+					<h3 class="font-italic font-weight-bold text-center text-sm-left">Estudio de Grabación</h3>
 				</div>
 				<p class="text-justify">
-					
-					El estudio Audiophone son salas de grabaciones preparadas con equipos profesionales y personal capacitado para dar una calidad impecable a tus grabaciones de audio. Dentro de nuestras instalaciones realizamos todo tipo de grabaciones, mezclas y remasterizaciones dentro de un ambiente íntimo.  
-					Cumplimos con el objetivo de crear contenido que permita al artista plasmar su talento y realizar grabaciones impecables, al momento de realizar algún proyecto o producción musical, doblajes de voz y comerciales preparados para subir a cualquier plataforma moderna. 
+
+					El estudio Audiophone son salas de grabaciones preparadas con equipos profesionales y personal capacitado para dar una calidad impecable a tus grabaciones de audio. Dentro de nuestras instalaciones realizamos todo tipo de grabaciones, mezclas y remasterizaciones dentro de un ambiente íntimo.
+					Cumplimos con el objetivo de crear contenido que permita al artista plasmar su talento y realizar grabaciones impecables, al momento de realizar algún proyecto o producción musical, doblajes de voz y comerciales preparados para subir a cualquier plataforma moderna.
 
 					<br> <br>
 					Para la información de las tarifas del estudio es recomendable contactar, debido al servicio
@@ -49,11 +49,11 @@
 		<!-- control content tabs -->
 		<ul class="nav justify-content-center mt-5 mb-5" role="tablist">
 			<li class="nav-item active" style="margin: 0 !important">
-				<a 
-					class="nav-link" 
-					href="#description" 
-					role="tab" 
-					aria-controls="profile" 
+				<a
+					class="nav-link"
+					href="#description"
+					role="tab"
+					aria-controls="profile"
 					aria-selected="true"
 					data-toggle="tab"
 					id="description-tab"
@@ -63,13 +63,13 @@
 			</li>
 			<li class="nav-sep"></li>
 			<li class="nav-item">
-				<a 
-					class="nav-link" 
-					id="galery-tab" 
-					data-toggle="tab" 
-					href="#galery" 
-					role="tab" 
-					aria-controls="galery" 
+				<a
+					class="nav-link"
+					id="galery-tab"
+					data-toggle="tab"
+					href="#galery"
+					role="tab"
+					aria-controls="galery"
 					aria-selected="false"
 				>
 					Galería
@@ -79,7 +79,7 @@
 
 		<div class="container mb-5 mt-5">
 			<p>
-				
+
 			</p>
 		</div>
 
@@ -97,4 +97,4 @@
 		</footer>
 	<script src="./js/studio.js"></script>
 	</body>
-</html> 
+</html>

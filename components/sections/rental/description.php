@@ -1,7 +1,7 @@
 <div class="container border-d mb-5">
 	<div class="row sec align-items-center">
 		<div class="col-md-4 col-12 p-0 text-md-right text-center">
-			<img src="./img/monitoreo.png" alt="monitoreo" class="img-studio b-0-r w-100">
+			<img src="./svg/monitoreo.svg" alt="monitoreo" class="img-studio b-0-r w-100">
 		</div>
 		<div class="col-md-8 col-12 p-3">
 			<p class="text-justify text">
@@ -14,13 +14,13 @@
 	<div class="row sec align-items-center">
 		<div class="col-md-8 col-12 p-3">
 			<p class="text-justify text">
-				Contamos con transporte para transladar todos los instrumentos donde lo necesite, 
-				evitando contratar compañias de transporte para envio de sus equipos, asegurando su tranquilidad y   
+				Contamos con transporte para transladar todos los instrumentos donde lo necesite,
+				evitando contratar compañias de transporte para envio de sus equipos, asegurando su tranquilidad y
 				simplemente ocúpese de mantener entretenidos a sus invitados.
 			</p>
 		</div>
 		<div class="col-md-4 col-12 p-0 text-center">
-			<img src="./img/mezcla2.png" alt="mezcla2" class="img-studio b-0-r w-100">
+			<img src="./svg/masterizacion.svg" alt="masterizacion" class="img-studio b-0-r w-100">
 		</div>
 	</div>
 </div>

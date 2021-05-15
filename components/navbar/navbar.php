@@ -1,6 +1,6 @@
 <?php
 
-	$env = false;
+	$env = true;
 	$path = 'http://'. $_SERVER['SERVER_NAME']. '/';
 
 	if ( $env ) {
@@ -14,7 +14,7 @@
 	<!-- only-xs -->
 	<div class="p-0 m-0 d-xs w-100">
 		<div class="p-0 m-0 d-flex fle-row justify-content-between align-items-center">
-			<img src="./img/logoEstudioAudiophoneTranspBlanco.png" class="logo-brand">
+			<img src="./svg/EA_blanco.svg" alt="EA_blanco" class="logo-brand">
 			<span class="font-italic font-weight-bold" style="font-size: 14px;">Audiophone</span>
 			<button class="navbar-toggler" style="border: none;" type="button" data-toggle="collapse"
 				data-target="#menu-responsive" aria-controls="menu-responsive"
@@ -68,7 +68,7 @@
 	<!-- others devices sm-xl -->
 	<div class="p-0 m-0 d-sm d-flex flex-row justify-content-between w-100">
 		<div class="p-0 m-0" style="width: 50vw;">
-			<img src="./img/logoEstudioAudiophoneTranspBlanco.png" class="logo-brand">
+			<img src="./svg/EA_blanco.svg" alt="EA_blanco" class="logo-brand">
 			<span class="font-italic font-weight-bold font-20 ml-3">Audiophone</span>
 		</div>
 

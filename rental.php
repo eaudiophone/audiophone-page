@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Alquiler</title>
 		<link rel="shortcut icon" type="image/png" href="./img/Logo_01.png">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -21,7 +21,8 @@
 		<section>
 			<div class="container mb-5 mt-5">
 				<div class="w-100 d-flex justify-content-center align-items-center flex-md-row flex-column mb-5 mt-5">
-					<h3 class="font-weight-bold font-italic">Alquiler de equipos:</h3>
+					<img src="./svg/monitoreo.svg" alt="monitoreo" style="max-height: 120px;">
+					<h3 class="font-weight-bold font-italic ml-4 mb-0">Alquiler de equipos</h3>
 				</div>
 				<p class="text-justify">
 
@@ -29,11 +30,12 @@
 					Buscamos ofrecer el mejor servicio de calidad al momento de realizar la solucitud de alquiler, por ello contamos con una gran varidad de equipos que puede disponer para hacer que su evento logre impactar a sus
 					invitados. <br> <br>
 
-					Desde pequeñas celebraciones hasta grandes eventos, cumplimos con 3 aspectos sencillos: equipo, instrumentos y transporte, que ya viene incluido cuando solicita el servicio. Su tarifa varia de acuerdo al equipo a solicitar, al contactar y aceptar se generará un contrato de servicios, deberá cancelar el 50% inicial y el 50% al final del evento. Para más información consulte nuestros términos y condiciones de servicio ubicado en la parte inferior.  
+					Desde pequeñas celebraciones hasta grandes eventos, cumplimos con 3 aspectos sencillos: equipo, instrumentos y transporte, que ya viene incluido cuando solicita el servicio. Su tarifa varia de acuerdo al equipo a solicitar, al contactar y aceptar se generará un contrato de servicios, deberá cancelar el 50% inicial y el 50% al final del evento. Para más información consulte nuestros términos y condiciones de servicio ubicado en la parte inferior.
 
 				</p>
 			</div>
 		</section>
+
 		<section>
 			<?php require_once './components/sections/rental/description.php'; ?>
 		</section>
@@ -50,4 +52,4 @@
 			</div>
 		</footer>
 	</body>
-</html> 
+</html>

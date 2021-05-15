@@ -21,7 +21,7 @@
 				<div class="row h-100">
 					<div class="col-sm-4 d-sm-block d-none">
 						<div class="text-right">
-							<img src="./img/logoEstudioAudiophoneTranspBlanco.png" style="max-height: 250px;">
+							<img src="./svg/EA_blanco.svg" alt="EA_blanco" style="height: 250px;">
 						</div>
 					</div>
 					<div class="col-sm-8 col-12 align-self-center">

@@ -22,8 +22,8 @@
 		<section>
 			<div class="container mb-5 mt-5">
 				<div class="w-100 d-flex justify-content-center align-items-center flex-md-row flex-column mb-5 mt-5">
-					<img src="./img/icono_GMH.png" alt="Logo_01" style="max-height: 150px;">
-					<h3 class="font-weight-bold font-italic text-center text-sm-left">Grupo Musical Horizonte:</h3>
+					<img src="./svg/grupo_musical_horizonte.svg" alt="grupo_musical_horizonte" style="max-height: 150px;">
+					<h3 class="font-weight-bold font-italic text-center text-sm-left">Grupo Musical Horizonte</h3>
 				</div>
 				<p class="text-justify">
 
@@ -61,11 +61,11 @@
 			</div>
 		</section>
 
-
 		<section>
 			<?php require_once './components/modal/contact.php'; ?>
 			<?php require_once './components/modal/terms.php'; ?>
 		</section>
+
 		<footer>
 			<div class="d-none d-md-block">
 				<?= getFooter('https://www.instagram.com/grupomusicalhorizonte/') ?>

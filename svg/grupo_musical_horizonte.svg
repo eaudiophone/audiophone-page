@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="800px"
+	 height="800px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+<g id="Capa_2">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="265.0532" y1="240.2124" x2="265.0532" y2="642.2837">
+		<stop  offset="0" style="stop-color:#FF7023"/>
+		<stop  offset="0.088" style="stop-color:#E76529"/>
+		<stop  offset="0.5443" style="stop-color:#6C2F48"/>
+		<stop  offset="0.8571" style="stop-color:#1E0D5C"/>
+		<stop  offset="1" style="stop-color:#000064"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M210.5,288c-3.184,82,0.5,243.667,0,321.788c-0.063,9.765,5.338,23.064,26.353,28.832
+		c20.814,5.713,51.354,4.572,62.164-2.229c10.812-6.802,21.9-17.436,21.9-48.724L317,438.656V289.671c0,0,1.234-22.83-6.507-32.084
+		c-8.577-10.253-18.202-15.586-43.202-17.253c-19.015-1.268-39.813,7.604-46.479,17C214.146,266.729,210.814,279.903,210.5,288z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="470.0752" y1="242.2568" x2="470.0752" y2="645.7827">
+		<stop  offset="0" style="stop-color:#FF7023"/>
+		<stop  offset="0.088" style="stop-color:#E76529"/>
+		<stop  offset="0.5443" style="stop-color:#6C2F48"/>
+		<stop  offset="0.8571" style="stop-color:#1E0D5C"/>
+		<stop  offset="1" style="stop-color:#000064"/>
+	</linearGradient>
+	<path fill="url(#SVGID_2_)" d="M597,287.5c2,78-1,156,2,234c0,30,2,59-1,89c-1,6-2,12-7,16c-1,1,0,2-1,3c-9,9-21,15-34,16
+		c-21,1-44,0-61-14c-5-4-5-10-6-16c-1-19-3-37-2-56c2-21,0-43,0.869-63.999L392,495c0,0-51.504-2-51.504-53.752
+		C340.496,385,387.5,386,387.5,386l99.631,0.872c0.869-39.372-3.463-88.451,4.119-116.622c1.602-5.951,7.75-14.75,14.75-19.75
+		c23-14,63-7.792,76,1.125C593.897,259.785,597,287.5,597,287.5z"/>
+	<path fill="#F17B00" d="M527.584,125.604"/>
+</g>
+<g id="Capa_3">
+	<polygon points="384,385 396,385 374.5,302.516 365,312 	"/>
+	<path stroke="#000000" stroke-miterlimit="10" d="M484,494c1,11-16,31-35,44s-46,15-68.5,16S235.873,532,236,426
+		c0.097-80.849,71.7-129.328,87.5-145c30.826-25.667,82.5-80.5,97-115.5S439,106,411,95c-87.5,0-50.979,144.5-50.979,144.5
+		L348,252.5c0,0-37-182.5,48-201.5c38,0,89,73,27,187c-12,18-34.958,49-62.979,75S270,377,272,429s17,89,67,104s95,16,127-40
+		C475,495,484,494,484,494z"/>
+	<path stroke="#000000" stroke-miterlimit="10" d="M419,557l12.388-5.807c0,0,45.955,108.528-7.888,142.307
+		c-58.979,37-120,8.5-128-54.5c1-19,20.521-51.5,64.521-31.5c12.56,7,32.044,39.5,14.012,57.5S339,684,335,681s38.252,25,70.626-1
+		s30.874-48,28.874-73S419,557,419,557z"/>
+</g>
+</svg>

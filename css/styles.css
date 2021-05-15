@@ -40,7 +40,7 @@
 .border-d {
 	background: linear-gradient(90deg, rgba(171,48,56,1) 0%, rgba(40,102,123,1) 100%);
 	padding: 5px 20px 5px 20px;
-	border-radius: 150px; 
+	border-radius: 150px;
 }
 
 .nav-link {
@@ -144,12 +144,12 @@ img.hover-shadow {
 	max-height: 200px !important;
 	max-width: 200px !important;
 	border-radius: 0 !important;
-	height: 150px !important;
+	height: 200px !important;
 }
 
 /* Gallery XS */
 @media screen and ( min-width: 320px ) and ( max-width: 767px ) and ( orientation: portrait ) {
-	
+
 	.margin-gallery-xs {
 		margin-left: 10px;
 		margin-right: 10px;
@@ -187,5 +187,5 @@ img.hover-shadow {
 
 	.border-d  {
 		width: 95%;
-	}	
+	}
 }
