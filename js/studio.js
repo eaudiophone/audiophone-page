@@ -21,7 +21,7 @@ function getTemplate( found = {} ) {
 		<figure class="figure mt-r">
   		<img src="${ found.img }" class="figure-img img-fluid rounded foto-inside">
 			<h3>${ found.name }</h3>
-  		<figcaption class="figure-caption">${ found.description }</figcaption>
+  		<figcaption class="figure-caption ml-4 mr-4 ml-lg-0 mr-lg-0">${ found.description }</figcaption>
 		</figure>
 	`);
 }
