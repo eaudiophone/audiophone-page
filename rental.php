@@ -21,7 +21,7 @@
 		<section>
 			<div class="container mb-5 mt-5">
 				<div class="w-100 d-flex justify-content-center align-items-center flex-md-row flex-column mb-5 mt-5">
-					<img src="./svg/monitoreo.svg" alt="monitoreo" style="max-height: 120px;">
+					<img src="./svg/Cornetas.svg" alt="monitoreo" style="max-height: 120px;">
 					<h3 class="font-weight-bold font-italic ml-4 mb-0">Alquiler de equipos</h3>
 				</div>
 				<p class="text-justify">

@@ -1,7 +1,7 @@
 <div class="container border-d mb-5">
 	<div class="row sec align-items-center">
 		<div class="col-md-4 col-12 p-0 text-md-right text-center">
-			<img src="./svg/monitoreo.svg" alt="monitoreo" class="img-studio b-0-r w-100">
+			<img src="./svg/Cornetas.svg" alt="monitoreo" class="img-studio b-0-r w-100">
 		</div>
 		<div class="col-md-8 col-12 p-3">
 			<p class="text-justify text">

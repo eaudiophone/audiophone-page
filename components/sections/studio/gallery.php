@@ -1,34 +1,8 @@
 <div class="row margin-gallery-xs">
+	<!-- array de fotos js studio.js -->
 	<div class="container" id="row-photos">
-		<div class="row">
-			<!--<div class="col-md-3 col-6 p-0">
-				<img src="./img/22.JPG" alt="img" class="foto hover-shadow" onclick="openModal('show', 1 )">
-			</div>
-			<div class="col-md-3 col-6 p-0">
-				<img src="./img/21.JPG" alt="img" class="foto hover-shadow" onclick="openModal('show', 2 )">
-			</div>
-			<div class="col-md-3 col-6 p-0">
-				<img src="./img/can-stu.png" alt="img" class="foto hover-shadow" onclick="openModal('show', 3 )">
-			</div>
-			<div class="col-md-3 col-6 p-0">
-				<img src="./img/trom-stu.png" alt="img" class="foto hover-shadow" onclick="openModal('show', 4 )">
-			</div> -->
-		</div>
-		<div class="row">
-			<!--<div class="col-md-3 col-6 p-0">
-				<img src="./img/billy-stu.png" alt="img" class="foto hover-shadow" onclick="openModal('show', 5 )">
-			</div>
-			<div class="col-md-3 col-6 p-0">
-				<img src="./img/jho-ara.png" alt="img" class="foto hover-shadow" onclick="openModal('show', 6 )">
-			</div>
-			<div class="col-md-3 col-6 p-0">
-				<img src="./img/gen.png" alt="img" class="foto hover-shadow" onclick="openModal('show', 7 )">
-			</div>
-			<div class="col-md-3 col-6 p-0">
-				<img src="./img/pdro.png" alt="img" class="foto hover-shadow" onclick="openModal('show', 8 )">
-			</div>
-		</div> -->
-	</div>
+		<div class="row"></div>
+		<div class="row"></div>
 </div>
 
 <!-- fondo modal-lightbox -->
