@@ -25,13 +25,12 @@
 					<h3 class="font-italic font-weight-bold text-center text-sm-left">Estudio de Grabación</h3>
 				</div>
 				<p class="text-justify">
-
 					El estudio Audiophone son salas de grabaciones preparadas con equipos profesionales y personal capacitado para dar una calidad impecable a tus grabaciones de audio. Dentro de nuestras instalaciones realizamos todo tipo de grabaciones, mezclas y remasterizaciones dentro de un ambiente íntimo.
 					Cumplimos con el objetivo de crear contenido que permita al artista plasmar su talento y realizar grabaciones impecables, al momento de realizar algún proyecto o producción musical, doblajes de voz y comerciales preparados para subir a cualquier plataforma moderna.
 
 					<br> <br>
-					Para la información de las tarifas del estudio es recomendable contactar, debido al servicio
-					personalizado de las sesiones de grabacion, mezclas, masterizaciones o restauraciones, el precio puede variar según la solicitud del cliente.
+					Para la información de las tarifas del estudio es recomendable contáctar, debido al servicio
+					personalizado de las sesiones de grabación, mezclas, masterizaciones o restauraciones, el precio puede variar según la solicitud del cliente.
 				</p>
 			</div>
 		</section>

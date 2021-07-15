@@ -1,6 +1,6 @@
 <?php
 
-	$env = false;
+	$env = true;
 	$path = 'http://'. $_SERVER['SERVER_NAME']. '/';
 
 	if ( $env ) {

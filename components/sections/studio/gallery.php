@@ -1,7 +1,7 @@
 <div class="row margin-gallery-xs">
-	<div class="container">
+	<div class="container" id="row-photos">
 		<div class="row">
-			<div class="col-md-3 col-6 p-0">
+			<!--<div class="col-md-3 col-6 p-0">
 				<img src="./img/22.JPG" alt="img" class="foto hover-shadow" onclick="openModal('show', 1 )">
 			</div>
 			<div class="col-md-3 col-6 p-0">
@@ -12,10 +12,10 @@
 			</div>
 			<div class="col-md-3 col-6 p-0">
 				<img src="./img/trom-stu.png" alt="img" class="foto hover-shadow" onclick="openModal('show', 4 )">
-			</div>
+			</div> -->
 		</div>
 		<div class="row">
-			<div class="col-md-3 col-6 p-0">
+			<!--<div class="col-md-3 col-6 p-0">
 				<img src="./img/billy-stu.png" alt="img" class="foto hover-shadow" onclick="openModal('show', 5 )">
 			</div>
 			<div class="col-md-3 col-6 p-0">
@@ -27,8 +27,8 @@
 			<div class="col-md-3 col-6 p-0">
 				<img src="./img/pdro.png" alt="img" class="foto hover-shadow" onclick="openModal('show', 8 )">
 			</div>
-		</div>
-	</div>	
+		</div> -->
+	</div>
 </div>
 
 <!-- fondo modal-lightbox -->
