@@ -1,7 +1,7 @@
 <div class="container border-d mb-5">
 	<div class="row sec align-items-center">
 		<div class="col-md-4 col-12 p-0">
-			<img src="./img/estudio6.jpg" alt="" class="img-studio w-100">
+			<img src="./img/estudio1_rev.jpg" alt="" class="img-studio w-100">
 		</div>
 		<div class="col-md-8 col-12 p-3">
 			<p class="text-justify text">
@@ -18,14 +18,14 @@
 			</p>
 		</div>
 		<div class="col-md-4 col-12 p-0">
-			<img src="./img/estudio5.jpg" alt="" class="img-studio w-100">
+			<img src="./img/estudio2_rev.jpg" alt="" class="img-studio w-100">
 		</div>
 	</div>
 </div>
 <div class="container border-d mb-5">
 	<div class="row sec align-items-center">
 		<div class="col-md-4 col-12 p-0">
-			<img src="./img/antiguo1.jpg" alt="" class="img-studio w-100">
+			<img src="./img/estudio3_rev.jpg" alt="" class="img-studio w-100">
 		</div>
 		<div class="col-md-8 col-12 p-3">
 			<p class="text-justify text">
