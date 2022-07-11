@@ -83,8 +83,8 @@ video {
 }
 
 .opacity {
-	background-color: black;
-	opacity: 0.8;
+	background-color: rgba(0, 0, 0, 0.4);
+	/*opacity: 0.8;*/
 }
 
 .circle-blue {
